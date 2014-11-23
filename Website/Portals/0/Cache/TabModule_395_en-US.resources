@@ -1,0 +1,4 @@
+<input type="submit" name="dnn$ctr703$ViewNTP_BN_DIEUTRI$CmdDSBenhnhan" value="Danh sách bệnh nhân" id="dnn_ctr703_ViewNTP_BN_DIEUTRI_CmdDSBenhnhan" tabindex="18" style="color:#0000C0;background-color:LightCyan;border-color:Gainsboro;border-style:None;font-weight:bold;width:180px;" />
+     <input type="submit" name="dnn$ctr703$ViewNTP_BN_DIEUTRI$CmdChuyenden" value="Danh sách bệnh nhân chuyển đến" id="dnn_ctr703_ViewNTP_BN_DIEUTRI_CmdChuyenden" tabindex="11" style="color:#0000C0;background-color:WhiteSmoke;border-color:PowderBlue;border-style:None;font-weight:bold;width:256px;" /><br />
+ 
+ 

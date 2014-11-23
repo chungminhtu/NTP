@@ -1,0 +1,60 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="NTP_CU_VT_BC_TH_XUATNHAP" type="Module" version="0.0.0">
+      <friendlyName>NTP_CU_VT_BC_TH_XUATNHAP</friendlyName>
+      <description>NTP_CU_VT_BC_TH_XUATNHAP</description>
+      <owner>
+        <name />
+        <organization />
+        <url />
+        <email />
+      </owner>
+      <license />
+      <releaseNotes />
+      <components>
+        <component type="Module">
+          <desktopModule>
+            <moduleName>NTP_CU_VT_BC_TH_XUATNHAP</moduleName>
+            <foldername>NTP_CU_VATTU</foldername>
+            <businessControllerClass />
+            <supportedFeatures />
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>NTP_CU_VT_BC_TH_XUATNHAP</friendlyName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/NTP_CU_VATTU/VT_KHO_BC_SUDUNG.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>View</controlType>
+                    <iconFile />
+                    <helpUrl />
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="File">
+          <files>
+            <basePath>DesktopModules\NTP_CU_VATTU</basePath>
+            <file>
+              <name>VT_KHO_BC_SUDUNG.ascx</name>
+            </file>
+            <file>
+              <name>VT_KHO_BC_SUDUNG.ascx.vb</name>
+            </file>
+            <file>
+              <name>VT_KHO_BC_SUDUNG_VIEW.aspx</name>
+            </file>
+            <file>
+              <name>VT_KHO_BC_SUDUNG_VIEW.aspx.vb</name>
+            </file>
+          </files>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

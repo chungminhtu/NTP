@@ -1,0 +1,53 @@
+
+
+<table class="ntp_table_main">
+   
+    <tr>
+        <td width="20%" style="height: 26px">
+        </td>
+        <td colspan="2" width="80%" style="height: 26px">
+            <input type="submit" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$cmdAdd" value="Thêm mới" id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_cmdAdd" class="ntp_button" style="width:100px;" />&nbsp;
+            <input type="submit" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$cmdDelete" value="Xóa" id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_cmdDelete" class="ntp_button" style="width:100px;" /></td>
+    </tr>
+    <tr>
+        <td colspan="3" width="20%">
+         <table class="ntp_grd_GridViewStyle" cellspacing="0" rules="all" border="1" id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS" style="width:100%;border-collapse:collapse;">
+	<tr class="ntp_grd_HeaderStyle">
+		<td style="width:2%;"><input id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl02_chkAll" type="checkbox" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl02$chkAll" onclick="msgCheckAll(this);" /></td><td style="width:2%;">&nbsp;</td><td style="width:90%;">Tên phân loại bệnh nhân</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl03_chkItem" type="checkbox" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl03$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl03$cmdEdit" id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl03_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Mới</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl04_chkItem" type="checkbox" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl04$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl04$cmdEdit" id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl04_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Tái phát</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl05_chkItem" type="checkbox" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl05$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl05$cmdEdit" id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl05_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Thất bại</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl06_chkItem" type="checkbox" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl06$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl06$cmdEdit" id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl06_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Điều trị lại sau bỏ trị</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl07_chkItem" type="checkbox" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl07$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl07$cmdEdit" id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl07_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Chuyển đến</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl08_chkItem" type="checkbox" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl08$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl08$cmdEdit" id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl08_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>AFB(-), lao ngoài phổi khác</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl09_chkItem" type="checkbox" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl09$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr499$ViewNTP_BN_DM_PHANLOAIBN$grdDS$ctl09$cmdEdit" id="dnn_ctr499_ViewNTP_BN_DM_PHANLOAIBN_grdDS_ctl09_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>AFB(+) khác</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr class="ntp_grd_PagerStyle">
+		<td colspan="3"><span>1</span></td>
+	</tr>
+</table>
+            &nbsp;</td>
+    </tr>
+</table>

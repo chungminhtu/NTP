@@ -1,0 +1,1 @@
+There are not release notes for this version of the File Based Caching Provider

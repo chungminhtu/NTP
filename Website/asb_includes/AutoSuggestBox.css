@@ -1,0 +1,35 @@
+.asbMenu 
+{
+	border: ridge 1px lightblue;
+	background: #ffffff;
+	position: absolute;
+	padding: 2px;
+	white-space: nowrap;
+	z-index: 1000;
+}
+
+.asbMenuBase
+{
+	position: absolute;
+	z-index: 1000;
+}
+
+				
+.asbMenuItem
+{			
+	color: #333333;
+	background: #ffffff;
+	cursor: hand;
+	cursor: pointer;
+	padding: 1px;
+}
+
+.asbSelMenuItem
+{			
+	color: #333333;
+	background: lightblue;
+	cursor: hand;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 1px;
+}

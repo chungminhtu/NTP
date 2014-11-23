@@ -1,0 +1,38 @@
+.c_all {}
+
+.c_header
+{
+	font-size: medium;
+	background-color: gainsboro;
+}
+
+.c_header_title
+{
+	background-repeat: repeat-x;
+	border-bottom:solid 1px orange;
+	/*background: url(images/sidebar_center.jpg);*/
+	}
+
+.c_header_title_text
+{
+	font-size: 12px;
+	font-weight:bold;
+	color:#CE6500;
+	}
+
+.c_header_title_end
+{
+	border-bottom:solid 1px orange;
+	padding-left: 0px; 
+	width:100%
+	
+	}
+
+.c_content
+{
+	border-width: 1;
+	border-color:#B5A9AD;
+	border-style:solid;
+	padding:5;
+}
+

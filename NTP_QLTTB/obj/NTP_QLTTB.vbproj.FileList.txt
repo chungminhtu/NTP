@@ -1,0 +1,16 @@
+bin\Debug\NTP_QLTTB.dll
+bin\Debug\NTP_QLTTB.pdb
+bin\Debug\NTP_QLTTB.xml
+bin\Debug\NTP_Common.dll
+bin\Debug\NTP_DAL.dll
+bin\Debug\NTP_DAL.pdb
+bin\Debug\NTP_DAL.xml
+bin\Debug\NTP_Common.pdb
+bin\Debug\NTP_Common.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\NTP_QLTTB.Resources.resources
+obj\Debug\NTP_QLTTB.vbproj.GenerateResource.Cache
+obj\Debug\NTP_QLTTB.dll
+obj\Debug\NTP_QLTTB.xml
+obj\Debug\NTP_QLTTB.pdb
+bin\Debug\System.Web.Extensions.dll

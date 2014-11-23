@@ -1,0 +1,12 @@
+(c) Copyright Ting Huang. All rights reserved.
+
+This source contains scripts derived from Microsoft AJAX Control Toolkit.
+The Microsoft AJAX Control Toolkit is subject to the Microsoft Permissive License.
+See http://www.microsoft.com/resources/sharedsource/licensingbasics/sharedsourcelicenses.mspx.
+A copy of MS-PL license is also included in this package.
+
+License Agreement
+------------------
+* If you distribute copies of the software or derivative works, you must retain all copyright, patent, trademark, and attribution notices that are present in the software.
+* If you distribute the software or derivative works in source code form you must include a complete copy of this license with your distribution, and if you distribute the software or derivative works in compiled or object code form you may only do so under a license that complies with this license.
+* The software is licensed “as-is.” You bear the risk of using it. The owner of the source code gives no express warranties, guarantees or conditions. You may have additional consumer rights under your local laws which this license cannot change. To the extent permitted under your local laws, the owner excludes the implied warranties of merchantability, fitness for a particular purpose and non-infringement.

@@ -1,0 +1,63 @@
+
+&nbsp;<FIELDSET class="ntp_fieldset" style="width: 692px"><LEGEND class="ntp_legend">Danh sách báo cáo</LEGEND>
+    <table style="width: 683px">
+        <tr>
+            <td style="width: 69px">
+            <span id="dnn_ctr536_ViewNTP_BN_XACNHANBAOCAO_Label40" class="ntp_label" style="display:inline-block;width:65px;">Quý</span></td>
+            <td style="width: 63px">
+            <select name="dnn$ctr536$ViewNTP_BN_XACNHANBAOCAO$cboDieuKien" id="dnn_ctr536_ViewNTP_BN_XACNHANBAOCAO_cboDieuKien" tabindex="2" class="ntp_combobox" style="width:88px;">
+	<option value="1">Qu&#253; I</option>
+	<option value="2">Qu&#253; II</option>
+	<option value="3">Qu&#253; III</option>
+	<option selected="selected" value="4">Qu&#253; IV</option>
+
+</select></td>
+            <td style="width: 21px">
+            <span id="dnn_ctr536_ViewNTP_BN_XACNHANBAOCAO_Label30" class="ntp_label" style="display:inline-block;width:37px;">Năm</span></td>
+            <td style="width: 101px">
+            <input name="dnn$ctr536$ViewNTP_BN_XACNHANBAOCAO$txtNam" type="text" value="2013" maxlength="50" id="dnn_ctr536_ViewNTP_BN_XACNHANBAOCAO_txtNam" tabindex="11" class="ntp_textbox" style="width:91px;" /></td>
+            <td>
+                <span id="dnn_ctr536_ViewNTP_BN_XACNHANBAOCAO_RangeValidator22" style="color:Red;visibility:hidden;">Không đúng năm</span><span id="dnn_ctr536_ViewNTP_BN_XACNHANBAOCAO_RequiredFieldValidator4" style="color:Red;visibility:hidden;">Không được trống</span></td>
+        </tr>
+        <tr>
+            <td style="width: 69px; height: 27px">
+            <span id="dnn_ctr536_ViewNTP_BN_XACNHANBAOCAO_Label36" class="ntp_label" style="display:inline-block;width:61px;">Tỉnh</span></td>
+            <td colspan="2" style="height: 27px">
+            <select name="dnn$ctr536$ViewNTP_BN_XACNHANBAOCAO$cboDonVi" id="dnn_ctr536_ViewNTP_BN_XACNHANBAOCAO_cboDonVi" tabindex="2" class="ntp_combobox" style="width:194px;">
+	<option selected="selected" value="51">C&#224; mau</option>
+
+</select></td>
+            <td style="width: 101px; height: 27px">
+            </td>
+            <td style="height: 27px">
+                <input type="submit" name="dnn$ctr536$ViewNTP_BN_XACNHANBAOCAO$cmdTim" value="Tìm" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr536$ViewNTP_BN_XACNHANBAOCAO$cmdTim&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr536_ViewNTP_BN_XACNHANBAOCAO_cmdTim" class="ntp_button" style="height:25px;width:99px;" /></td>
+        </tr>
+        <tr>
+            <td style="width: 69px; height: 15px">
+            </td>
+            <td style="width: 63px; height: 15px">
+            </td>
+            <td style="width: 21px; height: 15px">
+            </td>
+            <td style="width: 101px; height: 15px">
+            </td>
+            <td style="height: 15px">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <table class="ntp_grd_GridViewStyle" cellspacing="0" rules="all" border="1" id="dnn_ctr536_ViewNTP_BN_XACNHANBAOCAO_grdDSBaoCao" style="width:100%;border-collapse:collapse;">
+	<tr class="ntp_grd_HeaderStyle">
+		<td style="width:2%;"><input id="dnn_ctr536_ViewNTP_BN_XACNHANBAOCAO_grdDSBaoCao_ctl02_chkAll" type="checkbox" name="dnn$ctr536$ViewNTP_BN_XACNHANBAOCAO$grdDSBaoCao$ctl02$chkAll" onclick="msgCheckAll(this);" /></td><td style="width:27%;">Tên tỉnh</td><td style="width:10%;">Quý báo cáo</td><td style="width:10%;">Năm báo cáo</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr class="ntp_grd_PagerStyle">
+		<td colspan="5"><span>1</span></td>
+	</tr>
+</table> 
+            </td>
+        </tr>
+    </table>
+    <br />
+    <input type="submit" name="dnn$ctr536$ViewNTP_BN_XACNHANBAOCAO$cmdAdd" value="Ghi" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr536$ViewNTP_BN_XACNHANBAOCAO$cmdAdd&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr536_ViewNTP_BN_XACNHANBAOCAO_cmdAdd" tabindex="8" class="ntp_button" style="width:100px;" />&nbsp;
+</FIELDSET>

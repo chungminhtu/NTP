@@ -1,0 +1,207 @@
+
+
+&nbsp;
+    <fieldset class="ntp_fieldset" style="width: 770px">
+        <legend class="ntp_legend">Tình hình triển khai Chương trình Chống lao Quốc gia</legend>
+        <table style="width: 761px">
+            <tr>
+                <td style="width: 45px">
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_Label30" class="ntp_label" style="display:inline-block;width:48px;">Năm</span></td>
+                <td style="width: 79px">
+                    <input name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$txtNam" type="text" value="2013" maxlength="50" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_txtNam" class="ntp_textbox" style="width:85px;" /></td>
+                <td style="width: 69px">
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_RangeValidator22" style="display:inline-block;color:Red;width:125px;visibility:hidden;">Không đúng năm</span></td>
+                <td style="width: 115px">
+                    </td>
+                <td style="width: 115px">
+                    <table id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_optlisLuachonIn" border="0" style="height:1px;width:187px;">
+	<tr>
+		<td><input id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_optlisLuachonIn_0" type="radio" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$optlisLuachonIn" value="0" checked="checked" tabindex="5" /><label for="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_optlisLuachonIn_0">Theo Miền</label></td><td><input id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_optlisLuachonIn_1" type="radio" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$optlisLuachonIn" value="1" tabindex="5" /><label for="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_optlisLuachonIn_1">Theo vùng</label></td>
+	</tr>
+</table></td>
+                <td style="width: 269px">
+                    <input type="submit" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$cmdTim" value="Xem" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_cmdTim" tabindex="1" class="ntp_button" style="height:25px;width:63px;" />
+                    <input type="submit" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$CmdIn" value="In báo cáo" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_CmdIn" tabindex="1" class="ntp_button" style="height:25px;width:84px;" />
+                </td>
+            </tr>
+        </table>
+        <table class="ntp_grd_GridViewStyle" cellspacing="0" rules="all" border="1" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao" style="width:100%;border-collapse:collapse;">
+	<tr class="ntp_grd_HeaderStyle">
+		<td style="width:2%;"><input id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl02_chkAll" type="checkbox" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl02$chkAll" onclick="msgCheckAll(this);" /></td><td style="width:2%;">&nbsp;</td><td style="width:15%;">Tỉnh/Thành phố</td><td style="width:15%;">Số Huyện</td><td style="width:15%;">Số huyệnTK</td><td style="width:15%;">Số xã TK</td><td style="width:15%;">Số ĐVQLĐT</td><td style="width:15%;">Dân số Tỉnh</td><td style="width:15%;">Dân số TK</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl03_chkItem" type="checkbox" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl03$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl03$cmdEdit" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl03_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>Hà Nội</td><td>15</td><td>15</td><td>250</td><td>15</td><td>4212441</td><td>4212441</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl04_chkItem" type="checkbox" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl04$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl04$cmdEdit" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl04_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>Hải phòng</td><td>14</td><td>14</td><td>223</td><td>19</td><td>1903955</td><td>1903955</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl05_chkItem" type="checkbox" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl05$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl05$cmdEdit" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl05_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>Bắc Ninh</td><td>8</td><td>8</td><td>126</td><td>8</td><td>1112525</td><td>1112525</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl06_chkItem" type="checkbox" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl06$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl06$cmdEdit" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl06_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>Hà nội II</td><td>14</td><td>14</td><td>327</td><td>19</td><td>2637964</td><td>2637964</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl07_chkItem" type="checkbox" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl07$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl07$cmdEdit" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl07_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>Hải dương</td><td>12</td><td>12</td><td>265</td><td>15</td><td>1757812</td><td>1757812</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl08_chkItem" type="checkbox" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl08$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl08$cmdEdit" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl08_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>Hưng yên</td><td>10</td><td>10</td><td>161</td><td>10</td><td>1259914</td><td>1259914</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl09_chkItem" type="checkbox" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl09$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl09$cmdEdit" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl09_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>Hà Nam</td><td>6</td><td>6</td><td>116</td><td>7</td><td>787300</td><td>787300</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl10_chkItem" type="checkbox" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl10$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl10$cmdEdit" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl10_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>Nam Định</td><td>10</td><td>10</td><td>229</td><td>12</td><td>1825771</td><td>1825771</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl11_chkItem" type="checkbox" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl11$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl11$cmdEdit" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl11_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>Thái Bình</td><td>8</td><td>8</td><td>286</td><td>12</td><td>1897738</td><td>1897738</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl12_chkItem" type="checkbox" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl12$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl12$cmdEdit" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_grdDSBaoCao_ctl12_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>Ninh Bình</td><td>8</td><td>8</td><td>146</td><td>10</td><td>907930</td><td>907930</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr class="ntp_grd_PagerStyle">
+		<td colspan="9"><span>1</span>&nbsp;<a href="javascript:__doPostBack('dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl14$ctl01','')">2</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl14$ctl02','')">3</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl14$ctl03','')">4</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl14$ctl04','')">5</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl14$ctl05','')">6</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$grdDSBaoCao$ctl14$ctl06','')">7</a></td>
+	</tr>
+</table>
+        <br />
+        <table border="1" style="width: 760px">
+            <tr>
+                <td style="width: 226px">
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_Label2" class="ntp_label" style="display:inline-block;width:148px;">Tỉnh/Thành phố</span></td>
+                <td align="center" style="width: 103px">
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_Label7" class="ntp_label" style="display:inline-block;width:71px;">Số huyện của tỉnh</span></td>
+                <td align="center" style="width: 103px">
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_Label1" class="ntp_label" style="display:inline-block;width:71px;">Số huyện triển khai</span></td>
+                <td align="center" style="width: 102px">
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_Label3" class="ntp_label" style="display:inline-block;width:69px;">TS xã của tỉnh</span></td>
+                <td align="center" style="width: 101px">
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_Label4" class="ntp_label" style="display:inline-block;width:70px;">TS xã triển khai</span></td>
+                <td align="center" style="width: 101px">
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_Label8" class="ntp_label" style="display:inline-block;width:71px;">Số ĐVQL ĐT BN</span></td>
+                <td align="center" style="width: 101px">
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_Label5" class="ntp_label" style="display:inline-block;width:81px;">TS dân số của tỉnh</span></td>
+                <td align="center" style="width: 100px">
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_Label6" class="ntp_label" style="display:inline-block;width:68px;">Số dân triển khai</span></td>
+            </tr>
+            <tr>
+                <td style="width: 226px; height: 24px">
+                    <select name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$cboTinh" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_cboTinh" tabindex="2" class="ntp_combobox" style="width:194px;">
+	<option value="">--- Chọn tỉnh ---</option>
+	<option value="01">H&#224; Nội</option>
+	<option value="02">Hải ph&#242;ng</option>
+	<option value="03">H&#224; Giang</option>
+	<option value="04">Cao bằng</option>
+	<option value="05">Điện Bi&#234;n</option>
+	<option value="06">L&#224;o cai</option>
+	<option value="07">Tuy&#234;n Quang</option>
+	<option value="08">Lạng Sơn</option>
+	<option value="09">Bắc cạn</option>
+	<option value="10">Th&#225;i nguy&#234;n</option>
+	<option value="11">Y&#234;n b&#225;i</option>
+	<option value="12">Sơn la</option>
+	<option value="13">Ph&#250; Thọ</option>
+	<option value="14">Vĩnh ph&#250;c</option>
+	<option value="15">Quảng Ninh</option>
+	<option value="16">Bắc Giang</option>
+	<option value="17">Bắc Ninh</option>
+	<option value="18">H&#224; nội II</option>
+	<option value="19">Hải dương</option>
+	<option value="20">Hưng y&#234;n</option>
+	<option value="21">Ho&#224; B&#236;nh</option>
+	<option value="22">H&#224; Nam</option>
+	<option value="23">Nam Định</option>
+	<option value="24">Th&#225;i B&#236;nh</option>
+	<option value="25">Ninh B&#236;nh</option>
+	<option value="26">Thanh Ho&#225;</option>
+	<option value="27">Nghệ An</option>
+	<option value="28">H&#224; Tĩnh</option>
+	<option value="29">TB Hospital</option>
+	<option value="30">Lai Ch&#226;u</option>
+	<option value="31">Đ&#224; Nẵng</option>
+	<option value="32">Quảng B&#236;nh</option>
+	<option value="33">Quảng Trị</option>
+	<option value="34">Thừa Thi&#234;n Huế</option>
+	<option value="35">Quảng Nam</option>
+	<option value="36">Quảng Ng&#227;i</option>
+	<option value="37">Kon tum</option>
+	<option value="38">B&#236;nh Định</option>
+	<option value="39">Gia lai</option>
+	<option value="40">Ph&#250; Y&#234;n</option>
+	<option value="41">Đak Lak</option>
+	<option value="42">Kh&#225;nh ho&#224;</option>
+	<option value="43">Đak n&#244;ng</option>
+	<option value="44">An Giang</option>
+	<option value="45">B&#224; rịa - Vũng t&#224;u</option>
+	<option value="46">Bạc li&#234;u</option>
+	<option value="47">Bến tre</option>
+	<option value="48">B&#236;nh Dương</option>
+	<option value="49">B&#236;nh Phước</option>
+	<option value="50">B&#236;nh Thuận</option>
+	<option value="51">C&#224; mau</option>
+	<option value="52">Cần Thơ</option>
+	<option value="53">Hậu giang</option>
+	<option value="54">Đồng Nai</option>
+	<option value="55">Đồng Th&#225;p</option>
+	<option value="56">Ki&#234;n giang</option>
+	<option value="57">L&#226;m đồng</option>
+	<option value="58">Long an</option>
+	<option value="59">Ninh Thuận</option>
+	<option value="60">S&#243;c Trăng</option>
+	<option value="61">T&#226;y Ninh</option>
+	<option value="62">Tiền Giang</option>
+	<option value="63">Tr&#224; Vinh</option>
+	<option value="64">Vĩnh long</option>
+	<option value="65">TP Hồ Ch&#237; Minh</option>
+	<option value="72">CTCL Quốc gia</option>
+
+</select>
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_RequiredFieldValidator1" style="color:Red;visibility:hidden;">Không được để trống</span></td>
+                <td style="width: 103px; height: 24px">
+                    <input name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$TxtSLHuyen" type="text" maxlength="50" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_TxtSLHuyen" tabindex="3" class="ntp_textbox" style="border-color:White;border-style:None;width:71px;" />
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_RangeValidator6" style="color:Red;visibility:hidden;">Là số</span></td>
+                <td style="width: 103px; height: 24px">
+                    <input name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$txtSLHuyenTK" type="text" maxlength="50" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_txtSLHuyenTK" tabindex="3" class="ntp_textbox" style="border-color:White;border-style:None;width:68px;" />
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_RangeValidator4" style="color:Red;visibility:hidden;">Là số</span></td>
+                <td style="width: 102px; height: 24px">
+                    <input name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$TxtTSXa" type="text" maxlength="50" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_TxtTSXa" tabindex="4" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_RangeValidator1" style="color:Red;visibility:hidden;">Là số</span></td>
+                <td style="width: 101px; height: 24px">
+                    <input name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$TxtTSXaTK" type="text" maxlength="50" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_TxtTSXaTK" tabindex="5" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_RangeValidator2" style="color:Red;visibility:hidden;">Là số</span></td>
+                <td style="width: 101px; height: 24px">
+                    <input name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$TxtSoDV" type="text" maxlength="50" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_TxtSoDV" tabindex="5" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_RangeValidator7" style="color:Red;visibility:hidden;">Là số</span></td>
+                <td style="width: 101px; height: 24px">
+                    <input name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$TxtDansoTinh" type="text" maxlength="50" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_TxtDansoTinh" tabindex="6" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_RangeValidator3" style="color:Red;visibility:hidden;">Là số</span></td>
+                <td style="width: 100px; height: 24px">
+                    <input name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$TxtDansoTK" type="text" maxlength="50" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_TxtDansoTK" tabindex="7" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                    <span id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_RangeValidator5" style="color:Red;visibility:hidden;">Là số</span></td>
+            </tr>
+        </table>
+        <br />
+        &nbsp;<input type="submit" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$cmdAdd" value="Ghi" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$cmdAdd&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_cmdAdd" tabindex="8" class="ntp_button" style="width:100px;" /><input type="submit" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$cmdCreateNew" value="Tạo mới" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_cmdCreateNew" tabindex="9" class="ntp_button" style="width:100px;" /><input type="submit" name="dnn$ctr736$ViewNTP_BN_TINHHINHTRIENKHAI_CTCL$CmdXoa" value="Xóa" id="dnn_ctr736_ViewNTP_BN_TINHHINHTRIENKHAI_CTCL_CmdXoa" tabindex="10" class="ntp_button" style="width:100px;" />&nbsp;
+        </fieldset>
+&nbsp;
+

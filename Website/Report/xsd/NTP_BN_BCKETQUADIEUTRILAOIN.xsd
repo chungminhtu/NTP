@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_PHANLOAI" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="TEN_VUNG" type="xs:string" minOccurs="0" />
+              <xs:element name="TEN_MIEN" type="xs:string" minOccurs="0" />
+              <xs:element name="TEN_TINH" type="xs:string" minOccurs="0" />
+              <xs:element name="TEN_PHANLOAI" type="xs:string" minOccurs="0" />
+              <xs:element name="KHOI" type="xs:int" minOccurs="0" />
+              <xs:element name="HOANTHANH" type="xs:int" minOccurs="0" />
+              <xs:element name="CHET" type="xs:int" minOccurs="0" />
+              <xs:element name="THATBAI" type="xs:int" minOccurs="0" />
+              <xs:element name="BOTRI" type="xs:int" minOccurs="0" />
+              <xs:element name="CHUYEN" type="xs:int" minOccurs="0" />
+              <xs:element name="KHONGDANHGIA" type="xs:int" minOccurs="0" />
+              <xs:element name="TONGSOBNDK" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,69 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="NTP_CU_THUOC_EXPORT" type="Module" version="0.0.0">
+      <friendlyName>NTP_CU_THUOC_EXPORT</friendlyName>
+      <description>NTP_CU_THUOC_EXPORT</description>
+      <owner>
+        <name />
+        <organization />
+        <url />
+        <email />
+      </owner>
+      <license />
+      <releaseNotes />
+      <components>
+        <component type="Module">
+          <desktopModule>
+            <moduleName>NTP_CU_THUOC_EXPORT</moduleName>
+            <foldername>NTP_CU_THUOC</foldername>
+            <businessControllerClass />
+            <supportedFeatures />
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>NTP_CU_THUOC_EXPORT</friendlyName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/NTP_CU_THUOC/THUOC_EXPORT_List.ascx</controlSrc>
+                    <supportsPartialRendering>True</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>View</controlType>
+                    <iconFile />
+                    <helpUrl />
+                  </moduleControl>
+                  <moduleControl>
+                    <controlKey>edit</controlKey>
+                    <controlSrc>DesktopModules/NTP_CU_THUOC/THUOC_EXPORT_Edit.ascx</controlSrc>
+                    <supportsPartialRendering>True</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>View</controlType>
+                    <iconFile />
+                    <helpUrl />
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="File">
+          <files>
+            <basePath>DesktopModules\NTP_CU_THUOC</basePath>
+            <file>
+              <name>THUOC_EXPORT_Edit.ascx</name>
+            </file>
+            <file>
+              <name>THUOC_EXPORT_Edit.ascx.vb</name>
+            </file>
+            <file>
+              <name>THUOC_EXPORT_List.ascx</name>
+            </file>
+            <file>
+              <name>THUOC_EXPORT_List.ascx.vb</name>
+            </file>
+          </files>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

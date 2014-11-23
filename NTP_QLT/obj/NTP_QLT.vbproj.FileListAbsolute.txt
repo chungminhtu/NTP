@@ -1,0 +1,77 @@
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\bin\Debug\NTP_QLT.dll
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\bin\Debug\NTP_QLT.pdb
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\bin\Debug\NTP_QLT.xml
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\obj\Debug\ResolveAssemblyReference.cache
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\obj\Debug\NTP_QLT.Resources.resources
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\obj\Debug\NTP_QLT.vbproj.GenerateResource.Cache
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\obj\Debug\NTP_QLT.dll
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\obj\Debug\NTP_QLT.xml
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\obj\Debug\NTP_QLT.pdb
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\bin\Debug\NTP_Common.dll
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\bin\Debug\NTP_DAL.dll
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\bin\Debug\NTP_Common.pdb
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\bin\Debug\NTP_Common.xml
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\bin\Debug\NTP_DAL.pdb
+E:\hunghm\Projects\NTP\SourceCode\NTP_QLT\bin\Debug\NTP_DAL.xml
+E:\Working\2009\NTP\NTP_QLT\bin\Debug\NTP_QLT.dll
+E:\Working\2009\NTP\NTP_QLT\bin\Debug\NTP_QLT.pdb
+E:\Working\2009\NTP\NTP_QLT\bin\Debug\NTP_QLT.xml
+E:\Working\2009\NTP\NTP_QLT\bin\Debug\NTP_Common.dll
+E:\Working\2009\NTP\NTP_QLT\bin\Debug\NTP_DAL.dll
+E:\Working\2009\NTP\NTP_QLT\bin\Debug\NTP_DAL.pdb
+E:\Working\2009\NTP\NTP_QLT\bin\Debug\NTP_DAL.xml
+E:\Working\2009\NTP\NTP_QLT\bin\Debug\NTP_Common.pdb
+E:\Working\2009\NTP\NTP_QLT\bin\Debug\NTP_Common.xml
+E:\Working\2009\NTP\NTP_QLT\obj\Debug\ResolveAssemblyReference.cache
+E:\Working\2009\NTP\NTP_QLT\obj\Debug\NTP_QLT.Resources.resources
+E:\Working\2009\NTP\NTP_QLT\obj\Debug\NTP_QLT.vbproj.GenerateResource.Cache
+E:\Working\2009\NTP\NTP_QLT\obj\Debug\NTP_QLT.dll
+E:\Working\2009\NTP\NTP_QLT\obj\Debug\NTP_QLT.xml
+E:\Working\2009\NTP\NTP_QLT\obj\Debug\NTP_QLT.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Debug\NTP_QLT.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Debug\NTP_QLT.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Debug\NTP_QLT.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Debug\NTP_Common.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Debug\NTP_DAL.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Debug\System.Web.Extensions.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Debug\NTP_DAL.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Debug\NTP_DAL.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Debug\NTP_Common.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Debug\NTP_Common.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\obj\Debug\ResolveAssemblyReference.cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\obj\Debug\NTP_QLT.Resources.resources
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\obj\Debug\NTP_QLT.vbproj.GenerateResource.Cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\obj\Debug\NTP_QLT.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\obj\Debug\NTP_QLT.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\obj\Debug\NTP_QLT.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Release\NTP_QLT.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Release\NTP_QLT.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Release\NTP_QLT.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Release\NTP_Common.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Release\NTP_DAL.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Release\System.Web.Extensions.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Release\NTP_DAL.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Release\NTP_DAL.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Release\NTP_Common.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\bin\Release\NTP_Common.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\obj\Release\ResolveAssemblyReference.cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\obj\Release\NTP_QLT.Resources.resources
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\obj\Release\NTP_QLT.vbproj.GenerateResource.Cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\obj\Release\NTP_QLT.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\obj\Release\NTP_QLT.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_QLT\obj\Release\NTP_QLT.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\bin\Release\NTP_QLT.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\bin\Release\NTP_QLT.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\bin\Release\NTP_QLT.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\bin\Release\NTP_Common.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\bin\Release\NTP_DAL.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\bin\Release\NTP_DAL.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\bin\Release\NTP_DAL.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\bin\Release\NTP_Common.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\bin\Release\NTP_Common.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\obj\Release\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\obj\Release\NTP_QLT.Resources.resources
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\obj\Release\NTP_QLT.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\obj\Release\NTP_QLT.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\obj\Release\NTP_QLT.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLT\obj\Release\NTP_QLT.pdb

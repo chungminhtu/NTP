@@ -1,0 +1,4 @@
+C:\inetpub\wwwroot\NTP_Nam\FSE.WebControl\bin\Debug\FSE.WebControl.dll
+C:\inetpub\wwwroot\NTP_Nam\FSE.WebControl\bin\Debug\FSE.WebControl.pdb
+C:\inetpub\wwwroot\NTP_Nam\FSE.WebControl\obj\Debug\FSE.WebControl.dll
+C:\inetpub\wwwroot\NTP_Nam\FSE.WebControl\obj\Debug\FSE.WebControl.pdb

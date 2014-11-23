@@ -1,0 +1,24 @@
+/* 
+================================
+ Container Styles for DotNetNuke - XDMediaMadness Themes - dnn3@xd.com.au
+ Updated March 2008 for DNN 4.5 and above 
+ Copyright Nina Meiers - Credits must remain in file.
+ http://www.xd.com.au
+================================
+*/  
+
+/* Border Colour around the Container */
+.Blue_Pill_Master { background-color: #F0F3F9; border: #679AD4 1px solid;    padding: 5px; }
+
+/* Container Title Formatting */
+.Blue_Pill_Title { font-family: Tahoma; font-size: 12px; color: #ffffff;  /* Change Title Color HERE */ font-weight: bolder; } 
+.Blue_Pill01 { background: url(BluePix/XDPill_01.gif) no-repeat; height: 20px; }
+
+/* Change Class in ASCX file to get the rounded corners*/
+.Blue_Pill02 { background: url(BluePix/XDPill_02.gif) repeat-x; height: 20px; border-right: #679AD4 1px solid;  border-top: #CFDDEF 1px solid;  border-left: #679AD4 1px solid;  }
+
+/* Change Class in ASCX file to get the rounded corners*/
+.Blue_Pill03 { background: url(BluePix/XDPill_03.gif) no-repeat; height: 20px; }
+
+/* End Custom Class */
+

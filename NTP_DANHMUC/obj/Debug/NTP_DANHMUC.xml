@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NTP_DANHMUC
+</name>
+</assembly>
+<members>
+<member name="M:NTP_DANHMUC.NTP_DM_HUYEN_DAL.GetID(System.String)">
+	<summary>
+ TungND3 : gen ID Huyen
+ </summary>
+	<param name="MA_TINH"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

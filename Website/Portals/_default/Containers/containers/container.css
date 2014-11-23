@@ -1,0 +1,21 @@
+.c_all {}
+
+.c_header
+{
+	font-size: medium;
+	background-color: gainsboro;
+}
+
+.c_header_title
+{
+	font-size: medium;
+	}
+
+.c_content
+{
+	border-width: 1;
+	border-color:#B5A9AD;
+	border-style:solid;
+	padding:5;
+}
+

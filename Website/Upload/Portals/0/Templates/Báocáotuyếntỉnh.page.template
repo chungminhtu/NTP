@@ -1,0 +1,112 @@
+<portal version="3.0">
+  <description>tt</description>
+  <tabs>
+    <tab>
+      <name>Báo cáo tuyến tỉnh</name>
+      <visible>true</visible>
+      <iconfile />
+      <disabled>false</disabled>
+      <title>Báo cáo tuyến tỉnh</title>
+      <description>Báo cáo tuyến tỉnh</description>
+      <keywords />
+      <url type="Normal" />
+      <skinsrc />
+      <containersrc />
+      <startdate>0001-01-01T00:00:00</startdate>
+      <enddate>0001-01-01T00:00:00</enddate>
+      <refreshinterval>-1</refreshinterval>
+      <pageheadtext />
+      <issecure>false</issecure>
+      <tabpermissions>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>NSD_TINH</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>EDIT</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>EDIT</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>NSD_TINH</rolename>
+        </permission>
+      </tabpermissions>
+      <panes>
+        <pane>
+          <name>ContentPane</name>
+          <modules>
+            <module>
+              <moduleID>553</moduleID>
+              <title>NTP_BAOCAOTUYENTINH</title>
+              <alltabs>false</alltabs>
+              <inheritviewpermissions>true</inheritviewpermissions>
+              <header />
+              <footer />
+              <startdate>0001-01-01T00:00:00</startdate>
+              <enddate>0001-01-01T00:00:00</enddate>
+              <cachetime>60</cachetime>
+              <alignment />
+              <color />
+              <border />
+              <iconfile />
+              <visibility>Maximized</visibility>
+              <containersrc />
+              <displaytitle>true</displaytitle>
+              <displayprint>true</displayprint>
+              <displaysyndicate>false</displaysyndicate>
+              <iswebslice>false</iswebslice>
+              <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+              <webslicettl>0</webslicettl>
+              <modulepermissions>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Administrators</rolename>
+                </permission>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Registered Users</rolename>
+                </permission>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>Nhom nguoi dung</rolename>
+                </permission>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>true</allowaccess>
+                  <rolename>NSD_TINH</rolename>
+                </permission>
+                <permission>
+                  <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+                  <permissionkey>EDIT</permissionkey>
+                  <allowaccess>false</allowaccess>
+                  <rolename>NSD_HUYEN</rolename>
+                </permission>
+              </modulepermissions>
+              <definition>YourCompany.NTP_BAOCAOTUYENTINH</definition>
+              <moduledefinition>NTP_BAOCAOTUYENTINH</moduledefinition>
+            </module>
+          </modules>
+        </pane>
+      </panes>
+    </tab>
+  </tabs>
+</portal>

@@ -1,0 +1,111 @@
+<div id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_pnlNhapBaoCao" style="width:56%;">
+	<FIELDSET class="ntp_fieldset" style="width: 770px"><LEGEND class="ntp_legend">Danh sách báo cáo kết quả điều trị</LEGEND>
+    <table style="width: 772px">
+        <tr>
+            <td style="width: 82px; height: 27px;">
+                <span id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_Label2" class="ntp_label" style="display:inline-block;width:80px;">Tỉnh</span></td>
+            <td style="width: 215px; height: 27px;">
+                <select name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$CboDMTinh" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_CboDMTinh" tabindex="1" class="ntp_combobox" style="width:215px;">
+		<option selected="selected" value="65">TP Hồ Ch&#237; Minh</option>
+
+	</select></td>
+            <td style="width: 24px; height: 27px;">
+                <span id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_Label4" class="ntp_label" style="display:inline-block;width:60px;">Quý BC</span></td>
+            <td style="width: 51px; height: 27px;">
+                <select name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$cboDieuKien" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_cboDieuKien" tabindex="2" class="ntp_combobox" style="width:88px;">
+		<option selected="selected" value="1">Qu&#253; I</option>
+		<option value="2">Qu&#253; II</option>
+		<option value="3">Qu&#253; III</option>
+		<option value="4">Qu&#253; IV</option>
+
+	</select></td>
+            <td style="width: 47px; height: 27px;">
+                <input name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$txtNam" type="text" value="2013" maxlength="50" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_txtNam" tabindex="3" class="ntp_textbox" style="width:58px;" /></td>
+            <td style="width: 108px; height: 27px;">
+                <span id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_RangeValidator2" style="color:Red;visibility:hidden;">Không đúng năm</span></td>
+            <td style="height: 27px">
+                <input type="submit" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$cmdTim" value="Xem" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_cmdTim" tabindex="4" class="ntp_button" style="height:25px;width:99px;" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="height: 27px">
+                </td>
+            <td colspan="3" style="height: 27px">
+                </td>
+            <td style="width: 108px; height: 27px">
+            </td>
+            <td style="height: 27px">
+            </td>
+        </tr>
+    </table>
+    <TABLE class="ntp_table_main" style="width: 771px"><TBODY><TR><TD style="WIDTH: 100%" colSpan=5>
+    <table class="ntp_grd_GridViewStyle" cellspacing="0" rules="all" border="1" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao" style="width:100%;border-collapse:collapse;">
+		<tr class="ntp_grd_HeaderStyle">
+			<td style="width:2%;"><input id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl02_chkAll" type="checkbox" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl02$chkAll" onclick="msgCheckAll(this);" /></td><td style="width:2%;">&nbsp;</td><td style="width:10%;">Quý</td><td style="width:10%;">Năm báo cáo</td><td style="width:15%;">Ngày báo cáo</td><td style="width:20%;">Người báo cáo</td><td style="width:20%;">Cơ sở y tế</td><td style="width:20%;">Tỉnh</td>
+		</tr><tr class="ntp_grd_RowStyle">
+			<td><input id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl03_chkItem" type="checkbox" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl03$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl03$cmdEdit" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl03_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>1</td><td>2013</td><td>10/04/2014</td><td>Phòng chỉ đạo tuyến</td><td>Quận 1</td><td>TP Hồ Chí Minh</td>
+		</tr><tr class="ntp_grd_AltRowStyle">
+			<td><input id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl04_chkItem" type="checkbox" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl04$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl04$cmdEdit" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl04_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>1</td><td>2013</td><td>10/04/2014</td><td>Phòng chỉ đạo tuyến</td><td>Quận 2</td><td>TP Hồ Chí Minh</td>
+		</tr><tr class="ntp_grd_RowStyle">
+			<td><input id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl05_chkItem" type="checkbox" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl05$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl05$cmdEdit" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl05_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>1</td><td>2013</td><td>10/04/2014</td><td>Phòng chỉ đạo tuyến</td><td>Quận 3</td><td>TP Hồ Chí Minh</td>
+		</tr><tr class="ntp_grd_AltRowStyle">
+			<td><input id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl06_chkItem" type="checkbox" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl06$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl06$cmdEdit" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl06_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>1</td><td>2013</td><td>10/04/2014</td><td>Phòng chỉ đạo tuyến</td><td>Quận 4</td><td>TP Hồ Chí Minh</td>
+		</tr><tr class="ntp_grd_RowStyle">
+			<td><input id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl07_chkItem" type="checkbox" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl07$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl07$cmdEdit" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl07_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>1</td><td>2013</td><td>10/04/2014</td><td>Phòng chỉ đạo tuyến</td><td>Quận 5</td><td>TP Hồ Chí Minh</td>
+		</tr><tr class="ntp_grd_AltRowStyle">
+			<td><input id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl08_chkItem" type="checkbox" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl08$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl08$cmdEdit" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl08_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>1</td><td>2013</td><td>10/04/2014</td><td>Phòng chỉ đạo tuyến</td><td>Quận 6</td><td>TP Hồ Chí Minh</td>
+		</tr><tr class="ntp_grd_RowStyle">
+			<td><input id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl09_chkItem" type="checkbox" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl09$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl09$cmdEdit" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl09_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>1</td><td>2013</td><td>10/04/2014</td><td>Phòng chỉ đạo tuyến</td><td>Quận 7</td><td>TP Hồ Chí Minh</td>
+		</tr><tr class="ntp_grd_AltRowStyle">
+			<td><input id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl10_chkItem" type="checkbox" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl10$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl10$cmdEdit" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl10_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>1</td><td>2013</td><td>17/04/2014</td><td>Phòng chỉ đạo tuyến</td><td>Quận 8</td><td>TP Hồ Chí Minh</td>
+		</tr><tr class="ntp_grd_RowStyle">
+			<td><input id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl11_chkItem" type="checkbox" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl11$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl11$cmdEdit" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl11_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>1</td><td>2013</td><td>10/04/2014</td><td>Phòng chỉ đạo tuyến</td><td>Quận 9</td><td>TP Hồ Chí Minh</td>
+		</tr><tr class="ntp_grd_AltRowStyle">
+			<td><input id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl12_chkItem" type="checkbox" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl12$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl12$cmdEdit" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_grdDSBaoCao_ctl12_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>1</td><td>2013</td><td>10/04/2014</td><td>Phòng chỉ đạo tuyến</td><td>Quận 10</td><td>TP Hồ Chí Minh</td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_PagerStyle">
+			<td colspan="8"><span>1</span>&nbsp;<a href="javascript:__doPostBack('dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl14$ctl01','')">2</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl14$ctl02','')">3</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl14$ctl03','')">4</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr708$ViewNTP_BN_BC_KETQUADT$grdDSBaoCao$ctl14$ctl04','')">5</a></td>
+		</tr>
+	</table> &nbsp;&nbsp;
+        
+    </TD></TR><TR><TD width="100%" colSpan=4>
+    </TD></TR></TBODY></TABLE> <input type="submit" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$cmdAdd" value="Thêm" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr708$ViewNTP_BN_BC_KETQUADT$cmdAdd&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_cmdAdd" tabindex="8" class="ntp_button" style="width:100px;" /> 
+ 
+     <input type="submit" name="dnn$ctr708$ViewNTP_BN_BC_KETQUADT$cmdDel" value="Xóa " onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr708$ViewNTP_BN_BC_KETQUADT$cmdDel&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr708_ViewNTP_BN_BC_KETQUADT_cmdDel" class="ntp_button" style="width:100px;" />&nbsp;
+            
+             
+            
+</FIELDSET>
+</div>
+
+

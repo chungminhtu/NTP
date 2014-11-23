@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NTP_DANHMUC
+</name>
+</assembly>
+<members>
+<member name="M:NTP_DANHMUC.NTP_DM_HUYEN_DAL.GetID(System.String)">
+	<summary>
+ TungND3 : gen ID Huyen
+ </summary>
+	<param name="MA_TINH"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:NTP_DANHMUC.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:NTP_DANHMUC.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:NTP_DANHMUC.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,15 @@
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\bin\Release\NTP_QLVT.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\bin\Release\NTP_QLVT.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\bin\Release\NTP_QLVT.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\bin\Release\NTP_Common.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\bin\Release\NTP_DAL.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\bin\Release\NTP_Common.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\bin\Release\NTP_Common.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\bin\Release\NTP_DAL.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\bin\Release\NTP_DAL.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\obj\Release\NTP_QLVT.vbprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\obj\Release\NTP_QLVT.Resources.resources
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\obj\Release\NTP_QLVT.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\obj\Release\NTP_QLVT.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\obj\Release\NTP_QLVT.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLVT\obj\Release\NTP_QLVT.pdb

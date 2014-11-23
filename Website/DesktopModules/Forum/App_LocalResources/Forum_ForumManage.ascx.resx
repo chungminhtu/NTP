@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="btnBack.AlternateText">
+		<value>Go back to forum...</value>
+	</data>
+	<data name="btnAddGroup.AlternateText">
+		<value>Add new group...</value>
+	</data>
+	<data name="btnExpand.AlternateText">
+		<value>Expand group for editing...</value>
+	</data>
+	<data name="btnGroupDelete2.AlternateText">
+		<value>Delete group...</value>
+	</data>
+	<data name="btnGroupUp2.AlternateText">
+		<value>Move group up...</value>
+	</data>
+	<data name="btnGroupDown2.AlternateText">
+		<value>Move group down...</value>
+	</data>
+	<data name="btnCloseGroup.AlternateText">
+		<value>Colapse group...</value>
+	</data>
+	<data name="btnCancelGroup.AlternateText">
+		<value>Cancel...</value>
+	</data>
+	<data name="btnUpdateGroup.AlternateText">
+		<value>Update group...</value>
+	</data>
+	<data name="btnForumEdit.AlternateText">
+		<value>Edit forum...</value>
+	</data>
+	<data name="btnForumDelete.AlternateText">
+		<value>Delete forum...</value>
+	</data>
+	<data name="btnForumUp.AlternateText">
+		<value>Move forum up...</value>
+	</data>
+	<data name="btnForumDown.AlternateText">
+		<value>Move forum down...</value>
+	</data>
+	<data name="btnAddForum.AlternateText">
+		<value>Add new forum to this group...</value>
+	</data>
+	<data name="btnAddNewsGroupForum.AlternateText">
+		<value>Add new news group...</value>
+	</data>
+	<data name="Configuration.Text">
+		<value>Configuration</value>
+	</data>
+	<data name="ManageUsers.Text">
+		<value>Manage Users</value>
+	</data>
+	<data name="ManageForums.Text">
+		<value>Manage Forum</value>
+	</data>
+	<data name="MySettings.Text">
+		<value>My Settings</value>
+	</data>
+	<data name="MyProfile.Text">
+		<value>My Profile</value>
+	</data>
+	<data name="Search.Text">
+		<value>Search</value>
+	</data>
+	<data name="ForumHome.Text">
+		<value>Forum Home</value>
+	</data>
+	<data name="ManageBadWords.Text">
+		<value>Manage Filtered Words</value>
+	</data>
+	<data name="ModuleHelp.Text">
+		<value>&lt;h1&gt;Forum - Manage Forums&lt;/h1&gt;&lt;p&gt;Forum Groups and Forums can be created and edited here.  A Group must contain at least one Forum prior to users being able to post Threads in that Forum and Group.&lt;br&gt;Once a Forum is added to a Group, you can click the edit pencil next to the Forum name to configure it's settings.  A Forums settings allow you to control if the Forum is moderated, who is authorized to view the Forum (Users must be a member of an authorized edit role for this module to have the ability to post anywhere using this module.)  The ability to set a module to private so it can only be seen by specific roles is also controlled here.&lt;/p&gt;</value>
+	</data>
+	<data name="ControlTitle_forummanage.Text">
+		<value>Manage Forums</value>
+	</data>
+	<data name="cmdAddForum.Text">
+		<value>Add Forum</value>
+	</data>
+	<data name="GeneralInformation.Text">
+		<value>General Information</value>
+	</data>
+	<data name="MyPosts.Text">
+		<value>My Posts</value>
+	</data>
+	<data name="plForumList.Text">
+		<value>Forum List</value>
+	</data>
+	<data name="plForumList.Help">
+		<value>This is a list of current forums within the group.</value>
+	</data>
+	<data name="plAddNewGroup.Text">
+		<value>Add New Group:</value>
+	</data>
+	<data name="plAddNewGroup.Help">
+		<value>Add a new forum group.</value>
+	</data>
+	<data name="btnForumEnable.AlternateText">
+		<value>Enable/Disable Forum</value>
+	</data>
+	<data name="lblForumsManage.Text">
+		<value>Manage Forums</value>
+	</data>
+	<data name="cmdAddGroup.Text">
+		<value>Add Group</value>
+	</data>
+	<data name="lblGroupEdit.AlternateText">
+		<value>Edit Group</value>
+	</data>
+</root>

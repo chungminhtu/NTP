@@ -1,0 +1,273 @@
+
+ <table style="width: 74%">
+              <tr>
+                 <td style="width: 10%;">
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label30" class="ntp_label">Năm</span></td>
+                 <td style="width: 30%;">
+                     <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtNam" type="text" value="2012" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtNam" tabindex="1" class="ntp_textbox" style="width:150px;" /><span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator22" style="color:Red;visibility:hidden;">Không đúng năm</span><span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RequiredFieldValidator4" style="color:Red;visibility:hidden;">Không được trống</span></td>
+                 <td style="width: 10%;">
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label36" class="ntp_label" style="display:inline-block;width:84px;">Cơ sở y tế</span></td>
+                  <td colspan="7" style="width: 390px">
+                      <select name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$cboDonVi" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_cboDonVi" tabindex="2" class="ntp_combobox" style="width:240px;">
+	<option value="">--- Chọn cơ sở y tế ---</option>
+	<option value="4812">An Phước</option>
+	<option value="4802">Bến C&#225;t</option>
+	<option value="4813">Bố l&#225;</option>
+	<option value="6012">BV Bến c&#225;t</option>
+	<option value="4808">BV Dầu Tiếng</option>
+	<option value="4817">BV Dĩ An Th&#225;i b&#236;nh</option>
+	<option value="4815">BV T&#226;n Uy&#234;n</option>
+	<option value="BV4809">BVĐK tỉnh</option>
+	<option selected="selected" value="4810">CTCS Dầu tiếng</option>
+	<option value="4807">Dầu Tiếng</option>
+	<option value="4805">Dĩ An</option>
+	<option value="4806">Ph&#250; Gi&#225;o</option>
+	<option value="4814">PK tỉnh</option>
+	<option value="4803">T&#226;n Uy&#234;n</option>
+	<option value="4801">Thị X&#227; Thủ Dầu Một</option>
+	<option value="4804">Thuận An</option>
+	<option value="T4810">Trại giam An Phước</option>
+	<option value="4816">Trại giam CA tỉnh </option>
+	<option value="4818">Trại giam Ph&#250; H&#242;a</option>
+	<option value="4811">TTGDLĐTVL (05 - 06)</option>
+
+</select><span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RequiredFieldValidator6" style="color:Red;visibility:hidden;">Không được trống</span>&nbsp;</td>
+                 
+             </tr>
+              <tr>
+                 <td style="height: 26px; width: 7px;">
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label37" class="ntp_label" style="display:inline-block;width:107px;">Ngày báo cáo</span></td>
+                 <td style="height: 26px; width: 71px;">
+                     <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtNgayBaoCao" type="text" value="08/02/2012" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtNgayBaoCao" tabindex="3" class="ntp_textbox" style="width:150px;" /><input type="hidden" name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$MaskedEditExtender1_ClientState" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_MaskedEditExtender1_ClientState" /><span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_MaskedEditValidator1" TooltipMessage="Nhập ngày" MinimumValueMessage="" MaximumValueMessage="" ValidEmpty="false" Century="1900" CssFocus="MaskedEditFocus" ClientValidationFunction="" evaluationfunction="MaskedEditValidatorDate" FirstMaskPosition="0" MaximumValue="" DateFormat="DMY" LastMaskPosition="11" IsMaskedEdit="true" MinimumValue="" InvalidValueMessage="Định dạng ngày không đúng" TargetValidator="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtNgayBaoCao" InvalidValueCssClass="MaskedEditError" CssBlurNegative="MaskedEditBlurNegative" ValidationExpression="" CssFocusNegative="MaskedEditFocusNegative" EmptyValueMessage="Bạn phải nhập ngày" InitialValue="" DateSeparator="/" style="color:Red;display:none;"></span></td>
+                 <td style="width: 13%; height: 26px;">
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label38" class="ntp_label" style="display:inline-block;width:105px;">Người báo cáo</span></td>
+                  <td colspan="7" style="height: 26px; width: 390px;">
+                      <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtNguoiBaoCao" type="text" value="ho thi bich ngoc" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtNguoiBaoCao" tabindex="4" class="ntp_textbox" style="width:92%;" /><span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RequiredFieldValidator3" style="color:Red;visibility:hidden;">Không được trống</span>
+                     </td>
+                 
+             </tr>     
+              </table> &nbsp;   <div id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Panel2" style="height:50px;width:676px;">
+	<input type="submit" name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$Button1" value="Phần 1+ Phần 2 + Phần 3" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr534$EditNTP_BN_CTCHONGLAO$Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Button1" tabindex="5" class="ntp_button" style="width:320px;" />
+    <input type="submit" name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$Button2" value="Phần 4" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr534$EditNTP_BN_CTCHONGLAO$Button2&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Button2" tabindex="32" class="ntp_button" style="width:320px;" /><br />
+ <div id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_pnlBaoCao1" style="width:71%;">
+		
+
+  <fieldset class="ntp_fieldset" style="width: 710px">
+      <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label19" class="ntp_label" style="display:inline-block;color:#C00000;font-weight:bold;width:381px;">Phần 1: Các cơ sở y tế tham gia hoạt động chống lao</span><br />
+      <br />
+      <table style="width: 89%" border=1>
+          <tr>
+              <td rowspan="2" style="width: 116px" align="center">
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label23" class="ntp_label" style="display:inline-block;font-weight:bold;width:91px;">Cơ sở y tế</span></td>
+              <td rowspan="2" style="width: 66px">
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label24" class="ntp_label" style="display:inline-block;font-weight:bold;width:80px;">Số CSYT trong Huyện</span></td>
+              <td rowspan="2" style="width: 84px">
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label32" class="ntp_label" style="display:inline-block;font-weight:bold;width:90px;">Số CSYT có triển khai công tác CL hiện có</span></td>
+              <td align="center" colspan="4">
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label15" class="ntp_label" style="display:inline-block;font-weight:bold;width:280px;">Cơ sở y tế có phòng xét nghiệm</span></td>
+              <td align="center" colspan="2">
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label16" class="ntp_label" style="display:inline-block;font-weight:bold;width:131px;">Cơ sở y tế có dịch vụ HIV</span></td>
+          </tr>
+          <tr>
+              <td style="width: 72px">
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label25" class="ntp_label" style="display:inline-block;width:72px;">Số điểm kính thực tế</span></td>
+              <td style="width: 74px">
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label26" class="ntp_label" style="display:inline-block;width:72px;">Số điểm kính được kiểm định</span></td>
+              <td style="width: 88px">
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label33" class="ntp_label" style="display:inline-block;width:67px;">Số CS có XN nuôi cấy</span></td>
+              <td style="width: 86px">
+                      <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label39" class="ntp_label" style="display:inline-block;width:69px;">Số CS có XN kháng sinh đồ</span></td>
+              <td style="width: 89px">
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label31" class="ntp_label" style="display:inline-block;width:70px;">Số CS có TV và XNHIV</span></td>
+              <td style="width: 71px">
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label27" class="ntp_label" style="display:inline-block;width:72px;">Số CS có cung cấp ART</span></td>
+          </tr>
+          <tr>
+              <td style="width: 116px">
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label17" class="ntp_label" style="display:inline-block;width:103px;">Cơ sở y tế công</span>
+                  </td>
+              <td style="width: 66px">
+                      <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoCSYTHuyen" type="text" value="1" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoCSYTHuyen" tabindex="6" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                      <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator8" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 84px">
+                      <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtCSYTCoChongLao" type="text" value="1" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtCSYTCoChongLao" tabindex="7" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator11" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 72px">
+                     <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoDiemKinh" type="text" value="1" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoDiemKinh" tabindex="8" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                     <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator4" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 74px">
+                      <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoDiemKinhKiemDinh" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoDiemKinhKiemDinh" tabindex="9" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                      <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator9" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 88px">
+                      <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoCSCoXNNuoiCay" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoCSCoXNNuoiCay" tabindex="10" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" /><span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator12" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 86px">
+                      <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoCSCoXnKhangSinh" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoCSCoXnKhangSinh" tabindex="11" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" /><span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator3" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 89px">
+                     <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoCSCoHIV" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoCSCoHIV" tabindex="12" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" /><span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator6" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 71px">
+                     <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoCSART" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoCSART" tabindex="13" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" /><span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator2" style="color:Red;visibility:hidden;">Là số</span></td>
+          </tr>
+          <tr>
+              <td style="width: 116px">
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label18" class="ntp_label" style="display:inline-block;width:97px;">Cơ sở tư nhân</span>
+                  </td>
+              <td style="width: 66px">
+                  <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoCSYTHuyen1" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoCSYTHuyen1" tabindex="14" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator15" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 84px">
+                  <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtCSYTCoChongLao1" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtCSYTCoChongLao1" tabindex="15" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator16" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 72px">
+                  <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoDiemKinh1" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoDiemKinh1" tabindex="16" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator17" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 74px">
+                  <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoDiemKinhKiemDinh1" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoDiemKinhKiemDinh1" tabindex="17" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator18" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 88px">
+                  <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoCSCoXNNuoiCay1" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoCSCoXNNuoiCay1" tabindex="18" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator19" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 86px">
+                  <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoCSCoXnKhangSinh1" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoCSCoXnKhangSinh1" tabindex="19" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator20" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 89px">
+                  <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoCSCoHIV1" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoCSCoHIV1" tabindex="20" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator21" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 71px">
+                  <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtSoCSART1" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtSoCSART1" tabindex="21" class="ntp_textbox" style="border-color:White;border-style:None;width:70px;" />
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator23" style="color:Red;visibility:hidden;">Là số</span></td>
+          </tr>
+      </table>
+      <br />
+      <table style="width: 698px" border =0>
+          <tr>
+              <td rowspan="1" style="width: 401px">
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label20" class="ntp_label" style="display:inline-block;color:#C00000;font-weight:bold;width:456px;">Phần 2: Phân bố các đơn vị chăm sóc y tế tham gia công tác chống lao</span></td>
+              <td style="width: 1127px">
+              </td>
+              <td rowspan="1" style="width: 295px">
+                  <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label21" class="ntp_label" style="display:inline-block;color:#C00000;font-weight:bold;width:291px;">Phần 3.  Đóng góp của cộng đồng trong công tác chống lao</span></td>
+          </tr>
+          <tr>
+              <td rowspan="4" style="width: 401px">
+                  <table style="width: 468px" border =1>
+                      <tr>
+                          <td style="width: 91px">
+                          </td>
+                          <td align="center" colspan="2">
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label13" class="ntp_label" style="display:inline-block;font-weight:bold;width:148px;">Số bệnh nhân lao phổi AFB(+) phát hiện trong năm</span></td>
+                          <td align="center" style="width: 390px">
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label14" class="ntp_label" style="display:inline-block;font-weight:bold;width:116px;">Số BN lao phổi AFB(+) được đăng ký điều trị trong năm</span></td>
+                      </tr>
+                      <tr>
+                          <td style="width: 91px">
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label1" class="ntp_label" style="display:inline-block;color:Blue;font-weight:bold;width:111px;">Tổng số</span></td>
+                          <td colspan="2" align="center">
+             <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$TxtSoBNPhathien" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_TxtSoBNPhathien" tabindex="21" class="ntp_textbox" style="color:Blue;border-color:White;border-style:None;font-weight:bold;width:90px;" />
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator29" style="color:Red;visibility:hidden;">Là số</span></td>
+                          <td style="width: 390px" align="center">
+             <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$TxtSoBNDieutri" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_TxtSoBNDieutri" tabindex="22" class="ntp_textbox" style="color:Blue;border-color:White;border-style:None;font-weight:bold;width:78px;" />
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator30" style="color:Red;visibility:hidden;">Là số</span></td>
+                      </tr>
+                      <tr>
+                          <td style="width: 91px">
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label8" class="ntp_label" style="display:inline-block;font-weight:bold;width:96px;">Loại hình y tế</span></td>
+                          <td align="center" style="width: 157px">
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label4" class="ntp_label">Cơ sở chuyển</span></td>
+                          <td align="center" style="width: 61px">
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label5" class="ntp_label" style="display:inline-block;width:104px;">Cơ sở chẩn đoán</span></td>
+                          <td align="center" style="width: 390px">
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label6" class="ntp_label" style="display:inline-block;width:84px;">Cơ sở điều trị</span></td>
+                      </tr>
+                      <tr>
+                          <td style="width: 91px">
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label9" class="ntp_label" style="display:inline-block;width:93px;">Tự đến</span>
+                              </td>
+                          <td style="width: 157px">
+                    <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtCSChuyen" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtCSChuyen" tabindex="23" class="ntp_textbox" style="border-color:White;border-style:None;width:80px;" />
+                    <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator71" style="color:Red;visibility:hidden;">Là số</span></td>
+                          <td style="width: 61px">
+                    </td>
+                          <td style="width: 390px">
+                    </td>
+                      </tr>
+                      <tr>
+                          <td style="width: 91px">
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label10" class="ntp_label" style="display:inline-block;width:91px;">Y tế công</span>
+                              </td>
+                          <td style="width: 157px">
+                              <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtCSChuyen1" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtCSChuyen1" tabindex="24" class="ntp_textbox" style="border-color:White;border-style:None;width:80px;" />
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator24" style="color:Red;visibility:hidden;">Là số</span></td>
+                          <td style="width: 61px">
+                              <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtCSChanDoan1" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtCSChanDoan1" tabindex="25" class="ntp_textbox" style="border-color:White;border-style:None;width:80px;" />
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator101" style="color:Red;visibility:hidden;">Là số</span></td>
+                          <td style="width: 390px">
+                    <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtCSDieuTri1" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtCSDieuTri1" tabindex="26" class="ntp_textbox" style="border-color:White;border-style:None;width:80px;" /><span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator131" style="display:inline-block;color:Red;width:59px;visibility:hidden;">Là số</span></td>
+                      </tr>
+                      <tr>
+                          <td style="width: 91px">
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label12" class="ntp_label" style="display:inline-block;width:88px;">Y tế tư nhân</span>
+                              </td>
+                          <td style="width: 157px">
+                              <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtCSChuyen2" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtCSChuyen2" tabindex="27" class="ntp_textbox" style="border-color:White;border-style:None;width:80px;" />
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator25" style="color:Red;visibility:hidden;">Là số</span></td>
+                          <td style="width: 61px">
+                              <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtCSChanDoan2" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtCSChanDoan2" tabindex="28" class="ntp_textbox" style="border-color:White;border-style:None;width:80px;" />
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator26" style="color:Red;visibility:hidden;">Là số</span></td>
+                          <td style="width: 390px">
+                              <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtCSDieuTri2" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtCSDieuTri2" tabindex="29" class="ntp_textbox" style="border-color:White;border-style:None;width:80px;" />
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator27" style="display:inline-block;color:Red;width:53px;visibility:hidden;">Là số</span></td>
+                      </tr>
+                  </table>
+              </td>
+              <td style="width: 1127px">
+              </td>
+              <td rowspan="4" style="width: 295px">
+                  <table style="width: 294px" border =1>
+                      <tr>
+                          <td colspan="1" rowspan="2" style="width: 140px; height: 108px" align="center">
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label22" class="ntp_label" style="display:inline-block;font-weight:bold;width:119px;">Số bệnh nhân AFB(+) do cộng đồng chuyển và tự đến</span></td>
+                          <td colspan="3" rowspan="2" style="width: 155px; height: 108px" align="center">
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_Label28" class="ntp_label" style="display:inline-block;font-weight:bold;width:124px;">Số bệnh nhân AFB(+) được cộng đồng hỗ trợ điều trị</span></td>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                          <td colspan="1" rowspan="1" style="width: 140px; height: 68px" align="center">
+                              &nbsp;<input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtAFBChuyenDen" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtAFBChuyenDen" tabindex="30" class="ntp_textbox" style="border-color:White;border-style:None;width:110px;" /><span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator28" style="color:Red;visibility:hidden;">Là số</span></td>
+                          <td colspan="3" rowspan="1" style="width: 155px; height: 68px" align="center">
+                     <input name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$txtAFBDieuTri" type="text" value="0" maxlength="50" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_txtAFBDieuTri" tabindex="31" class="ntp_textbox" style="border-color:White;border-style:None;width:110px;" /><br />
+                              <span id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_RangeValidator1" style="display:inline-block;color:Red;width:34px;visibility:hidden;">Là số</span></td>
+                      </tr>
+                      
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                      <tr>
+                      </tr>
+                  </table>
+              </td>
+          </tr>
+          <tr>
+              <td style="width: 1127px">
+              </td>
+          </tr>
+          <tr>
+              <td style="width: 1127px">
+                  </td>
+          </tr>
+          <tr>
+              <td style="width: 1127px; height: 52px">
+              </td>
+          </tr>
+      </table>
+</fieldset> &nbsp;&nbsp;
+ 
+	</div>
+&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+    
+<input type="submit" name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$cmdAdd" value="Ghi" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr534$EditNTP_BN_CTCHONGLAO$cmdAdd&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_cmdAdd" tabindex="84" class="ntp_button" style="width:100px;" /><input type="submit" name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$cmdCreateNew" value="Tạo mới" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_cmdCreateNew" tabindex="85" class="ntp_button" style="width:100px;" /><input type="submit" name="dnn$ctr534$EditNTP_BN_CTCHONGLAO$cmdCancel" value="Thoát" id="dnn_ctr534_EditNTP_BN_CTCHONGLAO_cmdCancel" tabindex="86" class="ntp_button" style="width:100px;" />
+</div>
+<br />

@@ -1,0 +1,138 @@
+/* 
+================================
+Skin Styles for DotNetNuke - XDMediaMadness Themes - dnn3@xd.com.au
+Updated March 2008 for DNN 4.5 and above 
+Copyright Nina Meiers - Credits must remain in file.
+http://www.xd.com.au
+================================
+*/  
+
+.pagemaster { width: 940px; margin:0 auto; text-align:center; }
+html { height: 100%;}
+body { text-align: center; background: #f3f3f3; margin: 0 auto;font-family: Tahoma, Geneva, Arial, Helvetica,Verdana,  sans-serif; font-size: 14px; color: #404040;/* line-height:18px;*/}
+
+/*-- Default classes --*/
+table, p, li {font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size: 12px; color: #333333; margin:0 0 0 0; }
+
+h1 {font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size: 18px; text-decoration: none; font-weight: normal;}
+h2 {font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size: 14px; color: #333333; font-weight: bold; color: #555;}
+h3 {font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size: 12px; color: #333333; font-weight: bold; color: #555;}
+
+a:link, a:visited, a:active {text-decoration:none; color: #1f558b; font-style:normal;text-decoration:underline;}
+a:hover {text-decoration:none;}
+
+hr {height: 1px; color: #1f558b}
+
+/* custom classes */
+.topspace {background: url(bluepix/top.png) center no-repeat; height:26px; }
+
+#flashtable { background-color: transparent; width: 880px; background-position: center; padding:0 0 0 0; }
+#flashcontent { width:520px; text-align: center;}
+
+#login { font-size:11px; text-decoration:none; color: #fefefe; margin:5px auto 0 auto; padding: 4px 15px 0 0; height:30px; text-align:right;}
+
+.banner { background: url(bluepix/header.gif) top center no-repeat; height: 79px; }
+.bannerright{text-align: right;height: 79px;padding-top: 5px;}
+
+.header01 { background: url(pix/bodyrpt.png) center repeat-y; }
+.header { width: 900px;margin:0 auto 0 auto; text-align:left; }
+
+.menubg {background:url(bluepix/menubg.png) center no-repeat; text-align: center; height: 25px; }
+.menu { margin:0 auto 0 auto; width: 880px; text-align:left; height: 25px; }
+
+
+/* skinobject classes */
+
+.userlogin01 { background: url(pix/bodyrpt.png) center repeat-y; text-align: center;  height: 25px;}
+.userlogin02 { margin:0 auto 0 auto; width: 865px; padding:2px 2px 4px 2px; }
+
+
+.breadcrumb { color: #f3f3f3; text-align: left; height: 30px; margin:0 auto 0 auto; width: 865px; padding:2px 2px 4px 2px; }
+.dateholder { font-size:10px;font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; text-decoration:none; color: #ffffff; text-align:right; line-height:12px; padding-right:3px; height: 20px;}
+.userlogin { font-size:10px;font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; text-decoration:none; color: #666666; float:right; line-height:12px; padding-right:3px; padding-top:4px;}
+
+.langholder {color: #ffffff; text-align:right; line-height:1px; padding-right:12px; height: 20px;}
+.langholder img {border:none; padding:0px 0px 0px 0px;}
+.langholder select { background:#1f558b; border:1px solid #003366; color:#ffffff; width:146px; font-size:10px;font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; text-decoration:none; }
+
+.terms{float:right; bottom:0px; margin-top:20px; padding-right:15px;}
+.copyright {padding: 20px 0px 0 0; margin-left:15px; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size:11px; color:#003366 !important;}
+
+.footer01 { background: url(bluepix/footer.png) top no-repeat; height: 86px; text-align: center; }
+.footer {font-size:10px; text-decoration:none; color:#f3f3f3;margin:0 auto 0 auto; width: 900px; text-align:left; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; padding:0px 0px 0px 0px;}
+
+
+/* pane classes */
+.content01 { background: url(pix/bodyrpt.png) center repeat-y; text-align: center; }
+.content { width:880; background:#FFFFFF; margin:0 auto 0 auto; padding-bottom:0px;}
+.contentpane {	padding: 0 10px 0 0; }
+.leftpane {padding: 0 10px 0 0;}
+.contentpanetop { }
+.contentpanebottom { }
+.rightpane { width:250px; }
+
+/* easy classes - for light and dark backgrounds */
+.darkbg { padding: 0 5px 0 5px; color: #ffffff; }
+a.darkbg:link, a.darkbg:visited, a.darkbg:hover, a.darkbg:active { font-family: Tahoma, Geneva, Arial, Helvetica,Verdana,  sans-serif; font-size: 8pt; text-decoration: none; color: #ffffff; background-color: transparent; border: 0; font-weight: normal; }
+a.darkbg:hover {background-color: transparent; text-decoration: none; color: #eeeeee; border: 0; font-weight: normal; }
+
+.lightbg {color:#1f558b; font-family: Tahoma, Geneva, Arial, Helvetica,Verdana,  sans-serif; font-size: 11px; ;}
+a.lightbg:link, a.lightbg:visited, a.lightbg:hover, a.lightbg:active { font-family: Tahoma, Geneva, Arial, Helvetica,Verdana,  sans-serif; font-size: 11px; text-decoration: none; color:#1f558b; background-color: transparent; border: 0; font-weight: normal; }
+a.lightbg:hover { text-decoration: underline; background-color: transparent; }
+
+/* Search boxes */
+.search {float:right; width:170px; vertical-align:bottom; text-align: right;  padding:7px 0px 0 0;line-height:20px;}
+.search img {border:none; padding:0px 0px 0px 0px;}
+.search input { background:#1f558b; border:1px solid #003366; color:#ffffff; width:120px; }
+
+.SearchField{ font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size:11px; color:#666666;}
+a.SearchField {font-size:11px; color:#666666 !important; text-decoration:none !important; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; padding-right:3px; vertical-align:bottom;}
+a.SearchField:hover {text-decoration:underline !important;}
+#dnn_dnnSEARCH_txtSearch.NormalTextBox {padding: 2px 0px 1px 4px; font-size:11px; height:20px;border: #ffffff 1px solid; width:120px;}
+
+
+ /* dnn classes */
+
+.SubHead {font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #333333;}
+.Head {font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size: 14pt; text-decoration: none; font-weight: normal; white-space: nowrap;background-color:transparent;}
+
+.normal, .Normal {font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size: 12px; color: #333333;}
+.NormalBold {font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size: 12px; color: #333333; font-weight: bold; color: #555;}
+.NormalRed {color: #990000; font-family:Tahoma, Arial, Verdana, Helvetica, sans-serif; font-size: 12px;}
+
+a.Normal:link, a.Normal:visited {text-decoration: underline; }
+a.Normal:hover {text-decoration: none; }
+
+select, input { font-family: tahoma; font-size: 11px; color: #555; }
+.NormalTextBox { color: #333; padding-left: 4px; line-height: 12px; font-family: tahoma; font-weight: normal; font-size: 11px; }
+
+
+/* Nav Menu - using DNN Menu for DotNetNuke 3.3 & 4.3 */
+/* Modified by Nina Meiers - http://www.xd.com.au - dotnetnuke@xd.com.au */
+.main_dnnmenu_bar {cursor:auto;height:25px;line-height: 25px;background-color: Transparent; }
+
+.main_dnnmenu_rootitem  { /* Add TD if yes for tables option for menu */
+cursor:auto;color: #404040;font-size: 9pt; font-weight: bold; font-style: normal; background-color: Transparent;
+font-family: Tahoma, Arial, Helvetica, sans-serif; white-space: nowrap;  /*Word wrapping menu item now optional*/   
+padding: 0px 12px 0px 5px;   /* creates spacing between root menu items */height: 25px; }
+
+.main_dnnmenu_icon {cursor:auto;text-align: center; width: 3px;height: 25px; }
+.main_dnnmenu_break {height: 25px;font-size: 1px; }
+.main_dnnmenu_arrow {border-right: #D1DBED 1px solid; border-bottom: #D1DBED 1px solid; border-top: #D1DBED 0px solid;font-family: webdings; font-size: 10pt; cursor:auto; /* arrows will not display if function is not set in ascx/xml file*/ }
+.main_dnnmenu_rootmenuarrow {font-family: webdings, sans-serif; font-size: 10pt; cursor:auto; /* arrows will not display if function is not set in ascx/xml file*/ }
+
+.StyleIconBackColor {background-color: transparent;}
+
+/* for customised menu colours */
+.main_dnnmenu_container {background-color: transparent; width: auto; }
+.main_dnnmenu_itemhoverroot td{background-image: url(pix/orange01.jpg);  }
+.main_dnnmenu_item  { /* Add TD if yes for tables option for menu */
+cursor:auto;color: #ffffff; font-size: 9pt; font-weight: bold; font-style: normal; background-color: Transparent;font-family: Tahoma, Arial, Helvetica, sans-serif; white-space: nowrap;  /*Optional - Word wrapping menu item*/height: 25px; }
+
+.main_dnnmenu_itemhover {  /*color: inherit;*/color: #ffffff;background-color: transparent;background-image: url(pix/orange01.jpg); /*padding: 0px 12px 0px 5px;*/ height: 25px;  }
+.main_dnnmenu_itemhover td { background-color: #C6CEE6; color: #333333;background-image: url(pix/orange01.jpg); height: 25px;}
+
+/* changing padding here to give more space on sub menu text - check browsers for behaviour */
+.main_dnnmenu_submenu {background-color: #ffbe71; z-index: 1000; cursor:auto;filter:progid:DXImageTransform.Microsoft.Shadow(color='#696969', Direction=135, Strength=3);padding: 2px 3px 2px 3px;   /* creates spacing between sub-menu items */ }
+
+

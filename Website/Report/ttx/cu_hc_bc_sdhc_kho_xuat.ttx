@@ -1,0 +1,11 @@
+ID_KHO	number
+TEN_KHO	string	500
+ID_NGUON_KINHPHI	number
+ID_VATTU	number
+TEN_NGUONKINHPHI	string	500
+TEN_VATTU	string	500
+TEN_DVT	string	500
+TEN_NUOC	string	500
+LO_SX	string	500
+HAN_DUNG	date
+SO_LUONG	number

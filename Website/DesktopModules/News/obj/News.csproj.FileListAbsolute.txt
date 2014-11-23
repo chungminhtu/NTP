@@ -1,0 +1,5 @@
+D:\Project FSE\VienLao\NTP\Website\bin\News.dll
+D:\Project FSE\VienLao\NTP\Website\bin\News.pdb
+D:\Project FSE\VienLao\NTP\Website\DesktopModules\News\obj\Debug\ResolveAssemblyReference.cache
+D:\Project FSE\VienLao\NTP\Website\DesktopModules\News\obj\Debug\News.dll
+D:\Project FSE\VienLao\NTP\Website\DesktopModules\News\obj\Debug\News.pdb

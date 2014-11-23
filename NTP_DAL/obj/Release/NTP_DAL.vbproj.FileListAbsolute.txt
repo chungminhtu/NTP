@@ -1,0 +1,8 @@
+C:\inetpub\wwwroot\NTP_Nam\NTP_DAL\bin\Release\NTP_DAL.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_DAL\bin\Release\NTP_DAL.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_DAL\bin\Release\NTP_DAL.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_DAL\obj\Release\NTP_DAL.Resources.resources
+C:\inetpub\wwwroot\NTP_Nam\NTP_DAL\obj\Release\NTP_DAL.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\NTP_Nam\NTP_DAL\obj\Release\NTP_DAL.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_DAL\obj\Release\NTP_DAL.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_DAL\obj\Release\NTP_DAL.pdb

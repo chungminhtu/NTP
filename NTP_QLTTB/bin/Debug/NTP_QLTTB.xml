@@ -1,0 +1,120 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NTP_QLTTB
+</name>
+</assembly>
+<members>
+<member name="M:NTP_QLTTB.NTP_QLTTB_PHIEUNHAP_DAL.InsertItem(NTP_QLTTB.NTP_QLTTB_PHIEUNHAP_Info)">
+	<summary>
+ Insert into NTP_QLTTB_PHIEUNHAP
+ </summary>
+	<param name="bibi"></param>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_PHIEUNHAP_DAL.UpdateItem(NTP_QLTTB.NTP_QLTTB_PHIEUNHAP_Info)">
+	<summary>
+ Update NTP_QLTTB_PHIEUNHAP
+ </summary>
+	<param name="bibi"></param>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_PHIEUNHAP_DAL.Search(System.String,System.Int32,System.DateTime,System.DateTime)">
+	<summary>
+ Search thong tin theo keysearch: MA_PHIEUNHAP, NGUON_KINHPHI, TU_NGAY, DEN_NGAY
+ </summary>
+	<param name="sMA_PHIEUNHAP"></param>
+	<param name="iID_NGUONKINHPHI"></param>
+	<param name="dTU_NGAY"></param>
+	<param name="dDEN_NGAY"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_PHIEUXUAT_DAL.InsertItem(NTP_QLTTB.NTP_QLTTB_PHIEUXUAT_Info)">
+	<summary>
+ Insert into NTP_QLTTB_PHIEUXUAT
+ </summary>
+	<param name="bibi"></param>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_PHIEUXUAT_DAL.UpdateItem(NTP_QLTTB.NTP_QLTTB_PHIEUXUAT_Info)">
+	<summary>
+ Update NTP_QLTTB_PHIEUXUAT
+ </summary>
+	<param name="bibi"></param>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_PHIEUXUAT_DAL.Search(System.String,System.Int32,System.DateTime,System.DateTime)">
+	<summary>
+ Search thong tin theo keysearch: MA_PHIEUXUAT, NGUON_KINHPHI, TU_NGAY, DEN_NGAY
+ </summary>
+	<param name="sMA_PHIEUXUAT"></param>
+	<param name="iID_NGUONKINHPHI"></param>
+	<param name="dTU_NGAY"></param>
+	<param name="dDEN_NGAY"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_DM_KHO_DAL.InsertItem(NTP_QLTTB.NTP_QLTTB_DM_KHO_Info)">
+	<summary>
+ Insert into NTP_QLTTB_DM_KHO
+ </summary>
+	<param name="bibi"></param>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_DM_KHO_DAL.UpdateItem(NTP_QLTTB.NTP_QLTTB_DM_KHO_Info)">
+	<summary>
+ Update NTP_QLTTB_DM_KHO
+ </summary>
+	<param name="bibi"></param>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_DM_KHO_DAL.Search(System.String,System.String,System.String,System.Int32)">
+	<summary>
+ Search thong tin theo keysearch: TEN_KHO, TINH, HUYEN, KHO_CAPTREN
+ </summary>
+	<param name="sTEN_KHO"></param>
+	<param name="sMA_TINH"></param>
+	<param name="sMA_HUYEN"></param>
+	<param name="iID_KHO_CAPTREN"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_PHIEUNHAP_CHITIET_DAL.InsertItem(NTP_QLTTB.NTP_QLTTB_PHIEUNHAP_CHITIET_Info)">
+	<summary>
+ Insert into NTP_QLTTB_PHIEUNHAP_CHITIET
+ </summary>
+	<param name="bibi"></param>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_PHIEUNHAP_CHITIET_DAL.UpdateItem(NTP_QLTTB.NTP_QLTTB_PHIEUNHAP_CHITIET_Info)">
+	<summary>
+ Update NTP_QLTTB_PHIEUNHAP_CHITIET
+ </summary>
+	<param name="bibi"></param>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_PHIEUXUAT_CHITIET_DAL.InsertItem(NTP_QLTTB.NTP_QLTTB_PHIEUXUAT_CHITIET_Info)">
+	<summary>
+ Insert into NTP_QLTTB_PHIEUXUAT_CHITIET
+ </summary>
+	<param name="bibi"></param>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_PHIEUXUAT_CHITIET_DAL.UpdateItem(NTP_QLTTB.NTP_QLTTB_PHIEUXUAT_CHITIET_Info)">
+	<summary>
+ Update NTP_QLTTB_PHIEUXUAT_CHITIET
+ </summary>
+	<param name="bibi"></param>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_DM_THIETBI_DAL.InsertItem(NTP_QLTTB.NTP_QLTTB_DM_THIETBI_Info)">
+	<summary>
+ Insert into NTP_QLTTB_DM_THIETBI
+ </summary>
+	<param name="bibi"></param>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_DM_THIETBI_DAL.UpdateItem(NTP_QLTTB.NTP_QLTTB_DM_THIETBI_Info)">
+	<summary>
+ Update NTP_QLTTB_DM_THIETBI
+ </summary>
+	<param name="bibi"></param>
+	<remarks></remarks>
+</member><member name="M:NTP_QLTTB.NTP_QLTTB_DM_THIETBI_DAL.Search(System.String)">
+	<summary>
+ Search thong tin  theo keysearch: TEN_THIETBI
+ </summary>
+	<param name="sTEN_THIETBI"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

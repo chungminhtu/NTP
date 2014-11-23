@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GeneralSettings.Text" xml:space="preserve">
+    <value>General Settings</value>
+  </data>
+  <data name="NotificationEmail.Text" xml:space="preserve">
+    <value>Notification Email</value>
+  </data>
+  <data name="PostAttachments.Text" xml:space="preserve">
+    <value>Post Attachments</value>
+  </data>
+  <data name="PostRanks.Text" xml:space="preserve">
+    <value>Post Ranks</value>
+  </data>
+  <data name="ForumStatistics.Text" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="ForumWhatsNew.Text" xml:space="preserve">
+    <value>Forum Whats New</value>
+  </data>
+  <data name="EditorProvider.Text" xml:space="preserve">
+    <value>Editor Provider</value>
+  </data>
+  <data name="RSSFeeds.Text" xml:space="preserve">
+    <value>RSS Feeds</value>
+  </data>
+  <data name="plForumName.Text" xml:space="preserve">
+    <value>Forum Name</value>
+  </data>
+  <data name="plForumName.Help" xml:space="preserve">
+    <value>Name of this forum module.</value>
+  </data>
+  <data name="plSourceDirectory.Text" xml:space="preserve">
+    <value>Source Directory</value>
+  </data>
+  <data name="plSourceDirectory.Help" xml:space="preserve">
+    <value>Directory where Forum install lives. (Read Only)</value>
+  </data>
+  <data name="plAggregatedForums.Text" xml:space="preserve">
+    <value>Display Aggregated Forums</value>
+  </data>
+  <data name="plAggregatedForums.Help" xml:space="preserve">
+    <value>Select whether you would like to provide an aggregated view of threads in all public forums.</value>
+  </data>
+  <data name="plDefaultForum.Text" xml:space="preserve">
+    <value>Default Forum</value>
+  </data>
+  <data name="plDefaultForum.Help" xml:space="preserve">
+    <value>Select the default forum to be used for posting within the Aggregated Forum view.</value>
+  </data>
+  <data name="plThreadsPerPage.Text" xml:space="preserve">
+    <value>Threads Per Page</value>
+  </data>
+  <data name="plThreadsPerPage.Help" xml:space="preserve">
+    <value>The number of threads displayed on one page at once.&lt;br&gt;&lt;b&gt;NOTE&lt;/b&gt;&lt;br&gt;Per user settings this is overriden.  Applicable to unauthenticated users ONLY.</value>
+  </data>
+  <data name="plPostsPerPage.Text" xml:space="preserve">
+    <value>Posts Per Page</value>
+  </data>
+  <data name="plPostsPerPage.Help" xml:space="preserve">
+    <value>The number of posts displayed on one page at once.&lt;br&gt;&lt;b&gt;NOTE&lt;/b&gt;&lt;br&gt;Per user settings this is overriden.  Applicable to unauthenticated users ONLY.</value>
+  </data>
+  <data name="plPopularPostsView.Text" xml:space="preserve">
+    <value>Popular View Status</value>
+  </data>
+  <data name="plPopularPostsView.Help" xml:space="preserve">
+    <value>The number of post views before a thread becomes popular.</value>
+  </data>
+  <data name="plPopularPostsReply.Text" xml:space="preserve">
+    <value>Popular Reply Status</value>
+  </data>
+  <data name="plPopularPostsReply.Help" xml:space="preserve">
+    <value>The number of post replies before a thread becomes popular.</value>
+  </data>
+  <data name="plSkin.Text" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="plSkin.Help" xml:space="preserve">
+    <value>The theme used for this forum module.&lt;br&gt;The checkox, if checked, allows users to pick their own theme from the list.&lt;br&gt;&lt;b&gt;Tip&lt;/b&gt;&lt;br&gt;Themes are in the Forum\Skins folder.</value>
+  </data>
+  <data name="plTimeZone.Text" xml:space="preserve">
+    <value>Enable User Timezones</value>
+  </data>
+  <data name="plTimeZone.Help" xml:space="preserve">
+    <value>If checked, users will see the time in their default format based on culture as well as adjusted to their local timezone.&lt;br&gt;&lt;b&gt;&lt;Tip&gt;&lt;/b&gt;&lt;br&gt;You must have the country resource pack installed for users to see in their local format. </value>
+  </data>
+  <data name="plTemplateEmail.Text" xml:space="preserve">
+    <value>Email Template</value>
+  </data>
+  <data name="plTemplateEmail.Help" xml:space="preserve">
+    <value>The skin template used for outgoing emails.</value>
+  </data>
+  <data name="plAutomatedAddress.Text" xml:space="preserve">
+    <value>Automated Address</value>
+  </data>
+  <data name="plAutomatedAddress.Help" xml:space="preserve">
+    <value>The FROM email address used if the Show Sender Address is not checked.</value>
+  </data>
+  <data name="plAttachment.Text" xml:space="preserve">
+    <value>Enable File Attachment</value>
+  </data>
+  <data name="plAttachment.Help" xml:space="preserve">
+    <value>If checked, enables users to attach files to forum posts.</value>
+  </data>
+  <data name="plAttachmentFolder.Text" xml:space="preserve">
+    <value>File Attachment Folder</value>
+  </data>
+  <data name="plAttachmentFolder.Help" xml:space="preserve">
+    <value>The folder to store post attachment files.</value>
+  </data>
+  <data name="plWhatsNew.Text" xml:space="preserve">
+    <value>Enable Whats New</value>
+  </data>
+  <data name="plWhatsNew.Help" xml:space="preserve">
+    <value>When checked, displays the whats new info panel in forum home page.</value>
+  </data>
+  <data name="plWhatsNewTemplate.Text" xml:space="preserve">
+    <value>Whats New Template</value>
+  </data>
+  <data name="plWhatsNewTemplate.Help" xml:space="preserve">
+    <value>Select template for whats new panel.</value>
+  </data>
+  <data name="plScrollDelay.Text" xml:space="preserve">
+    <value>Whats New Scroll Delay</value>
+  </data>
+  <data name="plScrollDelay.Help" xml:space="preserve">
+    <value>Scroll delay value of Whats New marquee.</value>
+  </data>
+  <data name="plScrollAmount.Text" xml:space="preserve">
+    <value>Whats New Scroll Amount</value>
+  </data>
+  <data name="plScrollAmount.Help" xml:space="preserve">
+    <value>Scroll amount value of Whats New marquee.</value>
+  </data>
+  <data name="plRSSFeeds.Text" xml:space="preserve">
+    <value>Enable RSS Feeds</value>
+  </data>
+  <data name="plRSSFeeds.Help" xml:space="preserve">
+    <value>Generate RSS feeds for all public forums.</value>
+  </data>
+  <data name="plRSSThreadsPerFeed.Text" xml:space="preserve">
+    <value>Threads Per Feed</value>
+  </data>
+  <data name="plRSSThreadsPerFeed.Help" xml:space="preserve">
+    <value>Number of threads displayed per RSS feed.</value>
+  </data>
+  <data name="plUserOnline.Text" xml:space="preserve">
+    <value>Enable Users Online</value>
+  </data>
+  <data name="plUserOnline.Help" xml:space="preserve">
+    <value>If checked, displays user online status, overridable by user settings.</value>
+  </data>
+  <data name="NumericValidation.ErrorMessage" xml:space="preserve">
+    <value>Needs to be numeric!</value>
+  </data>
+  <data name="SaveAndBack.AlternateText" xml:space="preserve">
+    <value>Save and go back</value>
+  </data>
+  <data name="CancelAndBack.AlternateText" xml:space="preserve">
+    <value>Cancel and go back</value>
+  </data>
+  <data name="MySettings.Text" xml:space="preserve">
+    <value>My Settings</value>
+  </data>
+  <data name="MyProfile.Text" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+  <data name="plTrustNewUsers.Text" xml:space="preserve">
+    <value>Trust New Users</value>
+  </data>
+  <data name="ForumHome.Text" xml:space="preserve">
+    <value>Forum Home</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Forum - Forum Settings&lt;/h1&gt;&lt;p&gt;This area is accessible only by administrators.  Administrators can configure the module to better suit their needs here.&lt;/p&gt;</value>
+  </data>
+  <data name="ControlTitle_configuration.Text" xml:space="preserve">
+    <value>Forum Configuration</value>
+  </data>
+  <data name="MyPosts.Text" xml:space="preserve">
+    <value>My Posts</value>
+  </data>
+  <data name="plShowNavigator.Text" xml:space="preserve">
+    <value>Show Navigator:</value>
+  </data>
+  <data name="plShowNavigator.Help" xml:space="preserve">
+    <value>If checked, this shows the Solpart navigation menu.</value>
+  </data>
+  <data name="plDisplayPosterLocation.Text" xml:space="preserve">
+    <value>Display Poster's Location</value>
+  </data>
+  <data name="plDisplayPosterLocation.Help" xml:space="preserve">
+    <value>The selected item determines who sees the posters country of origin.</value>
+  </data>
+  <data name="lblForumConfiguration.Text" xml:space="preserve">
+    <value>Forum Configuration</value>
+  </data>
+  <data name="plEnablePMSystem.Text" xml:space="preserve">
+    <value>Enable Private Messaging</value>
+  </data>
+  <data name="plEnablePMSystem.Help" xml:space="preserve">
+    <value>If checked, the forum will allow users to send private messages to one another.  </value>
+  </data>
+  <data name="dshCommunity.Text" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="plEnableMemberList.Text" xml:space="preserve">
+    <value>Enable Member List</value>
+  </data>
+  <data name="plEnableMemberList.Help" xml:space="preserve">
+    <value>If checked, users will be able to view a list of members of the forum.</value>
+  </data>
+  <data name="plSearchIndexDate.Text" xml:space="preserve">
+    <value>Date Last Indexed</value>
+  </data>
+  <data name="plSearchIndexDate.Help" xml:space="preserve">
+    <value>This is the date the module was last indexed by the framework's search engine.  Click the Reset Date link to make all previous posts exposed to search again.</value>
+  </data>
+  <data name="cmdResetDate.Text" xml:space="preserve">
+    <value>Reset Date</value>
+  </data>
+  <data name="plAnonDownloads.Text" xml:space="preserve">
+    <value>Anonymous Downloads</value>
+  </data>
+  <data name="plAnonDownloads.Help" xml:space="preserve">
+    <value>If checked, downloads are available to all users who can view post.&lt;br&gt;&lt;b&gt;Tip&lt;/b&gt;&lt;br&gt;File permissions also control access to files.</value>
+  </data>
+  <data name="Administration.Text" xml:space="preserve">
+    <value>Forum Admin</value>
+  </data>
+  <data name="Inbox.Text" xml:space="preserve">
+    <value>Inbox</value>
+  </data>
+  <data name="plDisableHTMLPosting.Help" xml:space="preserve">
+    <value>If checked, the rich text editor will not be rendered for posts, instead a multi-line textbox will be used.</value>
+  </data>
+  <data name="plDisableHTMLPosting.Text" xml:space="preserve">
+    <value>Disable HTML Posting</value>
+  </data>
+  <data name="plEnablePostAbuse.Help" xml:space="preserve">
+    <value>If checked, users will be able to report each post to moderators/admins using an online interface. </value>
+  </data>
+  <data name="plEnablePostAbuse.Text" xml:space="preserve">
+    <value>Enable Post Abuse</value>
+  </data>
+  <data name="plEnableThreadStatus.Help" xml:space="preserve">
+    <value>If checked, users will be able to set thread status if they started the thread.This is good for things like marking posts as an answer. </value>
+  </data>
+  <data name="plEnableThreadStatus.Text" xml:space="preserve">
+    <value>Enable Thread Status</value>
+  </data>
+  <data name="plNameDisplay.Help" xml:space="preserve">
+    <value>This is the format the sites users will appear to users of this forum module. </value>
+  </data>
+  <data name="plNameDisplay.Text" xml:space="preserve">
+    <value>Member Name Display</value>
+  </data>
+  <data name="plPerUserTheme.Help" xml:space="preserve">
+    <value>If checked, users can choose any themes available for the module to override your set theme above. This only ovverrides users who are logged in.</value>
+  </data>
+  <data name="plPerUserTheme.Text" xml:space="preserve">
+    <value>Enable Per User Themes</value>
+  </data>
+  <data name="plUseIconBar.Help" xml:space="preserve">
+    <value>If checked, the module will render icons instead of links for the module actions (search, my posts, my settings, etc).</value>
+  </data>
+  <data name="plUseIconBar.Text" xml:space="preserve">
+    <value>Use Icon Bar</value>
+  </data>
+  <data name="plImageExtension.Help" xml:space="preserve">
+    <value>Temporary setting to control image extension used in forum theme.</value>
+  </data>
+  <data name="plImageExtension.Text" xml:space="preserve">
+    <value>Theme Image Extension</value>
+  </data>
+  <data name="plTrustNewUsers.Help" xml:space="preserve">
+    <value>If checked, all new forum users will be trusted by default. This means they will not require moderation in moderated forums.&lt;br&gt;&lt;b&gt;NOTE&lt;/b&gt;&lt;br&gt;This will not update existing users status. It only affects users who have not visited a forum module per portal install.</value>
+  </data>
+  <data name="plAutoLockTrust.Help" xml:space="preserve">
+    <value>If checked, only administrators and not moderators can change the status of a user's trust level for newly created forum users.&lt;br&gt;&lt;b&gt;NOTE&lt;/b&gt;&lt;br&gt;User trust level locking is controlled on a per users basis.</value>
+  </data>
+  <data name="plAutoLockTrust.Text" xml:space="preserve">
+    <value>Lock New User Trust Setting</value>
+  </data>
+  <data name="plEnableScripts.Help" xml:space="preserve">
+    <value>If checked, the png javascript fix will be enabled to support transparent png files&lt;br&gt;&lt;b&gt;NOTE&lt;/b&gt;&lt;br&gt;This only affects IE 5.5 and IE 6 users.</value>
+  </data>
+  <data name="plEnableScripts.Text" xml:space="preserve">
+    <value>Enable PNG Script</value>
+  </data>
+  <data name="dshUserInterface.Text" xml:space="preserve">
+    <value>Forum User Interface</value>
+  </data>
+  <data name="dshUsers.Text" xml:space="preserve">
+    <value>User Settings</value>
+  </data>
+  <data name="plEnableHTMLSignatures.Help" xml:space="preserve">
+    <value>If checked, users will be permitted to use HTML code in their signatures.</value>
+  </data>
+  <data name="plEnableHTMLSignatures.Text" xml:space="preserve">
+    <value>Enable HTMLSignatures</value>
+  </data>
+  <data name="plEnableIconBarAsImages.Help" xml:space="preserve">
+    <value>If checked, the forum theme will render icons instead of text links for the navigation toolbar at the top of most forum user interfaces.</value>
+  </data>
+  <data name="plEnableIconBarAsImages.Text" xml:space="preserve">
+    <value>Enable Toolbar Icons</value>
+  </data>
+  <data name="plEnableModSigUpdates.Help" xml:space="preserve">
+    <value>If checked, moderators will be able to update users signatures from the user profile area viewable by all users.</value>
+  </data>
+  <data name="plEnableModSigUpdates.Text" xml:space="preserve">
+    <value>Enable Moderator Signature Edits</value>
+  </data>
+  <data name="plEnableUserBanning.Help" xml:space="preserve">
+    <value>If checked, administrators and moderators can ban users from posting.</value>
+  </data>
+  <data name="plEnableUserBanning.Text" xml:space="preserve">
+    <value>Enable User Banning</value>
+  </data>
+  <data name="plEnableUserSignatures.Help" xml:space="preserve">
+    <value>If checked, users will be able to add a custom signature to their profile in the forum module. This will display in all posts as well as the users profile.</value>
+  </data>
+  <data name="plEnableUserSignatures.Text" xml:space="preserve">
+    <value>Enable User Signatures</value>
+  </data>
+  <data name="plNoFollowWeb.Help" xml:space="preserve">
+    <value>If checked, indicates that the destination of user website  hyperlinks SHOULD NOT be afforded any additional weight or ranking by user agents which perform link analysis upon web pages (e.g. search engines).&lt;br&gt;&lt;b&gt;NOTE&lt;/b&gt;&lt;br&gt;This applies to user profile page website links as well as user website links in posts.</value>
+  </data>
+  <data name="plNoFollowWeb.Text" xml:space="preserve">
+    <value>User's Website No Follow</value>
+  </data>
+  <data name="plOverrideTitle.Help" xml:space="preserve">
+    <value>If checked, the page title set by DotNetNuke will be overriden with the forum name or thread name depending on view.</value>
+  </data>
+  <data name="plOverrideTitle.Text" xml:space="preserve">
+    <value>Override Page Title</value>
+  </data>
+  <data name="shSpider.Text" xml:space="preserve">
+    <value>SEO</value>
+  </data>
+  <data name="plTTL.Help" xml:space="preserve">
+    <value>Time to live is the number of minutes that indicates how long a channel can be cached before refreshing from the source.</value>
+  </data>
+  <data name="plTTL.Text" xml:space="preserve">
+    <value>Time To Live</value>
+  </data>
+</root>

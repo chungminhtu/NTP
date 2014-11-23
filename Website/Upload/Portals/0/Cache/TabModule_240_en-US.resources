@@ -1,0 +1,58 @@
+
+
+<fieldset class="ntp_fieldset" style="width: 742px">
+        <legend class="ntp_legend">Danh sách phiếu kiểm định</legend>
+    <table style="width: 728px">
+        <tr>
+            <td style="width: 77px; height: 27px">
+                <span id="dnn_ctr551_ViewNTP_KD_BC_KIEMDINHTB_Label22" class="ntp_label" style="display:inline-block;width:64px;">Tỉnh</span></td>
+            <td style="width: 211px; height: 27px">
+                <select name="dnn$ctr551$ViewNTP_KD_BC_KIEMDINHTB$CboDMTinh" id="dnn_ctr551_ViewNTP_KD_BC_KIEMDINHTB_CboDMTinh" tabindex="1" class="ntp_combobox" style="width:214px;">
+	<option selected="selected" value="10">Th&#225;i nguy&#234;n</option>
+
+</select></td>
+            <td style="width: 24px; height: 27px">
+                <span id="dnn_ctr551_ViewNTP_KD_BC_KIEMDINHTB_Label24" class="ntp_label" style="display:inline-block;width:63px;">Năm BC</span></td>
+            <td style="width: 40px; height: 27px">
+                <select name="dnn$ctr551$ViewNTP_KD_BC_KIEMDINHTB$cboDieuKien" id="dnn_ctr551_ViewNTP_KD_BC_KIEMDINHTB_cboDieuKien" tabindex="2" class="ntp_combobox" style="width:77px;">
+	<option value="1">Qu&#253; I</option>
+	<option value="2">Qu&#253; II</option>
+	<option value="3">Qu&#253; III</option>
+	<option selected="selected" value="4">Qu&#253; IV</option>
+
+</select></td>
+            <td style="width: 47px; height: 27px">
+                <input name="dnn$ctr551$ViewNTP_KD_BC_KIEMDINHTB$txtNam" type="text" value="2013" maxlength="50" id="dnn_ctr551_ViewNTP_KD_BC_KIEMDINHTB_txtNam" tabindex="3" class="ntp_textbox" style="width:58px;" /></td>
+            <td style="width: 108px; height: 27px">
+                <span id="dnn_ctr551_ViewNTP_KD_BC_KIEMDINHTB_RangeValidator2" style="color:Red;visibility:hidden;">Không đúng năm</span></td>
+            <td style="height: 27px">
+                <input type="submit" name="dnn$ctr551$ViewNTP_KD_BC_KIEMDINHTB$cmdTim" value="Xem" id="dnn_ctr551_ViewNTP_KD_BC_KIEMDINHTB_cmdTim" tabindex="4" class="ntp_button" style="height:25px;width:89px;" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="height: 27px">
+                </td>
+            <td colspan="3" style="height: 27px">
+                </td>
+            <td style="width: 108px; height: 27px">
+            </td>
+            <td style="height: 27px">
+            </td>
+        </tr>
+    </table>
+        
+                <table class="ntp_grd_GridViewStyle" cellspacing="0" rules="all" border="1" id="dnn_ctr551_ViewNTP_KD_BC_KIEMDINHTB_grdDSBaoCao" style="width:100%;border-collapse:collapse;">
+	<tr class="ntp_grd_HeaderStyle">
+		<td style="width:2%;"><input id="dnn_ctr551_ViewNTP_KD_BC_KIEMDINHTB_grdDSBaoCao_ctl02_chkAll" type="checkbox" name="dnn$ctr551$ViewNTP_KD_BC_KIEMDINHTB$grdDSBaoCao$ctl02$chkAll" onclick="msgCheckAll(this);" /></td><td style="width:2%;">&nbsp;</td><td style="width:10%;">Quý</td><td style="width:15%;">Năm báo cáo</td><td style="width:15%;">Ngày báo cáo</td><td style="width:20%;">Người báo cáo</td><td style="width:20%;">Cơ sở y tế</td><td style="width:20%;">Tỉnh</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr class="ntp_grd_PagerStyle">
+		<td colspan="11"><span>1</span></td>
+	</tr>
+</table>
+    
+    <br />
+    <input type="submit" name="dnn$ctr551$ViewNTP_KD_BC_KIEMDINHTB$cmdAdd" value="Thêm" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr551$ViewNTP_KD_BC_KIEMDINHTB$cmdAdd&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr551_ViewNTP_KD_BC_KIEMDINHTB_cmdAdd" tabindex="8" class="ntp_button" style="width:100px;" />
+    <input type="submit" name="dnn$ctr551$ViewNTP_KD_BC_KIEMDINHTB$cmdDelete" value="Xóa" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr551$ViewNTP_KD_BC_KIEMDINHTB$cmdDelete&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr551_ViewNTP_KD_BC_KIEMDINHTB_cmdDelete" class="ntp_button" style="width:100px;" /></fieldset>
+
+
+

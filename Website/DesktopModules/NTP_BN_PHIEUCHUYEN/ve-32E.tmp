@@ -1,0 +1,100 @@
+﻿<%@ Control language="vb" Inherits="YourCompany.Modules.NTP_BN_PHIEUCHUYEN.EditNTP_BN_PHIEUCHUYEN" CodeFile="EditNTP_BN_PHIEUCHUYEN.ascx.vb" AutoEventWireup="false" Explicit="True" %>
+<%@ Register TagPrefix="dnn" TagName="Audit" Src="~/controls/ModuleAuditControl.ascx" %>
+<%@ Register Assembly="FSE.WebControl" Namespace="FSE.WebControl" TagPrefix="cc3" %>
+<%@ Register Assembly="DotNetNuke" Namespace="DotNetNuke.UI.Containers" TagPrefix="cc2" %>
+<%@ Register Assembly="DotNetNuke" Namespace="DotNetNuke.UI.WebControls" TagPrefix="cc1" %>
+<%@ Register     Assembly="AjaxControlToolkit"     Namespace="AjaxControlToolkit"     TagPrefix="ajaxToolkit" %>
+<br />
+<asp:Label ID="Label9" runat="server" Font-Size="Larger" ForeColor="Maroon" Text="Phiếu chuyển bệnh nhân tiếp tục điều trị"
+    Width="403px"></asp:Label><br />
+&nbsp;<asp:GridView ID="GrdDSPhieuchuyen" runat="server" CssClass="ntp_grd_GridViewStyle">
+
+
+
+</asp:GridView>
+<br />
+<table style="width: 799px">
+    &nbsp;<tr>
+        <td colspan="2">
+            <asp:RadioButtonList ID="optlistLoaiYTe" runat="server" RepeatDirection="Horizontal"
+                Width="388px">
+                <asp:ListItem Selected="True" Value="0">Bệnh nh&#226;n chuyển tiếp</asp:ListItem>
+                <asp:ListItem Value="1">Bệnh nh&#226;n chuyển tuyến</asp:ListItem>
+            </asp:RadioButtonList></td>
+        <td style="width: 65px">
+            <asp:Label ID="Label8" runat="server" Text="Ngày chuyển" Width="80px"></asp:Label></td>
+        <td colspan="2">
+            &nbsp;<asp:TextBox ID="txtNgayChuyen" runat="server" CssClass="ntp_textbox" MaxLength="50"
+                TabIndex="1"></asp:TextBox>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 30px; height: 21px">
+            <asp:Label ID="Label1" runat="server" Text="Tên cơ sở tiếp nhận" Width="125px"></asp:Label></td>
+        <td colspan="4" style="height: 21px">
+            <asp:DropDownList ID="CboDVTiepnhan" runat="server" CssClass="ntp_combobox" DataTextField="TEN_BENHVIEN"
+                DataValueField="ID_BENHVIEN" TabIndex="2" Width="276px">
+            </asp:DropDownList>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="CboDVTiepnhan"
+                ErrorMessage="Không được trống" Width="131px"></asp:RequiredFieldValidator></td>
+    </tr>
+    <tr>
+        <td style="width: 30px; height: 21px">
+            <asp:Label ID="Label2" runat="server" Text="Họ tên bệnh nhân" Width="125px"></asp:Label></td>
+        <td style="width: 219px; height: 21px">
+            <asp:TextBox ID="TxtTenBenhnhan" runat="server" CssClass="ntp_textbox" TabIndex="3"
+                Width="308px"></asp:TextBox></td>
+        <td style="width: 65px; height: 21px">
+            <asp:TextBox ID="txtMaBenhNhan" runat="server" CssClass="ntp_textbox" MaxLength="50"
+                TabIndex="4" Width="19px" Visible="False"></asp:TextBox>
+            <asp:TextBox ID="TxtID_Dieutri" runat="server" CssClass="ntp_textbox" MaxLength="50"
+                TabIndex="4" Width="13px" Visible="False"></asp:TextBox>
+            <asp:TextBox ID="TxtID_PhieuChuyen" runat="server" CssClass="ntp_textbox" MaxLength="50"
+                TabIndex="4" Width="14px" Visible="False"></asp:TextBox></td>
+        <td style="width: 12px; height: 21px">
+            <asp:Label ID="Label3" runat="server" Text="Tuổi" Width="73px"></asp:Label></td>
+        <td style="width: 13px; height: 21px">
+            <asp:TextBox ID="TxtTuoi" runat="server" CssClass="ntp_textbox" TabIndex="5" Width="75px" Enabled="False"></asp:TextBox></td>
+    </tr>
+    <tr>
+        <td style="width: 30px; height: 17px">
+            <asp:Label ID="Label4" runat="server" Text="Mã số BN (Số ĐKĐT)" Width="158px"></asp:Label></td>
+        <td style="width: 219px; height: 17px">
+            <asp:TextBox ID="TxtSoDKDT" runat="server" CssClass="ntp_textbox" TabIndex="6" Width="308px" Enabled="False"></asp:TextBox></td>
+        <td style="width: 65px; height: 17px">
+        </td>
+        <td style="width: 12px; height: 17px">
+            <asp:Label ID="Label5" runat="server" Text="Giới tính" Width="81px"></asp:Label></td>
+        <td style="width: 13px; height: 17px">
+            <asp:RadioButtonList ID="optlistGioiTinh" runat="server" Height="18px" RepeatDirection="Horizontal"
+                TabIndex="7" Width="143px" Enabled="False" EnableTheming="True">
+                <asp:ListItem Selected="True" Value="1">Nam</asp:ListItem>
+                <asp:ListItem Value="0">Nu</asp:ListItem>
+            </asp:RadioButtonList></td>
+    </tr>
+    <tr>
+        <td style="width: 30px; height: 20px">
+            <asp:Label ID="Label6" runat="server" Text="Tình trạng bệnh nhân" Width="125px"></asp:Label></td>
+        <td colspan="4" style="height: 20px">
+            <asp:TextBox ID="TxtTinhtrangBN" runat="server" CssClass="ntp_textbox" TabIndex="8"
+                Width="608px"></asp:TextBox></td>
+    </tr>
+    <tr>
+        <td style="width: 30px; height: 20px">
+            <asp:Label ID="Label7" runat="server" Text="Lý do chuyển" Width="125px"></asp:Label></td>
+        <td colspan="4" style="height: 20px">
+            <asp:TextBox ID="TxtLydo" runat="server" CssClass="ntp_textbox" TabIndex="9" Width="608px"></asp:TextBox></td>
+    </tr>
+    <tr>
+        <td style="width: 30px; height: 20px">
+        </td>
+        <td colspan="4" style="height: 20px">
+            <asp:Button ID="cmdSave" runat="server" CssClass="ntp_button" TabIndex="8" Text="Ghi phiếu"
+                Width="100px" />&nbsp;
+            <asp:Button ID="cmdCancel" runat="server" CausesValidation="False" CssClass="ntp_button"
+                Text="Thoát" Width="100px" /></td>
+    </tr>
+    
+</table>
+
+ 

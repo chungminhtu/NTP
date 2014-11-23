@@ -1,0 +1,5 @@
+bin\Debug\AutoSuggestBox.dll
+bin\Debug\AutoSuggestBox.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\AutoSuggestBox.dll
+obj\Debug\AutoSuggestBox.pdb

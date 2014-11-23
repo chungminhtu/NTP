@@ -1,0 +1,6 @@
+bin\Debug\AjaxControls.dll
+bin\Debug\AjaxControls.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\AjaxControls.ModalUpdateProgress.js
+obj\Debug\AjaxControls.dll
+obj\Debug\AjaxControls.pdb

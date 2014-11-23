@@ -1,0 +1,60 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="NTP_CU_HC_BC_CHITIET_NX" type="Module" version="0.0.0">
+      <friendlyName>NTP_CU_HC_BC_CHITIET_NX</friendlyName>
+      <description>NTP_CU_HC_BC_CHITIET_NX</description>
+      <owner>
+        <name />
+        <organization />
+        <url />
+        <email />
+      </owner>
+      <license />
+      <releaseNotes />
+      <components>
+        <component type="Module">
+          <desktopModule>
+            <moduleName>NTP_CU_HC_BC_CHITIET_NX</moduleName>
+            <foldername>NTP_CU_HOACHAT</foldername>
+            <businessControllerClass />
+            <supportedFeatures />
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>NTP_CU_HC_BC_CHITIET_NX</friendlyName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/NTP_CU_HOACHAT/HC_BC_CHITIET_NHAPXUAT.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle />
+                    <controlType>View</controlType>
+                    <iconFile />
+                    <helpUrl />
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="File">
+          <files>
+            <basePath>DesktopModules\NTP_CU_HOACHAT</basePath>
+            <file>
+              <name>HC_BC_CHITIET_NHAPXUAT.ascx</name>
+            </file>
+            <file>
+              <name>HC_BC_CHITIET_NHAPXUAT.ascx.vb</name>
+            </file>
+            <file>
+              <name>HC_bc_chitiet_nhapxuat_view.aspx</name>
+            </file>
+            <file>
+              <name>HC_bc_chitiet_nhapxuat_view.aspx.vb</name>
+            </file>
+          </files>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

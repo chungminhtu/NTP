@@ -1,0 +1,13 @@
+bin\Debug\NTP_Common.dll
+bin\Debug\NTP_Common.pdb
+bin\Debug\NTP_Common.xml
+bin\Debug\NTP_DAL.dll
+bin\Debug\NTP_DAL.pdb
+bin\Debug\NTP_DAL.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\NTP_Common.Resources.resources
+obj\Debug\NTP_Common.vbproj.GenerateResource.Cache
+obj\Debug\NTP_Common.dll
+obj\Debug\NTP_Common.xml
+obj\Debug\NTP_Common.pdb
+bin\Debug\System.Web.Extensions.dll

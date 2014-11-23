@@ -1,0 +1,36 @@
+C:\Documents and Settings\hunghm3\Desktop\ModalUpdateProgress\ModalUpdateProgress\ModalUpdateProgress\bin\Debug\AjaxControls.dll
+C:\Documents and Settings\hunghm3\Desktop\ModalUpdateProgress\ModalUpdateProgress\ModalUpdateProgress\bin\Debug\AjaxControls.pdb
+C:\Documents and Settings\hunghm3\Desktop\ModalUpdateProgress\ModalUpdateProgress\ModalUpdateProgress\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\hunghm3\Desktop\ModalUpdateProgress\ModalUpdateProgress\ModalUpdateProgress\obj\Debug\AjaxControls.ModalUpdateProgress.js
+C:\Documents and Settings\hunghm3\Desktop\ModalUpdateProgress\ModalUpdateProgress\ModalUpdateProgress\obj\Debug\AjaxControls.dll
+C:\Documents and Settings\hunghm3\Desktop\ModalUpdateProgress\ModalUpdateProgress\ModalUpdateProgress\obj\Debug\AjaxControls.pdb
+E:\hunghm\Projects\NTP\SourceCode\ModalUpdateProgress\bin\Debug\AjaxControls.dll
+E:\hunghm\Projects\NTP\SourceCode\ModalUpdateProgress\bin\Debug\AjaxControls.pdb
+E:\hunghm\Projects\NTP\SourceCode\ModalUpdateProgress\obj\Debug\ResolveAssemblyReference.cache
+E:\hunghm\Projects\NTP\SourceCode\ModalUpdateProgress\obj\Debug\AjaxControls.ModalUpdateProgress.js
+E:\hunghm\Projects\NTP\SourceCode\ModalUpdateProgress\obj\Debug\AjaxControls.dll
+E:\hunghm\Projects\NTP\SourceCode\ModalUpdateProgress\obj\Debug\AjaxControls.pdb
+E:\Working\2009\NTP\ModalUpdateProgress\bin\Debug\AjaxControls.dll
+E:\Working\2009\NTP\ModalUpdateProgress\bin\Debug\AjaxControls.pdb
+E:\Working\2009\NTP\ModalUpdateProgress\obj\Debug\ResolveAssemblyReference.cache
+E:\Working\2009\NTP\ModalUpdateProgress\obj\Debug\AjaxControls.ModalUpdateProgress.js
+E:\Working\2009\NTP\ModalUpdateProgress\obj\Debug\AjaxControls.dll
+E:\Working\2009\NTP\ModalUpdateProgress\obj\Debug\AjaxControls.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ModalUpdateProgress\bin\Debug\AjaxControls.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ModalUpdateProgress\bin\Debug\AjaxControls.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ModalUpdateProgress\obj\Debug\ResolveAssemblyReference.cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ModalUpdateProgress\obj\Debug\AjaxControls.ModalUpdateProgress.js
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ModalUpdateProgress\obj\Debug\AjaxControls.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ModalUpdateProgress\obj\Debug\AjaxControls.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ModalUpdateProgress\bin\Release\AjaxControls.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ModalUpdateProgress\bin\Release\AjaxControls.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ModalUpdateProgress\obj\Release\ResolveAssemblyReference.cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ModalUpdateProgress\obj\Release\AjaxControls.ModalUpdateProgress.js
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ModalUpdateProgress\obj\Release\AjaxControls.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ModalUpdateProgress\obj\Release\AjaxControls.pdb
+C:\inetpub\wwwroot\NTP_Nam\ModalUpdateProgress\bin\Release\AjaxControls.dll
+C:\inetpub\wwwroot\NTP_Nam\ModalUpdateProgress\bin\Release\AjaxControls.pdb
+C:\inetpub\wwwroot\NTP_Nam\ModalUpdateProgress\obj\Release\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\NTP_Nam\ModalUpdateProgress\obj\Release\AjaxControls.ModalUpdateProgress.js
+C:\inetpub\wwwroot\NTP_Nam\ModalUpdateProgress\obj\Release\AjaxControls.dll
+C:\inetpub\wwwroot\NTP_Nam\ModalUpdateProgress\obj\Release\AjaxControls.pdb

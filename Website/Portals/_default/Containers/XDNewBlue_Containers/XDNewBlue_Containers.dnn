@@ -1,0 +1,124 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="XDNewBlue_Containers-Container" type="Container" version="1.0.0">
+      <friendlyName>XDNewBlue_Containers Container</friendlyName>
+      <description />
+      <owner>
+        <name>XDNewBlue</name>
+        <organization />
+        <url />
+        <email />
+      </owner>
+      <license>This package has no license</license>
+      <releaseNotes />
+      <components>
+        <component type="Container">
+          <containerFiles>
+            <containerName>XDNewBlue_Containers</containerName>
+            <basePath>Portals\_default\Containers\XDNewBlue_Containers</basePath>
+            <containerFile>
+              <path>bluepix</path>
+              <name>XDCurve_01.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>bluepix</path>
+              <name>XDCurve_02.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>bluepix</path>
+              <name>XDCurve_03.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>bluepix</path>
+              <name>XDCurve_04.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>bluepix</path>
+              <name>XDCurve_05.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>bluepix</path>
+              <name>XDPill_01.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>bluepix</path>
+              <name>XDPill_02.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>bluepix</path>
+              <name>XDPill_03.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>orangepix</path>
+              <name>XDCurve_01.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>orangepix</path>
+              <name>XDCurve_02.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>orangepix</path>
+              <name>XDCurve_03.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>orangepix</path>
+              <name>XDCurve_04.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>orangepix</path>
+              <name>XDCurve_05.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>orangepix</path>
+              <name>XDPill_01.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>orangepix</path>
+              <name>XDPill_02.gif</name>
+            </containerFile>
+            <containerFile>
+              <path>orangepix</path>
+              <name>XDPill_03.gif</name>
+            </containerFile>
+            <containerFile>
+              <name>Blue_Curved.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Blue_Curved.css</name>
+            </containerFile>
+            <containerFile>
+              <name>blue_curved.jpg</name>
+            </containerFile>
+            <containerFile>
+              <name>Blue_Pill.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Blue_Pill.css</name>
+            </containerFile>
+            <containerFile>
+              <name>blue_pill.jpg</name>
+            </containerFile>
+            <containerFile>
+              <name>Orange_Curved.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Orange_Curved.css</name>
+            </containerFile>
+            <containerFile>
+              <name>orange_curved.jpg</name>
+            </containerFile>
+            <containerFile>
+              <name>Orange_Pill.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Orange_Pill.css</name>
+            </containerFile>
+            <containerFile>
+              <name>orange_pill.jpg</name>
+            </containerFile>
+          </containerFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

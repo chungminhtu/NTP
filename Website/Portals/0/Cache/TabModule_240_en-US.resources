@@ -1,0 +1,274 @@
+
+
+
+<script language= "javascript" >
+
+Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);
+function EndRequestHandler(sender, args) {
+    if (args.get_error() == undefined) {
+        initform();
+    }
+}
+
+function initform()
+{
+
+$(document).ready(function(){
+  //            txtSaiDuongLon,txtSaiAmLon,txtDLLon,txtSaiDuongNho,txtSaiAmNho,txtDLNho,TxtLoiLon,TxtLoiNho
+
+    $('input[id=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSaiDuongLon]').bind('keyup',TongPH_D);
+    $('input[id=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSaiAmLon]').bind('keyup',TongPH_D);
+    $('input[id=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtDLLon]').bind('keyup',TongPH_D);  
+   
+    $('input[id=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSaiDuongNho]').bind('keyup',TongPH_A);
+    $('input[id=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSaiAmNho]').bind('keyup',TongPH_A);
+    $('input[id=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtDLNho]').bind('keyup',TongPH_A);   
+ 
+});
+
+}
+
+
+function TongPH_D()
+{
+$('input[id=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_TxtLoiLon]').calc(
+			// the equation to use for the calculation
+			"s1 + s2 + s3 ",
+			// define the variables used in the equation, these can be a jQuery object
+			{
+				s1: $('input[id^=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSaiDuongLon]'),
+				s2: $('input[id^=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSaiAmLon]'),
+				s3: $('input[id^=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtDLLon]')
+				
+			},
+			// define the formatting callback, the results of the calculation are passed to this function
+			function (s){
+				// return the number as a dollar amount
+				return s.toFixed(0);
+			},
+			// define the finish callback, this runs after the calculation has been complete
+			function ($this){
+				
+				var sum = $this.sum();	
+						
+			}
+		);
+}
+function TongPH_A()
+{
+$('input[id=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_TxtLoiNho]').calc(
+			// the equation to use for the calculation
+			"s1 + s2 + s3 ",
+			// define the variables used in the equation, these can be a jQuery object
+			{
+				s1: $('input[id^=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSaiDuongNho]'),
+				s2: $('input[id^=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSaiAmNho]'),
+				s3: $('input[id^=dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtDLNho]')
+				
+			},
+			// define the formatting callback, the results of the calculation are passed to this function
+			function (s){
+				// return the number as a dollar amount
+				return s.toFixed(0);
+			},
+			// define the finish callback, this runs after the calculation has been complete
+			function ($this){
+				
+				var sum = $this.sum();			
+			}
+		);
+}
+
+initform();
+
+
+</script>
+ <table style="width: 74%">
+              <tr>
+                 <td style="height: 26px; width: 7px;">
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label36" class="ntp_label" style="display:inline-block;width:84px;">Cơ sở y tế</span></td>
+                 <td style="height: 0px; width: 25%;">
+                      <select name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$cboDonVi" onchange="javascript:setTimeout('__doPostBack(\'dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$cboDonVi\',\'\')', 0)" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_cboDonVi" tabindex="1" class="ntp_combobox" style="width:254px;">
+	<option selected="selected" value="">--- Chọn cơ sở y tế ---</option>
+	<option value="BV3110">Bệnh viện Giao th&#244;ng</option>
+	<option value="BV3113">Bệnh x&#225; C&#244;ng An</option>
+	<option value="BV3109">BV 199 Bộ C&#244;ng an</option>
+	<option value="BV3108">BV lao v&#224; Bệnh phổi Đ&#224; Nẵng</option>
+	<option value="3106">Ho&#224; Vang</option>
+	<option value="BV3117">Ph&#242;ng kh&#225;m BVL&amp;BP Đ&#224; Nẵng</option>
+	<option value="3111">Quận Cẩm Lệ</option>
+	<option value="3101">Quận Hải Ch&#226;u</option>
+	<option value="3105">Quận Li&#234;n Chiểu</option>
+	<option value="3104">Quận Ngũ H&#224;nh Sơn</option>
+	<option value="3103">Quận Sơn Tr&#224;</option>
+	<option value="3102">Quận Thanh Kh&#234;</option>
+	<option value="3114">Trung t&#226;m 05 - 06</option>
+	<option value="3107">Trường 3</option>
+
+</select></td>
+                 <td style="width: 6%; height: 0px;">
+                   <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RequiredFieldValidator6" style="display:inline-block;color:Red;width:130px;visibility:hidden;">Không được trống</span></td>
+                   <td colspan="1" style="width: 16%; height: 26px">
+                       &nbsp;
+                     </td>
+                 <td colspan="6" style="height: 26px; width: 7%;">
+                     </td>
+             </tr>
+              <tr>
+                 <td style="width: 10%; height: 45px;">
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label40" class="ntp_ label" style="display:inline-block;width:74px;">Quý</span></td>
+                 <td style="width: 25%; height: 45px;">
+                     <select name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$cboQuy" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_cboQuy" tabindex="2" class="ntp_combobox" style="width:107px;">
+	<option value="1">Qu&#253; I</option>
+	<option value="2">Qu&#253; II</option>
+	<option selected="selected" value="3">Qu&#253; III</option>
+	<option value="4">Qu&#253; IV</option>
+
+</select>
+                 </td>
+                 <td style="width: 6%; height: 45px;">
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label30" class="ntp_label" style="display:inline-block;width:76px;">Năm</span></td>
+                  <td colspan="7" style="height: 45px">
+                     <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtNam" type="text" value="2014" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtNam" tabindex="3" class="ntp_textbox" style="width:117px;" /><span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator22" style="color:Red;visibility:hidden;">Không đúng năm</span><span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RequiredFieldValidator4" style="color:Red;visibility:hidden;">Không được trống</span></td>
+                 
+             </tr>
+     <tr>
+         <td style="width: 10%; height: 15px">
+             <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label8" class="ntp_label" style="display:inline-block;width:106px;">Ngày báo cáo</span></td>
+         <td style="width: 25%; height: 15px">
+             <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtNgayBaoCao" type="text" value="15/07/2014" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtNgayBaoCao" tabindex="4" class="ntp_textbox" style="width:150px;" /></td>
+         <td style="width: 6%; height: 15px">
+             <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label9" class="ntp_label" style="display:inline-block;width:106px;">Người báo cáo</span></td>
+         <td colspan="7" style="height: 15px">
+             <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtNguoiBaoCao" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtNguoiBaoCao" tabindex="5" class="ntp_textbox" style="width:96%;" /></td>
+     </tr>
+     <tr>
+         <td style="width: 10%; height: 15px">
+         </td>
+         <td style="width: 25%; height: 15px">
+             <input type="hidden" name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$MaskedEditExtender1_ClientState" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_MaskedEditExtender1_ClientState" />
+         </td>
+         <td style="width: 6%; height: 15px">
+         </td>
+         <td colspan="7" style="height: 15px">
+             <input type="submit" name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$CmdXem" value="Xem" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$CmdXem&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_CmdXem" tabindex="5" class="ntp_button" style="width:79px;" /></td>
+     </tr>
+                   
+             
+              
+              </table> 
+
+  <fieldset class="ntp_fieldset" style="width: 808px">
+      <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label4" style="display:inline-block;color:Blue;font-weight:bold;width:275px;">Phần 1: Phân loại lỗi và tỉ lệ lỗi</span><br />
+      <table border="1" style="width: 794px">
+          <tr>
+              <td align="center" rowspan="2">
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label25" class="ntp_label" style="display:inline-block;font-weight:bold;width:63px;">TSTB thực hiện</span></td>
+              <td align="center" rowspan="2">
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label26" class="ntp_label" style="display:inline-block;font-weight:bold;width:62px;">Số TB cần KĐ</span></td>
+              <td align="center" rowspan="2">
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label1" class="ntp_label" style="display:inline-block;font-weight:bold;width:66px;">Số TB kiểm định</span></td>
+              <td align="center" colspan="6">
+                  <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label16" class="ntp_label" style="display:inline-block;font-weight:bold;width:421px;">Phân loại lỗi</span></td>
+              <td align="center" colspan="1" rowspan="2">
+                  <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label13" class="ntp_label" style="display:inline-block;font-weight:bold;width:59px;">Lỗi lớn</span></td>
+              <td align="center" colspan="1" rowspan="2" style="width: 65px">
+                  <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label14" class="ntp_label" style="display:inline-block;font-weight:bold;height:12px;width:59px;">Lỗi nhỏ</span></td>
+          </tr>
+          <tr>
+              <td align="center">
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label33" class="ntp_label" style="display:inline-block;width:62px;">Sai (+) lớn</span></td>
+              <td align="center">
+             <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label39" class="ntp_label" style="display:inline-block;width:58px;">Sai (-) lớn</span></td>
+              <td align="center">
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label31" class="ntp_label" style="display:inline-block;height:20px;width:57px;">Định lượng lớn</span></td>
+              <td align="center">
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label27" class="ntp_label" style="display:inline-block;width:46px;">Sai (+) nhỏ</span></td>
+              <td align="center">
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label32" class="ntp_label" style="display:inline-block;height:21px;width:50px;">Sai (-) nhỏ</span></td>
+              <td align="center">
+                  <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label3" class="ntp_label" style="display:inline-block;width:59px;">Định lượng nhỏ</span></td>
+          </tr>
+          <tr>
+              <td style="height: 42px">
+                     <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtTSTBThucHien" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtTSTBThucHien" tabindex="6" class="ntp_textbox" style="border-color:White;border-style:None;width:60px;" />
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator4" style="display:inline-block;color:Red;width:37px;visibility:hidden;">Là số</span></td>
+              <td style="height: 42px">
+                      <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtSoTBCanKD" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSoTBCanKD" tabindex="7" class="ntp_textbox" style="border-color:White;border-style:None;width:60px;" />
+                  <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator9" style="display:inline-block;color:Red;width:44px;visibility:hidden;">Là số</span></td>
+              <td style="height: 42px">
+                      <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtSoTBKiemDinh" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSoTBKiemDinh" tabindex="8" class="ntp_textbox" style="border-color:White;border-style:None;width:60px;" />
+                  <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator12" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="height: 42px">
+                      <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtSaiDuongLon" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSaiDuongLon" tabindex="9" class="ntp_textbox" style="border-color:White;border-style:None;width:60px;" />
+                  <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator3" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="height: 42px">
+                     <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtSaiAmLon" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSaiAmLon" tabindex="10" class="ntp_textbox" style="border-color:White;border-style:None;width:60px;" />
+                  <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator6" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="height: 42px">
+                     <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtDLLon" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtDLLon" tabindex="11" class="ntp_textbox" style="border-color:White;border-style:None;width:60px;" />
+                  <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator2" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="height: 42px">
+                      <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtSaiDuongNho" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSaiDuongNho" tabindex="12" class="ntp_textbox" style="border-color:White;border-style:None;width:60px;" />
+                  <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator11" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="height: 42px">
+             <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtSaiAmNho" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtSaiAmNho" tabindex="13" class="ntp_textbox" style="border-color:White;border-style:None;width:60px;" />
+                  <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator7" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="height: 42px">
+                     <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtDLNho" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtDLNho" tabindex="14" class="ntp_textbox" style="border-color:White;border-style:None;width:60px;" />
+                  <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator5" style="color:Red;visibility:hidden;">Là số</span></td>
+              <td style="width: 4px; height: 42px;">
+                  <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$TxtLoiLon" type="text" value="0" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_TxtLoiLon" disabled="disabled" tabindex="15" class="ntp_textbox" style="border-color:White;border-style:None;width:60px;" /><br />
+                  &nbsp;</td>
+              <td style="width: 65px; height: 42px">
+                  <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$TxtLoiNho" type="text" value="0" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_TxtLoiNho" disabled="disabled" tabindex="16" class="ntp_textbox" style="border-color:White;border-style:None;width:60px;" /><br />
+                  &nbsp;</td>
+          </tr>
+      </table>
+      <br />
+     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label7" style="display:inline-block;color:Blue;font-weight:bold;width:275px;">Phần 2: Chất lượng tiêu bản</span><br />
+ <table border="1" style="width: 99%">
+              <tr>
+                  <td align="center" style="width: 5%; height: 36px">
+                      <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label15" class="ntp_label" style="display:inline-block;width:115px;">TSTB kiểm định</span></td>
+                 <td style="width: 5%; height: 36px;" align="center">
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label5" class="ntp_label" style="display:inline-block;width:104px;">CLBP - SL đạt</span></td>
+                  <td align="center" style="width: 5%; height: 36px">
+             <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label6" class="ntp_label" style="display:inline-block;width:88px;">Tẩy màu - SL đạt</span></td>
+                  <td align="center" style="width: 5%; height: 36px">
+             <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label2" class="ntp_label" style="display:inline-block;width:92px;">Độ sạch - SL đạt</span></td>
+                  <td align="center" style="width: 5%; height: 36px">
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label10" class="ntp_label" style="display:inline-block;width:93px;">Độ dày - SL đạt</span></td>
+                 <td style="width: 5%; height: 36px;" align="center">
+                     <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label11" class="ntp_label" style="display:inline-block;width:108px;">Kích thước - SL đạt</span></td>
+                  <td style="width: 128px; height: 36px;" align="center">
+             <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_Label12" class="ntp_label" style="display:inline-block;width:116px;">Độ mịn - SL đạt</span></td>
+                 
+             </tr>     
+             
+               <tr>
+                   <td style="height: 39px">
+                       <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$TxtTongsoTBKD" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_TxtTongsoTBKD" tabindex="17" class="ntp_textbox" style="border-color:White;border-style:None;width:103px;" />
+                       <span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator13" style="color:Red;visibility:hidden;">Là số</span></td>
+                 <td style="height: 39px">
+                    <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtCLBP" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtCLBP" tabindex="17" class="ntp_textbox" style="border-color:White;border-style:None;width:91px;" /><span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator101" style="color:Red;visibility:hidden;">Là số</span></td>
+                   <td style="height: 39px">
+             <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtTayMau" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtTayMau" tabindex="18" class="ntp_textbox" style="border-color:White;border-style:None;width:88px;" /><span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator131" style="color:Red;visibility:hidden;">Là số</span></td>
+                   <td style="height: 39px">
+             <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtDoSach" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtDoSach" tabindex="19" class="ntp_textbox" style="border-color:White;border-style:None;width:82px;" /><span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator1" style="color:Red;visibility:hidden;">Là số</span></td>
+                   <td style="height: 39px">
+                    <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtDoDay" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtDoDay" tabindex="20" class="ntp_textbox" style="border-color:White;border-style:None;width:84px;" /><span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator14" style="color:Red;visibility:hidden;">Là số</span></td>
+                 <td style="height: 39px">
+                    <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtKichThuoc" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtKichThuoc" tabindex="21" class="ntp_textbox" style="border-color:White;border-style:None;width:91px;" /><span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator15" style="color:Red;visibility:hidden;">Là số</span></td>
+                   <td style="width: 128px; height: 39px">
+             <input name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$txtDoMin" type="text" maxlength="50" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_txtDoMin" tabindex="22" class="ntp_textbox" style="border-color:White;border-style:None;width:93px;" /><span id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_RangeValidator16" style="display:inline-block;color:Red;width:58px;visibility:hidden;">Là số</span></td>
+             </tr>
+     <tr>
+         <td colspan="7" style="height: 26px">
+         </td>
+     </tr>
+              </table>
+      &nbsp;
+
+<input type="submit" name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$cmdAdd" value="Ghi" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$cmdAdd&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_cmdAdd" tabindex="23" class="ntp_button" style="width:100px;" /><input type="submit" name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$cmdCreateNew" value="Tạo mới" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_cmdCreateNew" disabled="disabled" tabindex="24" class="ntp_button" style="width:100px;" /><input type="submit" name="dnn$ctr551$EditNTP_KD_BC_KIEMDINHTB$cmdCancel" value="Thoát" id="dnn_ctr551_EditNTP_KD_BC_KIEMDINHTB_cmdCancel" tabindex="25" class="ntp_button" style="width:100px;" /></fieldset> &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+

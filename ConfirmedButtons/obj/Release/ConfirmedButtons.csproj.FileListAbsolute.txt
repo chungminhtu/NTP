@@ -1,0 +1,6 @@
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\bin\Release\MetaBuilders.WebControls.ConfirmedButtons.dll
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\bin\Release\MetaBuilders.WebControls.ConfirmedButtons.xml
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\obj\Release\ConfirmedButtons.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\obj\Release\MetaBuilders.WebControls.ClientScriptUtil.resources
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\obj\Release\ConfirmedButtons.csproj.GenerateResource.Cache
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\obj\Release\MetaBuilders.WebControls.ConfirmedButtons.dll

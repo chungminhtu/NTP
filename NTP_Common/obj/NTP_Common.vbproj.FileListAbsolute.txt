@@ -1,0 +1,77 @@
+E:\hunghm\Projects\NTP\SourceCode\NTP_Common\bin\Debug\NTP_Common.dll
+E:\hunghm\Projects\NTP\SourceCode\NTP_Common\bin\Debug\NTP_Common.pdb
+E:\hunghm\Projects\NTP\SourceCode\NTP_Common\bin\Debug\NTP_Common.xml
+E:\hunghm\Projects\NTP\SourceCode\NTP_Common\obj\Debug\ResolveAssemblyReference.cache
+E:\hunghm\Projects\NTP\SourceCode\NTP_Common\obj\Debug\NTP_Common.Resources.resources
+E:\hunghm\Projects\NTP\SourceCode\NTP_Common\obj\Debug\NTP_Common.vbproj.GenerateResource.Cache
+E:\hunghm\Projects\NTP\SourceCode\NTP_Common\obj\Debug\NTP_Common.dll
+E:\hunghm\Projects\NTP\SourceCode\NTP_Common\obj\Debug\NTP_Common.xml
+E:\hunghm\Projects\NTP\SourceCode\NTP_Common\obj\Debug\NTP_Common.pdb
+E:\hunghm\Projects\NTP\SourceCode\NTP_Common\bin\Debug\NTP_DAL.dll
+E:\hunghm\Projects\NTP\SourceCode\NTP_Common\bin\Debug\NTP_DAL.pdb
+E:\hunghm\Projects\NTP\SourceCode\NTP_Common\bin\Debug\NTP_DAL.xml
+E:\Working\2009\NTP\NTP_Common\bin\Debug\NTP_Common.dll
+E:\Working\2009\NTP\NTP_Common\bin\Debug\NTP_Common.pdb
+E:\Working\2009\NTP\NTP_Common\bin\Debug\NTP_Common.xml
+E:\Working\2009\NTP\NTP_Common\bin\Debug\NTP_DAL.dll
+E:\Working\2009\NTP\NTP_Common\bin\Debug\NTP_DAL.pdb
+E:\Working\2009\NTP\NTP_Common\bin\Debug\NTP_DAL.xml
+E:\Working\2009\NTP\NTP_Common\obj\Debug\ResolveAssemblyReference.cache
+E:\Working\2009\NTP\NTP_Common\obj\Debug\NTP_Common.Resources.resources
+E:\Working\2009\NTP\NTP_Common\obj\Debug\NTP_Common.vbproj.GenerateResource.Cache
+E:\Working\2009\NTP\NTP_Common\obj\Debug\NTP_Common.dll
+E:\Working\2009\NTP\NTP_Common\obj\Debug\NTP_Common.xml
+E:\Working\2009\NTP\NTP_Common\obj\Debug\NTP_Common.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Debug\NTP_Common.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Debug\NTP_Common.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Debug\NTP_Common.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Debug\NTP_DAL.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Debug\System.Web.Extensions.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Debug\NTP_DAL.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Debug\NTP_DAL.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\obj\Debug\NTP_Common.Resources.resources
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\obj\Debug\NTP_Common.vbproj.GenerateResource.Cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\obj\Debug\NTP_Common.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\obj\Debug\NTP_Common.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\obj\Debug\NTP_Common.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Release\NTP_Common.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Release\NTP_Common.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Release\NTP_Common.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Release\NTP_DAL.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Release\System.Web.Extensions.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Release\NTP_DAL.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Release\NTP_DAL.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\obj\Release\ResolveAssemblyReference.cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\obj\Release\NTP_Common.Resources.resources
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\obj\Release\NTP_Common.vbproj.GenerateResource.Cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\obj\Release\NTP_Common.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\obj\Release\NTP_Common.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\obj\Release\NTP_Common.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Debug\DotNetNuke.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Debug\SharpZipLib.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Debug\DotNetNuke.WebUtility.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Debug\DotNetNuke.WebControls.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Debug\DotNetNuke.Services.Syndication.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Release\DotNetNuke.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Release\SharpZipLib.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Release\DotNetNuke.WebUtility.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Release\DotNetNuke.WebControls.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\NTP_Common\bin\Release\DotNetNuke.Services.Syndication.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\bin\Release\NTP_Common.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\bin\Release\NTP_Common.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\bin\Release\NTP_Common.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\bin\Release\DotNetNuke.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\bin\Release\NTP_DAL.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\bin\Release\SharpZipLib.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\bin\Release\DotNetNuke.WebUtility.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\bin\Release\DotNetNuke.WebControls.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\bin\Release\DotNetNuke.Services.Syndication.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\bin\Release\NTP_DAL.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\bin\Release\NTP_DAL.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\obj\Release\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\obj\Release\NTP_Common.Resources.resources
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\obj\Release\NTP_Common.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\obj\Release\NTP_Common.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\obj\Release\NTP_Common.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_Common\obj\Release\NTP_Common.pdb

@@ -1,0 +1,25 @@
+E:\hunghm\Projects\NTP\SourceCode\ConfirmedButtons\bin\Debug\MetaBuilders.WebControls.ConfirmedButtons.dll
+E:\hunghm\Projects\NTP\SourceCode\ConfirmedButtons\bin\Debug\MetaBuilders.WebControls.ConfirmedButtons.pdb
+E:\hunghm\Projects\NTP\SourceCode\ConfirmedButtons\obj\Debug\ResolveAssemblyReference.cache
+E:\hunghm\Projects\NTP\SourceCode\ConfirmedButtons\obj\Debug\MetaBuilders.WebControls.ConfirmedButton.bmp
+E:\hunghm\Projects\NTP\SourceCode\ConfirmedButtons\obj\Debug\MetaBuilders.WebControls.ConfirmedImageButton.bmp
+E:\hunghm\Projects\NTP\SourceCode\ConfirmedButtons\obj\Debug\MetaBuilders.WebControls.ClientScriptUtil.resources
+E:\hunghm\Projects\NTP\SourceCode\ConfirmedButtons\obj\Debug\ConfirmedButtons.csproj.GenerateResource.Cache
+E:\hunghm\Projects\NTP\SourceCode\ConfirmedButtons\obj\Debug\MetaBuilders.WebControls.ConfirmedButtons.dll
+E:\hunghm\Projects\NTP\SourceCode\ConfirmedButtons\obj\Debug\MetaBuilders.WebControls.ConfirmedButtons.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ConfirmedButtons\bin\Release\MetaBuilders.WebControls.ConfirmedButtons.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ConfirmedButtons\bin\Release\MetaBuilders.WebControls.ConfirmedButtons.xml
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ConfirmedButtons\obj\Release\ResolveAssemblyReference.cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ConfirmedButtons\obj\Release\MetaBuilders.WebControls.ConfirmedButton.bmp
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ConfirmedButtons\obj\Release\MetaBuilders.WebControls.ConfirmedImageButton.bmp
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ConfirmedButtons\obj\Release\MetaBuilders.WebControls.ClientScriptUtil.resources
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ConfirmedButtons\obj\Release\ConfirmedButtons.csproj.GenerateResource.Cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\ConfirmedButtons\obj\Release\MetaBuilders.WebControls.ConfirmedButtons.dll
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\bin\Release\MetaBuilders.WebControls.ConfirmedButtons.dll
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\bin\Release\MetaBuilders.WebControls.ConfirmedButtons.xml
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\obj\Release\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\obj\Release\MetaBuilders.WebControls.ConfirmedButton.bmp
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\obj\Release\MetaBuilders.WebControls.ConfirmedImageButton.bmp
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\obj\Release\MetaBuilders.WebControls.ClientScriptUtil.resources
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\obj\Release\ConfirmedButtons.csproj.GenerateResource.Cache
+C:\inetpub\wwwroot\NTP_Nam\ConfirmedButtons\obj\Release\MetaBuilders.WebControls.ConfirmedButtons.dll

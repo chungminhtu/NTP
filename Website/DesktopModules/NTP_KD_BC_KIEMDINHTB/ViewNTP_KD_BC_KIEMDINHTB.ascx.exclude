@@ -1,0 +1,93 @@
+﻿<%@ Control language="vb" Inherits="YourCompany.Modules.NTP_KD_BC_KIEMDINHTB.ViewNTP_KD_BC_KIEMDINHTB" CodeFile="ViewNTP_KD_BC_KIEMDINHTB.ascx.vb" AutoEventWireup="false" Explicit="True" %>
+<%@ Register TagPrefix="dnn" TagName="Audit" Src="~/controls/ModuleAuditControl.ascx" %>
+<%@ Register Assembly="FSE.WebControl" Namespace="FSE.WebControl.ASB" TagPrefix="cc4" %>
+<%@ Register Assembly="FSE.WebControl" Namespace="FSE.WebControl" TagPrefix="cc3" %>
+<%@ Register Assembly="DotNetNuke" Namespace="DotNetNuke.UI.Containers" TagPrefix="cc2" %>
+<%@ Register Assembly="DotNetNuke" Namespace="DotNetNuke.UI.WebControls" TagPrefix="cc1" %>
+<%@ Register     Assembly="AjaxControlToolkit"     Namespace="AjaxControlToolkit"     TagPrefix="ajaxToolkit" %>
+
+<fieldset class="ntp_fieldset">
+        <legend class="ntp_legend">Danh sách phiếu kiểm định</legend>
+         <table class="ntp_table_main">
+          <tr>
+          <td style="width: 20%" >
+              <asp:Label ID="Label7" runat="server" CssClass="ntp_label" Text="Lọc theo năm báo cáo"
+                  Width="204px"></asp:Label></td>
+          <td style="width: 10%"><asp:DropDownList ID="cboDieuKien" runat="server" CssClass="ntp_combobox" TabIndex="10" Width="50px">
+              <asp:ListItem>&gt;=</asp:ListItem>
+              <asp:ListItem>=</asp:ListItem>
+              <asp:ListItem>&lt;=</asp:ListItem>
+          </asp:DropDownList></td>
+              <td style="width: 10%">
+               <asp:TextBox ID="txtNam" runat="server" CssClass="ntp_textbox" MaxLength="50" TabIndex="6"
+                   Width="103px"></asp:TextBox>
+                </td>
+           <td style="width: 20%" >
+               &nbsp;<asp:RangeValidator ID="RangeValidator2" runat="server" ControlToValidate="txtNam"
+                    ErrorMessage="Không đúng năm" MaximumValue="3000" MinimumValue="1900" Type="Integer"></asp:RangeValidator></td>
+          <td style="width: 20%">
+                <asp:Button ID="cmdTim" runat="server" CausesValidation="False"
+                        CssClass="ntp_button" Text="Tìm" Width="99px" Height="25px" /></td>
+          </tr>
+          <tr>
+          <td style="width: 100%;" colspan="5">
+        
+                <cc3:multiselectgrid id="grdDSBaoCao" runat="server" allowpaging="True" alternatingitemstyle-cssclass="ntp_grd_AltRowStyle"
+                    autogeneratecolumns="False" cssclass="ntp_grd_GridViewStyle" edititemstyle-cssclass="ntp_grd_EditRowStyle"
+                    headerstyle-cssclass="ntp_grd_HeaderStyle" highlightcssclass="ntp_grd_SelectedRowStyle"
+                    itemstyle-cssclass="ntp_grd_RowStyle" pagerstyle-cssclass="ntp_grd_PagerStyle"
+                    selecteditemstyle-cssclass="ntp_grd_SelectedRowStyle" showfooter="True"
+                    width="100%" ><Columns>
+<asp:TemplateColumn>
+<HeaderStyle Width="2%"></HeaderStyle>
+</asp:TemplateColumn>
+<asp:TemplateColumn><ItemTemplate>
+    <asp:ImageButton id="cmdEdit" runat="server" CommandName="edit" ImageUrl="~/images/edit.gif"  CausesValidation = False enabled='<%#Not(DataBinder.Eval(Container.DataItem, "TinhXN")) %>' ></asp:ImageButton>
+    <%--<asp:HyperLink text="Tiếp nhận" id="lbEdit" runat="server" CommandName="edit"></asp:HyperLink>--%>
+</ItemTemplate>
+
+<HeaderStyle Width="2%"></HeaderStyle>
+</asp:TemplateColumn>
+<asp:BoundColumn DataField="ID_KiemdinhTB" HeaderText="ID_KiemdinhTB" Visible="False"></asp:BoundColumn>
+<asp:BoundColumn DataField="Nam" HeaderText="Năm báo cáo">
+<HeaderStyle Width="15%"></HeaderStyle>
+</asp:BoundColumn>
+<asp:BoundColumn DataField="Quy" HeaderText="Qúy">
+<HeaderStyle Width="10%"></HeaderStyle>
+</asp:BoundColumn>
+<asp:BoundColumn DataField="TSTBThuchien" HeaderText="Số TB thực hiện">
+<HeaderStyle Width="20%"></HeaderStyle>
+</asp:BoundColumn>
+<asp:BoundColumn DataField="TSTBCanthuchien" HeaderText="Số TB cần KĐ">
+<HeaderStyle Width="20%"></HeaderStyle>
+</asp:BoundColumn>
+<asp:BoundColumn DataField="SoTBKiemdinh" HeaderText="Số TB KĐ">
+<HeaderStyle Width="20%"></HeaderStyle>
+</asp:BoundColumn>
+
+<asp:BoundColumn DataField="TinhXN" HeaderText="Tỉnh XN">
+<HeaderStyle Width="5%"></HeaderStyle>
+</asp:BoundColumn>
+</Columns>
+
+<EditItemStyle CssClass="ntp_grd_EditRowStyle"></EditItemStyle>
+
+<SelectedItemStyle CssClass="ntp_grd_SelectedRowStyle"></SelectedItemStyle>
+
+<PagerStyle Mode="NumericPages" CssClass="ntp_grd_PagerStyle"></PagerStyle>
+
+<AlternatingItemStyle CssClass="ntp_grd_AltRowStyle"></AlternatingItemStyle>
+
+<ItemStyle CssClass="ntp_grd_RowStyle"></ItemStyle>
+
+<HeaderStyle CssClass="ntp_grd_HeaderStyle"></HeaderStyle>
+</cc3:multiselectgrid>
+              &nbsp;
+              </td>
+              </tr>
+              </table>
+    <asp:Button ID="cmdAdd" runat="server" CssClass="ntp_button" TabIndex="8" Text="Thêm"
+        Width="100px" />
+    <asp:Button ID="cmdDelete" runat="server" CssClass="ntp_button" Text="Xóa" Width="100px" /></fieldset>
+
+

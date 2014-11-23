@@ -1,0 +1,16 @@
+ten_thietbi	string	500
+ten_dvt	string	500
+ngaychungtu	date
+ton_dau
+nhap	number
+xuat	number
+ton_cuoi	number
+cap	number
+ten_nuoc	string	500
+lo_sx	string	500
+han_dung	date
+chungtu_n	string	500
+chungtu_x	string	500
+nguonkp	string	500
+lydo_nhapxuat	string	500
+nhan_hieu	string	500

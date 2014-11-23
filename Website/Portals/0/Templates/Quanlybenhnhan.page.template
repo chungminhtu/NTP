@@ -1,0 +1,73 @@
+<portal version="3.0">
+  <description>abc</description>
+  <tabs>
+    <tab>
+      <name>Quản lý bệnh nhân</name>
+      <visible>true</visible>
+      <iconfile />
+      <disabled>false</disabled>
+      <title>Quản lý bệnh nhân</title>
+      <description>Quản lý bệnh nhân</description>
+      <keywords />
+      <url type="Normal" />
+      <skinsrc />
+      <containersrc />
+      <startdate>0001-01-01T00:00:00</startdate>
+      <enddate>0001-01-01T00:00:00</enddate>
+      <refreshinterval>-1</refreshinterval>
+      <pageheadtext />
+      <issecure>false</issecure>
+      <tabpermissions>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>EDIT</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>NSD_HUYEN</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>EDIT</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>NSD_HUYEN</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>NSD_TINH</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>EDIT</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>NSD_TINH</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>VIEW</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>NTP</rolename>
+        </permission>
+        <permission>
+          <permissioncode>SYSTEM_TAB</permissioncode>
+          <permissionkey>EDIT</permissionkey>
+          <allowaccess>true</allowaccess>
+          <rolename>NTP</rolename>
+        </permission>
+      </tabpermissions>
+      <panes />
+    </tab>
+  </tabs>
+</portal>

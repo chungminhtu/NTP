@@ -1,0 +1,15 @@
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\bin\Release\NTP_DANHMUC.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\bin\Release\NTP_DANHMUC.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\bin\Release\NTP_DANHMUC.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\bin\Release\NTP_Common.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\bin\Release\NTP_DAL.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\bin\Release\NTP_Common.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\bin\Release\NTP_Common.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\bin\Release\NTP_DAL.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\bin\Release\NTP_DAL.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\obj\Release\NTP_DANHMUC.vbprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\obj\Release\NTP_DANHMUC.Resources.resources
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\obj\Release\NTP_DANHMUC.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\obj\Release\NTP_DANHMUC.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\obj\Release\NTP_DANHMUC.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_DANHMUC\obj\Release\NTP_DANHMUC.pdb

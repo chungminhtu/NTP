@@ -1,0 +1,68 @@
+
+
+&nbsp;<div id="dnn_ctr662_ViewNTP_BN_BC_THUNHANBNLAO_pnlNhapBaoCao" style="height:221px;width:790px;">
+	
+
+<fieldset class="ntp_fieldset" style="width: 782px">
+        <legend class="ntp_legend">Danh sách báo cáo tình hình thu nhận bệnh nhân lao</legend>
+    <table style="width: 749px">
+        <tr>
+            <td style="width: 82px; height: 27px">
+                <span id="dnn_ctr662_ViewNTP_BN_BC_THUNHANBNLAO_Label22" class="ntp_label" style="display:inline-block;width:80px;">Tỉnh</span></td>
+            <td style="width: 230px; height: 27px">
+                <select name="dnn$ctr662$ViewNTP_BN_BC_THUNHANBNLAO$CboDMTinh" id="dnn_ctr662_ViewNTP_BN_BC_THUNHANBNLAO_CboDMTinh" tabindex="1" class="ntp_combobox" style="width:224px;">
+		<option selected="selected" value="10">Th&#225;i nguy&#234;n</option>
+
+	</select></td>
+            <td style="width: 24px; height: 27px">
+                <span id="dnn_ctr662_ViewNTP_BN_BC_THUNHANBNLAO_Label24" class="ntp_label" style="display:inline-block;width:61px;">Năm BC</span></td>
+            <td style="width: 51px; height: 27px">
+                <select name="dnn$ctr662$ViewNTP_BN_BC_THUNHANBNLAO$cboDieuKien" id="dnn_ctr662_ViewNTP_BN_BC_THUNHANBNLAO_cboDieuKien" tabindex="2" class="ntp_combobox" style="width:80px;">
+		<option value="1">Qu&#253; I</option>
+		<option value="2">Qu&#253; II</option>
+		<option value="3">Qu&#253; III</option>
+		<option selected="selected" value="4">Qu&#253; IV</option>
+
+	</select></td>
+            <td style="width: 47px; height: 27px">
+                <input name="dnn$ctr662$ViewNTP_BN_BC_THUNHANBNLAO$txtNam" type="text" value="2013" maxlength="50" id="dnn_ctr662_ViewNTP_BN_BC_THUNHANBNLAO_txtNam" tabindex="3" class="ntp_textbox" style="width:58px;" /></td>
+            <td style="width: 108px; height: 27px">
+                <span id="dnn_ctr662_ViewNTP_BN_BC_THUNHANBNLAO_RangeValidator2" style="color:Red;visibility:hidden;">Không đúng năm</span></td>
+            <td style="height: 27px">
+                <input type="submit" name="dnn$ctr662$ViewNTP_BN_BC_THUNHANBNLAO$cmdTim" value="Xem" id="dnn_ctr662_ViewNTP_BN_BC_THUNHANBNLAO_cmdTim" tabindex="4" class="ntp_button" style="height:25px;width:99px;" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="height: 27px">
+                </td>
+            <td colspan="3" style="height: 27px">
+                </td>
+            <td style="width: 108px; height: 27px">
+            </td>
+            <td style="height: 27px">
+            </td>
+        </tr>
+    </table>
+        
+                <table class="ntp_grd_GridViewStyle" cellspacing="0" rules="all" border="1" id="dnn_ctr662_ViewNTP_BN_BC_THUNHANBNLAO_grdDSBaoCao" style="width:97%;border-collapse:collapse;">
+		<tr class="ntp_grd_HeaderStyle">
+			<td style="width:2%;"><input id="dnn_ctr662_ViewNTP_BN_BC_THUNHANBNLAO_grdDSBaoCao_ctl02_chkAll" type="checkbox" name="dnn$ctr662$ViewNTP_BN_BC_THUNHANBNLAO$grdDSBaoCao$ctl02$chkAll" onclick="msgCheckAll(this);" /></td><td style="width:2%;">&nbsp;</td><td style="width:10%;">Quý</td><td style="width:10%;">Năm báo cáo</td><td style="width:15%;">Ngày báo cáo</td><td style="width:20%;">Người báo cáo</td><td style="width:20%;">Cơ sở y tế</td><td style="width:20%;">Tỉnh</td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_PagerStyle">
+			<td colspan="10"><span>1</span></td>
+		</tr>
+	</table>
+    
+    <br />
+    <input type="submit" name="dnn$ctr662$ViewNTP_BN_BC_THUNHANBNLAO$cmdAdd" value="Thêm" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr662$ViewNTP_BN_BC_THUNHANBNLAO$cmdAdd&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr662_ViewNTP_BN_BC_THUNHANBNLAO_cmdAdd" tabindex="8" class="ntp_button" style="width:100px;" />
+    <input type="submit" name="dnn$ctr662$ViewNTP_BN_BC_THUNHANBNLAO$cmdDelete" value="Xóa " onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr662$ViewNTP_BN_BC_THUNHANBNLAO$cmdDelete&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr662_ViewNTP_BN_BC_THUNHANBNLAO_cmdDelete" class="ntp_button" style="width:100px;" />&nbsp;
+            
+             
+            </fieldset>
+
+</div>
+&nbsp;
+    &nbsp;<br />
+<br />
+ 
+

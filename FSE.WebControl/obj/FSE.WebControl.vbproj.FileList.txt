@@ -1,0 +1,5 @@
+bin\Debug\FSE.WebControl.dll
+bin\Debug\FSE.WebControl.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FSE.WebControl.dll
+obj\Debug\FSE.WebControl.pdb

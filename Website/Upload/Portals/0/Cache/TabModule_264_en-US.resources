@@ -1,0 +1,67 @@
+
+
+<fieldset class="ntp_fieldset" style="width: 850px">
+        <legend class="ntp_legend">Danh sách phiếu lấy mẫu kiểm định tiêu bản </legend>
+         <table class="ntp_table_main">
+             <tr>
+                 <td style="width: 11%">
+                     <span id="dnn_ctr575_ViewNTP_KD_KETQUAKIEMDINH_Label2" class="ntp_label" style="display:inline-block;width:80px;">Tỉnh</span></td>
+                 <td colspan="2">
+                     <select name="dnn$ctr575$ViewNTP_KD_KETQUAKIEMDINH$CboDMTinh" id="dnn_ctr575_ViewNTP_KD_KETQUAKIEMDINH_CboDMTinh" tabindex="1" class="ntp_combobox" style="width:215px;">
+	<option selected="selected" value="62">Tiền Giang</option>
+
+</select></td>
+                 <td colspan="2" style="width: 352px">
+                 </td>
+                 <td style="width: 20%">
+                 </td>
+             </tr>
+          <tr>
+          <td style="width: 11%" >
+              <span id="dnn_ctr575_ViewNTP_KD_KETQUAKIEMDINH_Label7" class="ntp_label" style="display:inline-block;width:128px;">Lọc theo tháng năm</span></td>
+          <td style="width: 8%">
+              &nbsp;<select name="dnn$ctr575$ViewNTP_KD_KETQUAKIEMDINH$cboQuy" id="dnn_ctr575_ViewNTP_KD_KETQUAKIEMDINH_cboQuy" tabindex="2" class="ntp_combobox" style="width:57px;">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option selected="selected" value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+
+</select>
+          </td>
+              <td style="width: 14%">
+               <input name="dnn$ctr575$ViewNTP_KD_KETQUAKIEMDINH$txtNam" type="text" value="2013" maxlength="50" id="dnn_ctr575_ViewNTP_KD_KETQUAKIEMDINH_txtNam" tabindex="6" class="ntp_textbox" style="width:96px;" /></td>
+              <td colspan="2" style="width: 352px">
+                  &nbsp;
+               &nbsp;<span id="dnn_ctr575_ViewNTP_KD_KETQUAKIEMDINH_RangeValidator2" style="color:Red;visibility:hidden;">Không đúng năm</span></td>
+          <td style="width: 20%">
+                <input type="submit" name="dnn$ctr575$ViewNTP_KD_KETQUAKIEMDINH$cmdTim" value="Tìm" id="dnn_ctr575_ViewNTP_KD_KETQUAKIEMDINH_cmdTim" class="ntp_button" style="height:25px;width:99px;" /></td>
+          </tr>
+          <tr>
+          <td style="width: 100%;" colspan="6">
+        
+                <table class="ntp_grd_GridViewStyle" cellspacing="0" rules="all" border="1" id="dnn_ctr575_ViewNTP_KD_KETQUAKIEMDINH_grdDSBaoCao" style="width:100%;border-collapse:collapse;">
+	<tr class="ntp_grd_HeaderStyle">
+		<td style="width:2%;"><input id="dnn_ctr575_ViewNTP_KD_KETQUAKIEMDINH_grdDSBaoCao_ctl02_chkAll" type="checkbox" name="dnn$ctr575$ViewNTP_KD_KETQUAKIEMDINH$grdDSBaoCao$ctl02$chkAll" onclick="msgCheckAll(this);" /></td><td style="width:2%;">&nbsp;</td><td style="width:10px;">Tháng</td><td style="width:20%;">Năm báo cáo</td><td style="width:25%;">Cơ sở điều trị</td><td style="width:20%;">Tỉnh</td><td style="width:25%;">Người cung cấp</td><td style="width:15%;">Kết quả KĐ</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr class="ntp_grd_PagerStyle">
+		<td colspan="10"><span>1</span></td>
+	</tr>
+</table>
+              &nbsp;
+              </td>
+              </tr>
+              </table>
+    <input type="submit" name="dnn$ctr575$ViewNTP_KD_KETQUAKIEMDINH$cmdAdd" value="Thêm" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr575$ViewNTP_KD_KETQUAKIEMDINH$cmdAdd&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr575_ViewNTP_KD_KETQUAKIEMDINH_cmdAdd" tabindex="8" class="ntp_button" style="width:100px;" />
+    <input type="submit" name="dnn$ctr575$ViewNTP_KD_KETQUAKIEMDINH$cmdDelete" value="Xóa" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr575$ViewNTP_KD_KETQUAKIEMDINH$cmdDelete&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr575_ViewNTP_KD_KETQUAKIEMDINH_cmdDelete" class="ntp_button" style="width:100px;" /></fieldset>
+
+
+

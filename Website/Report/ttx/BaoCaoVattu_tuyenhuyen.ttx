@@ -1,0 +1,11 @@
+TEN_VATTU	string	500
+TEN_DVT	string	500
+DON_VI	string	500
+TON_DAU	number
+NHAP	number
+XUAT	number
+THUA	number
+THIEU	number
+HONG	number
+id_nguonkinhphi	number
+

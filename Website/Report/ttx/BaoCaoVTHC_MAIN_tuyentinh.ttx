@@ -1,0 +1,6 @@
+TEN_TINH	STRING	500
+NAM	NUMBER
+QUY	number
+ID_NGUONKINHPHI	number
+MO_TA	string	500
+checkvisible	number

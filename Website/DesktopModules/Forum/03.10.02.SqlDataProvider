@@ -1,0 +1,779 @@
+﻿	if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}{objectQualifier}Forum_SearchGetResults') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}Forum_SearchGetResults
+	GO
+	
+	if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}{objectQualifier}Forum_ModeratePostApprove') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}Forum_ModeratePostApprove
+	GO
+	
+	if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}{objectQualifier}Forum_ThreadDelete') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}Forum_ThreadDelete
+	GO
+
+	if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}{objectQualifier}Forum_UserGetAll') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}Forum_UserGetAll
+	GO
+
+	if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}{objectQualifier}Forum_ThreadGet') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}Forum_ThreadGet
+	GO
+
+	if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}{objectQualifier}Forum_ThreadMove') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}Forum_ThreadMove
+	GO
+
+	if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}{objectQualifier}Forum_PostUpdate') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}Forum_PostUpdate
+	GO
+
+	if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}{objectQualifier}Forum_PostDelete') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}Forum_PostDelete
+	GO
+
+	if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}{objectQualifier}Forum_ModeratePostDelete') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+	drop procedure {databaseOwner}{objectQualifier}Forum_ModeratePostDelete
+	GO
+
+	if exists (select * from dbo.sysobjects where id = object_id(N'{databaseOwner}FK_{objectQualifier}Forum_Threads_{objectQualifier}Forum_Posts') and OBJECTPROPERTY(id, N'IsForeignKey') = 1)
+	ALTER TABLE {databaseOwner}{objectQualifier}Forum_Threads DROP CONSTRAINT FK_{objectQualifier}Forum_Threads_{objectQualifier}Forum_Posts
+	GO
+
+	IF EXISTS (SELECT name FROM sysindexes
+			WHERE name = '{objectQualifier}Forum_PostsTreeSortOrder')
+	DROP INDEX {objectQualifier}Forum_Posts.{objectQualifier}Forum_PostsTreeSortOrder
+	GO
+
+	IF EXISTS (SELECT name FROM sysindexes
+			WHERE name = '{objectQualifier}Forum_PostsThreadID')
+	DROP INDEX {objectQualifier}Forum_Posts.{objectQualifier}Forum_PostsThreadID
+	GO
+
+	IF EXISTS (SELECT name FROM sysindexes
+			WHERE name = '{objectQualifier}Forum_PostsThreadIDFlatSortOrder')
+	DROP INDEX {objectQualifier}Forum_Posts.{objectQualifier}Forum_PostsThreadIDFlatSortOrder
+	GO
+
+	IF EXISTS (SELECT name FROM sysindexes
+			WHERE name = '{objectQualifier}Forum_UsersUserIDAlias')
+	DROP INDEX {objectQualifier}Forum_Users.{objectQualifier}Forum_UsersUserIDAlias
+	GO
+
+
+	CREATE PROCEDURE {databaseOwner}{objectQualifier}Forum_PostDelete
+	(
+	@PostID int
+	)
+	AS
+	-- Get threadid to check if this post is the root post
+	DECLARE @ThreadID int
+	DECLARE @PinnedDate datetime
+	DECLARE @ForumID int
+	DECLARE @DeleteThreadCount int
+	DECLARE @DeletePostCount int
+	DECLARE @DeleteSortOrder int
+	DECLARE @NewLastThreadID int
+	DECLARE @NewLastPostID int
+	DECLARE @GroupID int
+
+	SET @ThreadID = (SELECT [ThreadID] FROM {databaseOwner}{objectQualifier}Forum_Posts (nolock) WHERE [PostID] = @PostID)
+	SET @ForumID = (SELECT [ForumID] FROM {databaseOwner}{objectQualifier}Forum_Threads (nolock) WHERE [ThreadID] = @ThreadID)
+	SET @DeleteSortOrder = (SELECT [TreeSortOrder] FROM {databaseOwner}{objectQualifier}Forum_Posts WHERE [PostID] = @PostID)
+	SET @GroupID = (SELECT [GroupID] FROM {databaseOwner}{objectQualifier}Forum_Forums WHERE [ForumID] = @ForumID)
+
+	-- We need to get the previous last post to update forum
+	SET @NewLastPostID = (SELECT MAX (P.PostID) FROM {databaseOwner}{objectQualifier}Forum_Posts P (nolock), {databaseOwner}{objectQualifier}Forum_Threads T (nolock) WHERE P.IsApproved = 1 AND P.IsLocked = 0 AND P.ThreadID = T.ThreadID AND T.ForumID = @ForumID AND P.PostID <> @PostID) 
+	SET @NewLastThreadID = (SELECT ThreadID FROM {databaseOwner}{objectQualifier}Forum_Posts (nolock) WHERE PostID = @NewLastPostID)
+
+	UPDATE	{databaseOwner}{objectQualifier}Forum_Threads 
+	SET		LastPostedPostID = @NewLastPostID
+	WHERE	ThreadID = @ThreadID
+	
+	DELETE	{databaseOwner}{objectQualifier}Forum_Posts WHERE [PostID] = @PostID
+
+	--Print 'Delete post ' + CONVERT(varchar, @PostID)
+	--Print 'ThreadID ' + CONVERT(varchar, @ThreadID)
+
+	-- If this post is the root post, delete whole thread
+	IF @ThreadID = @PostID
+	BEGIN	
+	Print 'PostID = ThreadID'
+		-- Get number of posts from this thread to decrease forum post count
+		SET @DeleteThreadCount = 1
+		SELECT @DeletePostCount = Replies + 1	FROM {objectQualifier}Forum_Threads (nolock) WHERE ThreadID = @ThreadID	
+
+		-- Now we delete this thread & and child posts
+		DELETE {databaseOwner}{objectQualifier}Forum_Threads	WHERE [ThreadID] = @ThreadID
+		DELETE {databaseOwner}{objectQualifier}Forum_Posts WHERE [ThreadID] = @ThreadID
+
+	END
+	ELSE -- This post is not root post so we need to update thread info
+	BEGIN
+		-- Set value for post count first
+		SET @DeleteThreadCount = 0
+		SET @DeletePostCount = 1		
+
+		--Update all posts in this thread with new sort order
+		UPDATE 
+			{databaseOwner}{objectQualifier}Forum_Posts 
+		SET
+			[TreeSortOrder] = ([TreeSortOrder]  - 1),
+			[FlatSortOrder] = ([FlatSortOrder] - 1)
+		WHERE 
+			[ThreadID] = @ThreadID AND
+			[TreeSortOrder] > @DeleteSortOrder --AND
+			--[FlatSortOrder] > @DeleteSortOrder 
+
+		-- Obtain thread info first
+		DECLARE @IsPinned bit
+		DECLARE @Image nvarchar(255)	
+		SELECT 		
+			@IsPinned = [IsPinned],
+			@PinnedDate = [PinnedDate],
+			@Image = [Image]
+		FROM 
+			{databaseOwner}{objectQualifier}Forum_Threads (nolock) 
+		WHERE 
+			[ThreadID] = @ThreadID
+		EXEC {databaseOwner}{objectQualifier}Forum_AA_ThreadUpdate @ThreadID, @PostID, @IsPinned, @PinnedDate, @Image, 'postdelete'
+	END
+
+	-- We need to get the previous last post to update forum
+	SET @NewLastPostID = (SELECT MAX (P.PostID) FROM {databaseOwner}{objectQualifier}Forum_Posts P (nolock) , {databaseOwner}{objectQualifier}Forum_Threads T (nolock) WHERE P.IsApproved = 1 AND P.IsLocked = 0 AND P.ThreadID = T.ThreadID AND T.ForumID = @ForumID)
+	SET @NewLastThreadID = (SELECT ThreadID FROM {databaseOwner}{objectQualifier}Forum_Posts (nolock) WHERE PostID = @NewLastPostID)
+
+	--Print 'LastThreadID = ' + CONVERT(varchar, @NewLastThreadID)	
+	--Print 'LastPostID = ' + CONVERT(varchar, @NewLastPostID)	
+	-- Collect enough info, now we update parent forum of this new thread
+	UPDATE 
+		{databaseOwner}{objectQualifier}Forum_Forums
+	SET
+		TotalPosts = ((SELECT TotalPosts FROM {databaseOwner}{objectQualifier}Forum_Forums (nolock) WHERE ForumID = @ForumID) - @DeletePostCount),
+		TotalThreads = ((SELECT TotalThreads FROM {databaseOwner}{objectQualifier}Forum_Forums (nolock) WHERE ForumID = @ForumID) - @DeleteThreadCount),
+		MostRecentPostID = @NewLastPostID,
+		MostRecentThreadID = (SELECT ThreadID FROM {databaseOwner}{objectQualifier}Forum_Posts (nolock) WHERE PostID = @NewLastPostID),		
+		MostRecentPostAuthorID = (SELECT UserID FROM {databaseOwner}{objectQualifier}Forum_Posts (nolock) WHERE PostID = @NewLastPostID),		
+		MostRecentPostDate = (SELECT CreatedDate FROM {databaseOwner}{objectQualifier}Forum_Posts (nolock) WHERE PostID = @NewLastPostID)	
+	WHERE
+		ForumID = @ForumID
+	--END
+
+	SELECT @GroupID as GroupID
+
+	GO
+
+
+	CREATE PROCEDURE {databaseOwner}{objectQualifier}Forum_PostUpdate
+	(
+	@ThreadID		int,
+	@PostID			int,
+	@Notify			bit,
+	@Subject		nvarchar(255),
+	@Body			ntext,
+	@IsPinned		bit,	
+	@PinnedDate 		datetime,
+	@IsClosed		bit,	
+	@UpdatedByUser	int,
+	@Image			nvarchar(255),
+	@MediaURL		nvarchar(500),
+	@MediaNAV		nvarchar(500),
+	@Attachments		nvarchar(255)
+	)
+	AS
+	DECLARE @ForumID int
+	DECLARE @GroupID int
+
+	SELECT @ForumID = ForumID FROM {databaseOwner}{objectQualifier}Forum_Threads (nolock) WHERE ThreadID = @ThreadID
+	SELECT @GroupID = GroupID FROM {databaseOwner}{objectQualifier}Forum_Forums (nolock) WHERE ForumID = @ForumID
+
+
+	UPDATE
+		{databaseOwner}{objectQualifier}Forum_Posts
+	SET
+		[Subject] = @Subject,
+		[Body] = @Body,
+		[Notify] = @Notify,
+		[UpdatedDate] = GetDate(),	
+		[IsClosed] = @IsClosed,
+		[MediaURL] = @MediaURL,
+		[MediaNAV] = @MediaNAV,
+		[Attachments] = @Attachments,
+		[UpdatedByUser] = @UpdatedByUser	
+	WHERE
+		[PostID] = @PostID	
+		
+
+		EXEC {databaseOwner}{objectQualifier}Forum_AA_ThreadUpdate @ThreadID, @PostID, @IsPinned, @PinnedDate, @Image, 'postedit'
+		-- Mark this thread as unread for all users - userid params is 0
+		EXEC {databaseOwner}{objectQualifier}Forum_AA_UserThreadViewUpdate 0, @ThreadID, @ForumID, 0
+
+	SELECT @GroupID as GroupID
+
+	GO
+
+	CREATE PROCEDURE {databaseOwner}{objectQualifier}Forum_ThreadDelete
+	(
+	@ThreadID int
+	)
+	AS
+	DECLARE @GroupID int
+	DECLARE @ForumID int
+
+
+	SELECT @GroupID = GroupID FROM {databaseOwner}{objectQualifier}Forum_Forums F INNER JOIN {databaseOwner}{objectQualifier}Forum_Threads T ON F.ForumID = T.ForumID WHERE T.ThreadID = @ThreadID
+
+	DELETE
+		{databaseOwner}{databaseOwner}{objectQualifier}Forum_Threads
+	WHERE
+		[ThreadID] = @ThreadID
+		
+	SELECT @GroupID
+
+	GO
+
+	CREATE PROCEDURE {databaseOwner}{objectQualifier}Forum_ThreadMove
+	(
+	@ThreadID int,
+	@NewForumID int
+	)
+	AS
+	-- Get threadid to check if this post is the root post
+	DECLARE @OldForumID int
+	DECLARE @OldForumLastThreadID int
+	DECLARE @OldForumLastPostID int
+	DECLARE @OldForumLastUserID int
+	DECLARE @OldForumLastPostDate datetime
+	DECLARE @OldGroupID int
+
+	DECLARE @NewForumLastThreadID int
+	DECLARE @NewForumLastPostID int
+	DECLARE @NewForumLastUserID int
+	DECLARE @NewForumLastPostDate datetime
+	DECLARE @NewGroupID int
+
+	DECLARE @MovePostCount int
+	DECLARE @MoveLastPostID int
+
+	-- Make sure that new forum is exists
+	IF EXISTS (SELECT [ForumID] FROM {databaseOwner}{objectQualifier}Forum_Forums (nolock) WHERE ForumID = @NewForumID)
+	BEGIN
+		SELECT 
+			@OldGroupID = [GroupID],
+			@OldForumID = {databaseOwner}{objectQualifier}Forum_Threads.[ForumID],
+			@MoveLastPostID = [LastPostedPostID],
+			@MovePostCount = [Replies] + 1
+		FROM
+			{databaseOwner}{objectQualifier}Forum_Threads (nolock)
+		INNER JOIN
+			{databaseOwner}{objectQualifier}Forum_Forums (nolock)
+		ON 
+			{databaseOwner}{objectQualifier}Forum_Threads.ForumID = {databaseOwner}{objectQualifier}Forum_Forums.ForumID
+		WHERE
+			[ThreadID] = @ThreadID
+	Print @MovePostCount
+	-- Move thread to new forum
+		UPDATE 	{databaseOwner}{objectQualifier}Forum_Threads
+		SET
+			[ForumID] = @NewForumID
+		WHERE
+			[ThreadID] = @ThreadID
+	-- Get info of target forum
+		SELECT
+			@NewGroupID = [GroupID],
+			@NewForumLastThreadID = [MostRecentThreadID],
+			@NewForumLastPostID = [MostRecentPostID],
+			@NewForumLastUserID = [MostRecentPostAuthorID],
+			@NewForumLastPostDate = [MostRecentPostDate]
+		FROM
+			{databaseOwner}{objectQualifier}Forum_Forums (nolock)
+		WHERE
+			[ForumID] = @NewForumID
+	-- Set moving thread as last thread if it posted later than the current last thread
+		IF 	@NewForumLastThreadID < @ThreadID 
+		BEGIN
+			SET @NewForumLastThreadID = @ThreadID
+		END
+		IF	@NewForumLastPostID < @MoveLastPostID
+		BEGIN		
+			SELECT 
+				@NewForumLastPostID = [PostID],
+				@NewForumLastUserID = [UserID],
+				@NewForumLastPostDate = [CreatedDate]
+			FROM 
+				{objectQualifier}Forum_Posts (nolock) 
+			WHERE 
+				[PostID] = @MoveLastPostID
+		END
+	-- Update the target forum
+	Print 'Target'
+		UPDATE {databaseOwner}{objectQualifier}Forum_Forums
+		SET
+			[TotalThreads] = [TotalThreads] + 1,
+			[TotalPosts] = [TotalPosts] + @MovePostCount,
+			[MostRecentThreadID] = @NewForumLastThreadID,
+			[MostRecentPostID] = @NewForumLastPostID,
+			[MostRecentPostAuthorID] = @NewForumLastUserID,
+			[MostRecentPostDate] = @NewForumLastPostDate
+		WHERE
+			[ForumID] = @NewForumID
+	-- Get info from the old forum
+		SELECT
+			@OldForumLastThreadID = [MostRecentThreadID],
+			@OldForumLastPostID = [MostRecentPostID],
+			@OldForumLastUserID = [MostRecentPostAuthorID],
+			@OldForumLastPostDate = [MostRecentPostDate]
+		FROM
+			{databaseOwner}{objectQualifier}Forum_Forums (nolock)
+		WHERE
+			[ForumID] = @OldForumID
+	-- Set last thread info for the old forum if moving thread is the last one
+		IF 	@OldForumLastThreadID < @ThreadID 
+		BEGIN
+			SET @OldForumLastThreadID = (SELECT MAX([ThreadID]) FROM {objectQualifier}Forum_Threads WHERE [ForumID] = @OldForumID)
+		END
+		IF	@OldForumLastPostID = @MoveLastPostID
+		BEGIN	
+			SET @OldForumLastPostID = (SELECT MAX([PostID]) FROM {databaseOwner}{objectQualifier}Forum_Posts P (nolock), {databaseOwner}{objectQualifier}Forum_Threads T (nolock) WHERE P.[ThreadID] = T.[ThreadID] AND T.[ForumID] = @OldForumID)	
+			SELECT 			
+				@OldForumLastUserID = [UserID],
+				@OldForumLastPostDate = [CreatedDate]
+			FROM 
+				{databaseOwner}{objectQualifier}Forum_Posts (nolock) 
+			WHERE 
+				[PostID] = @OldForumLastPostID
+		END
+	-- Update the old forum
+		UPDATE {databaseOwner}{objectQualifier}Forum_Forums
+		SET
+			[TotalThreads] = [TotalThreads] - 1,
+			[TotalPosts] = [TotalPosts] - @MovePostCount, -- it's not very logic here, need to find out
+			[MostRecentThreadID] = @OldForumLastThreadID,
+			[MostRecentPostID] = @OldForumLastPostID,
+			[MostRecentPostAuthorID] = @OldForumLastUserID,
+			[MostRecentPostDate] = @OldForumLastPostDate
+		WHERE
+			[ForumID] = @OldForumID
+		
+	END
+
+	SELECT @OldGroupID as OldGroupID, @NewGroupID as NewGroupID
+
+	GO
+
+	SET QUOTED_IDENTIFIER ON 
+	SET ARITHABORT ON 
+	SET CONCAT_NULL_YIELDS_NULL ON 
+	SET ANSI_NULLS ON 
+	SET ANSI_PADDING ON 
+	SET ANSI_WARNINGS ON 
+	SET NUMERIC_ROUNDABORT OFF 
+	go
+
+	DECLARE @bErrors as bit
+
+	BEGIN TRANSACTION
+	SET @bErrors = 0
+
+	CREATE NONCLUSTERED INDEX [{databaseOwner}{objectQualifier}Forum_PostsTreeSortOrder] ON {databaseOwner}{objectQualifier}Forum_Posts ([ThreadID] ASC, [TreeSortOrder] ASC )
+	IF( @@error <> 0 ) SET @bErrors = 1
+
+	CREATE NONCLUSTERED INDEX [{databaseOwner}{objectQualifier}Forum_PostsThreadID] ON {databaseOwner}{objectQualifier}Forum_Posts ([ThreadID] ASC )
+	IF( @@error <> 0 ) SET @bErrors = 1
+
+	CREATE NONCLUSTERED INDEX [{databaseOwner}{objectQualifier}Forum_PostsThreadIDFlatSortOrder] ON {databaseOwner}{objectQualifier}Forum_Posts ([ThreadID] ASC, [FlatSortOrder] ASC )
+	IF( @@error <> 0 ) SET @bErrors = 1
+
+	IF( @bErrors = 0 )
+	COMMIT TRANSACTION
+	ELSE
+	ROLLBACK TRANSACTION
+
+	BEGIN TRANSACTION
+	SET @bErrors = 0
+
+	CREATE NONCLUSTERED INDEX [{databaseOwner}{objectQualifier}Forum_UsersUserIDAlias] ON {databaseOwner}{objectQualifier}Forum_Users ([UserID] ASC, [Alias] ASC )
+	IF( @@error <> 0 ) SET @bErrors = 1
+
+	IF( @bErrors = 0 )
+	COMMIT TRANSACTION
+	ELSE
+	ROLLBACK TRANSACTION
+
+
+	GO
+
+	CREATE procedure {databaseOwner}{objectQualifier}Forum_UserGetAll
+	(
+	@PortalID int,
+	@Filter nvarchar(1024),
+	@PageSize int, 
+	@PageIndex int,
+	@OrderBy varchar(20)
+	)
+	AS
+
+	DECLARE @PageLowerBound int
+	DECLARE @PageUpperBound int
+	-- Set the page bounds
+	SET @PageLowerBound = @PageSize * @PageIndex
+	SET @PageUpperBound = @PageLowerBound + @PageSize + 1
+
+	CREATE TABLE #PageIndex 
+	(
+		IndexID		int IDENTITY (1, 1) NOT NULL,
+		UserID	int
+	)
+	-- INSERT into the temp table
+	-- Create dynamic SQL to populate temporary table
+	DECLARE @sql nvarchar(2000)
+		SELECT @sql = 	'INSERT INTO #PageIndex(UserID) SELECT {databaseOwner}{objectQualifier}Forum_Users.UserID' +
+				' FROM {databaseOwner}{objectQualifier}Forum_Users (noLock), {databaseOwner}{objectQualifier}Users (noLock), {databaseOwner}{objectQualifier}UserPortals (nolock) ' +
+				' WHERE {databaseOwner}{objectQualifier}Forum_Users.UserID = {databaseOwner}{objectQualifier}Users.UserID' +
+				' AND {databaseOwner}{objectQualifier}Users.UserID = {databaseOwner}{objectQualifier}UserPortals.UserID AND {databaseOwner}{objectQualifier}UserPortals.PortalID = ' +
+				CONVERT(varchar, @PortalID) + @Filter	
+				+ ' ORDER BY ' + @OrderBy	
+
+					
+	EXEC(@sql)
+
+	SELECT	
+		UR.*,	
+		FUR.*,	
+		ISNULL((SELECT NULLIF(COUNT(DISTINCT [UserID]), 0) FROM {databaseOwner}{objectQualifier}Forum_Moderators (nolock) WHERE [UserID] = UR.[UserID]), [IsTrusted]) AS IsTrusted,
+		(SELECT COUNT(DISTINCT [UserID]) FROM {databaseOwner}{objectQualifier}Forum_Moderators (nolock) WHERE {databaseOwner}{objectQualifier}Forum_Moderators.[UserID] = UR.[UserID]) As IsModerator,     
+		(SELECT COUNT(DISTINCT [UserID]) FROM {databaseOwner}{objectQualifier}UsersOnline (nolock) WHERE {databaseOwner}{objectQualifier}UsersOnline.[UserID] = UR.[UserID] AND {objectQualifier}UsersOnline.[PortalID] = @PortalID) As IsOnline,
+		ISNULL((SELECT SUM([PostsModerated]) FROM {databaseOwner}{objectQualifier}Forum_Moderators (nolock) WHERE {databaseOwner}{objectQualifier}Forum_Moderators.[UserID] = UR.[UserID]), 0) As PostsModerated 
+	 	
+	FROM
+		{databaseOwner}{objectQualifier}Users UR (nolock), {databaseOwner}{objectQualifier}Forum_Users FUR (nolock), #PageIndex PageIndex (nolock) 
+	WHERE
+		FUR.[UserID] = UR.[UserID] 
+	AND	UR.[UserID] = PageIndex.[UserID]
+	AND 	PageIndex.IndexID			> @PageLowerBound	
+	AND	PageIndex.IndexID			< @PageUpperBound	
+	ORDER BY 
+		PageIndex.IndexID
+
+	SELECT  COUNT(*) as TotalRecords
+	FROM #PageIndex
+
+	GO
+
+
+	CREATE PROCEDURE {databaseOwner}{objectQualifier}Forum_ThreadGet
+	(
+		@ThreadID int,
+		@UserID int
+	)
+	AS
+	SELECT
+		P1.[Subject],
+		P1.[Body],
+		P1.[CreatedDate],
+		FU.[Alias] AS StartedByAlias,
+		FU.[UserID] AS StartedByUserID,	
+		FU2.[Alias] AS LastPostAlias,
+		FU2.[UserID] As LastPostUserID,
+		P2.[CreatedDate] AS LastPostedDate,
+		T.[ThreadID],
+		T.[LastPostedPostID],
+		T.[ForumID],
+		T.[LastPostedPostId],
+		T.[Image],	
+		T.[Views],
+		T.[ObjectTypeCode],
+		T.[ObjectID],
+		T.[IsPinned],
+		T.[PinnedDate],
+		P1.[IsClosed],
+		P1.[MediaURL],
+		P1.[MediaNAV],
+		(SELECT Count([ThreadID]) FROM {databaseOwner}{objectQualifier}Forum_Posts (nolock) WHERE [ThreadID] = T.[ThreadID] AND [PostID] <> T.[ThreadID]) As Replies,
+		(SELECT Distinct Count(UserID) FROM {databaseOwner}{objectQualifier}Forum_ThreadsRead (nolock) WHERE ForumID = T.ForumID AND UserID = @UserID AND  P2.CreatedDate > LastPurseDate AND ReadThreads NOT LIKE '%' + CONVERT(varchar, T.ThreadID) + ';%')  As IsUnRead,	
+		(SELECT Distinct Count(UserID) FROM {databaseOwner}{objectQualifier}Forum_TrackedThreads (nolock) WHERE UserID = @UserID AND ThreadID = T.ThreadID) As IsTracked,
+		ISNULL((SELECT Count([ThreadID]) FROM {databaseOwner}{objectQualifier}Forum_ThreadRating TR (nolock) WHERE TR.[ThreadID] = T.[ThreadID]), 0) As RatingCount,
+		ISNULL((SELECT AVG([Rate]) FROM {databaseOwner}{objectQualifier}Forum_ThreadRating TR (nolock) WHERE TR.[ThreadID] = T.[ThreadID]), 0) As Rating	
+	FROM
+		{databaseOwner}{objectQualifier}Forum_Threads T (nolock) , {databaseOwner}{objectQualifier}Forum_Posts P1 (nolock) , {databaseOwner}{objectQualifier}Forum_Posts P2 (nolock) , {databaseOwner}{objectQualifier}Forum_Users FU (nolock) , {databaseOwner}{objectQualifier}Forum_Users FU2 (nolock) 
+	WHERE	
+		P1.[PostID] = @ThreadID	AND
+		FU.[UserID] = P1.[UserID] AND	
+		T.[LastPostedPostID] = P2.[PostID] AND	
+		P1.[ThreadID] = P2.[ThreadID] AND	
+		FU2.[UserID] = P2.[UserID]
+
+	GO
+
+
+
+	CREATE PROCEDURE {databaseOwner}{objectQualifier}Forum_SearchGetResults
+	(
+	@Filter		nvarchar(500),
+	@PageIndex	int,
+	@PageSize	int,
+	@UserID		int,
+	@ModuleID	int,
+	@FromDate	datetime,
+	@ToDate	datetime
+	)
+	AS
+	-- Create a temp table to store the select results
+	CREATE TABLE #PageIndex 
+	(
+		IndexID	int IDENTITY (1, 1) NOT NULL,
+		ThreadID	int
+	)
+	-- Create dynamic SQL to populate temporary table
+	DECLARE @sql nvarchar(2000)
+	SELECT  @sql =	'INSERT INTO #PageIndex(ThreadID) SELECT DISTINCT({databaseOwner}{objectQualifier}Forum_Posts.ThreadID) ' + 	
+				'FROM {databaseOwner}{objectQualifier}Forum_Posts (nolock) , {databaseOwner}{objectQualifier}Forum_Threads (nolock) , {databaseOwner}{objectQualifier}Forum_Forums (nolock) , {databaseOwner}{objectQualifier}Forum_Groups (nolock) ' +		
+				'WHERE {databaseOwner}{objectQualifier}Forum_Posts.ThreadID = {databaseOwner}{objectQualifier}Forum_Threads.ThreadID AND ' +
+				'{databaseOwner}{objectQualifier}Forum_Threads.ForumID = {databaseOwner}{objectQualifier}Forum_Forums.ForumID AND ' +		
+				'{objectQualifier}Forum_Forums.GroupID = {objectQualifier}Forum_Groups.GroupID ' +	
+				'AND {databaseOwner}{objectQualifier}Forum_Posts.[CreatedDate] >  ''' + CONVERT(varchar, @FromDate) + ''' ' + 
+				'AND {databaseOwner}{objectQualifier}Forum_Posts.[CreatedDate] < ''' + CONVERT(varchar, @ToDate) + ''' ' + 
+				'AND {databaseOwner}{objectQualifier}Forum_Posts.IsApproved = 1 ' +
+				'AND {databaseOwner}{objectQualifier}Forum_Posts.IsLocked = 0 ' +
+				'AND {databaseOwner}{objectQualifier}Forum_Groups.ModuleID = ' + CONVERT(varchar, @ModuleID) + ' AND ' +
+		
+				'( {databaseOwner}{objectQualifier}Forum_Forums.ForumID NOT IN (SELECT ForumID FROM  {databaseOwner}{objectQualifier}Forum_PrivateForums) OR ' +
+					' {databaseOwner}{objectQualifier}Forum_Forums.ForumID IN ( ' +
+						'SELECT ForumID  ' +
+						'FROM  {databaseOwner}{objectQualifier}Forum_PrivateForums (nolock)  ' +
+						'WHERE (RoleID IN (SELECT RoleID FROM  {databaseOwner}{objectQualifier}UserRoles (nolock) WHERE UserID = ' + CONVERT(varchar, @UserID) + ' ) ' +
+						'OR EXISTS (SELECT TOP 1 1 FROM  {databaseOwner}{objectQualifier}Users WHERE UserID = ' + CONVERT(varchar, @UserID) + '  and IsSuperUser=1))))  ' +
+				@Filter + ' ORDER BY {databaseOwner}{objectQualifier}Forum_Posts.ThreadID DESC'
+	Print @sql
+	EXEC(@sql)
+	-- All of the rows are inserted into the table - now select the correct subset
+	DECLARE @PageLowerBound int
+	DECLARE @PageUpperBound int
+	DECLARE @RecordCount	int
+	-- Set the page bounds
+	SET @PageLowerBound = @PageSize * @PageIndex
+	SET @PageUpperBound = @PageLowerBound + @PageSize + 1
+	SELECT @RecordCount = COUNT(*) FROM #PageIndex
+
+	Print @RecordCount
+	-- Select the data out of the temporary table
+	-- Select the data out of the temporary table
+	SELECT
+		PageIndex.ThreadID,	
+		{databaseOwner}{objectQualifier}Forum_Posts.[Subject],
+		{databaseOwner}{objectQualifier}Forum_Posts.[CreatedDate],
+		{databaseOwner}{objectQualifier}Forum_Users.[UserID],
+		{databaseOwner}{objectQualifier}Forum_Users.[Alias],
+		{databaseOwner}{objectQualifier}Forum_Threads.[ForumID],
+		{databaseOwner}{objectQualifier}Forum_Threads.[Replies],
+		{databaseOwner}{objectQualifier}Forum_Threads.[Views],
+		{databaseOwner}{objectQualifier}Forum_Forums.[Name] As ForumName,
+		RecordCount = @RecordCount,
+		(SELECT Count([ThreadID]) FROM {databaseOwner}{objectQualifier}Forum_ThreadRating  (nolock) WHERE ThreadID = PageIndex.ThreadID) As RatingCount,
+		(SELECT AVG([Rate]) FROM {databaseOwner}{objectQualifier}Forum_ThreadRating  (nolock) WHERE ThreadID = PageIndex.ThreadID) As Rating,
+		(SELECT Distinct  Count(UserID) FROM {databaseOwner}{objectQualifier}Forum_ThreadsRead (nolock) WHERE ForumID = {databaseOwner}{objectQualifier}Forum_Threads.[ForumID] AND UserID = {databaseOwner}{objectQualifier}Forum_Users.[UserID] AND {databaseOwner}{objectQualifier}Forum_Posts.[CreatedDate] > LastPurseDate AND ReadThreads NOT LIKE '%' + CONVERT(varchar, PageIndex.ThreadID) + ';%')  As IsUnRead
+	FROM
+		{databaseOwner}{objectQualifier}Forum_Users (nolock) , {databaseOwner}{objectQualifier}Forum_Forums (nolock) , {databaseOwner}{objectQualifier}Forum_Threads (nolock) , {databaseOwner}{objectQualifier}Forum_Posts (nolock) , #PageIndex PageIndex (nolock) 
+	WHERE
+		PageIndex.IndexID > @PageLowerBound AND
+		PageIndex.IndexID < @PageUpperBound AND
+		PageIndex.ThreadID = {databaseOwner}{objectQualifier}Forum_Posts.ThreadID AND	
+		{databaseOwner}{objectQualifier}Forum_Users.[UserID] = {databaseOwner}{objectQualifier}Forum_Posts.[UserID] AND
+		{databaseOwner}{objectQualifier}Forum_Posts.[ThreadID] = {databaseOwner}{objectQualifier}Forum_Threads.[ThreadID] AND 
+		{databaseOwner}{objectQualifier}Forum_Posts.[CreatedDate] > @FromDate AND
+		{databaseOwner}{objectQualifier}Forum_Posts.[CreatedDate] < @ToDate AND
+		{databaseOwner}{objectQualifier}Forum_Threads.[ForumID] = {databaseOwner}{objectQualifier}Forum_Forums.[ForumID] AND
+		({databaseOwner}{objectQualifier}Forum_Posts.[CreatedDate] = (SELECT MAX([CreatedDate]) FROM {databaseOwner}{objectQualifier}Forum_Posts WHERE ThreadID = PageIndex.ThreadID)) AND
+		({databaseOwner}{objectQualifier}Forum_Forums.ForumID NOT IN (SELECT ForumID FROM {databaseOwner}{objectQualifier}Forum_PrivateForums) OR 
+		{databaseOwner}{objectQualifier}Forum_Forums.ForumID IN (
+			SELECT ForumID 
+			FROM {databaseOwner}{objectQualifier}Forum_PrivateForums (nolock) 
+			WHERE (RoleID IN (SELECT RoleID FROM {databaseOwner}{objectQualifier}UserRoles (nolock) WHERE UserID = @UserID)
+			OR EXISTS (SELECT TOP 1 1 FROM {databaseOwner}{objectQualifier}Users WHERE UserID = @UserID and IsSuperUser=1)))) 	
+	ORDER BY
+		PageIndex.IndexID
+
+	GO
+
+
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Forum_ModeratePostApprove
+	(
+	@PostID			int,
+	@ApprovedBy		int,
+	@Notes			nvarchar(1024)
+	)
+AS
+
+	DECLARE @UserID	int
+	DECLARE @ForumID	int
+	DECLARE @ThreadID	int
+	DECLARE @GroupID	int
+
+	-- first make sure that the post is ALREADY non-approved
+	IF (SELECT [IsApproved] FROM {databaseOwner}{objectQualifier}Forum_Posts (nolock) WHERE [PostID] = @PostID) = 1
+	BEGIN
+		print 'Post is already approved'
+		SELECT -1
+		RETURN
+	END
+	ELSE
+	BEGIN
+		print 'Post is not approved'	
+		-- Approve the post
+		UPDATE 
+			{databaseOwner}{objectQualifier}Forum_Posts
+		SET 
+			[IsApproved] = 1,
+			[IsLocked] = 0
+		WHERE 
+			[PostID] = @PostID	
+
+		
+		-- Get author & threadid of this post
+		SELECT 
+			@UserID = [UserID], 
+			@ThreadID = [ThreadID] 
+		FROM 
+			{databaseOwner}{objectQualifier}Forum_Posts (nolock) WHERE [PostID] = @PostID
+
+		-- Get forumid of this thread
+		SELECT @ForumID = [ForumID] FROM {databaseOwner}{objectQualifier}Forum_Threads (nolock) WHERE ThreadID = @ThreadID
+
+		-- Get GroupID of this forum
+		SELECT @GroupID = [GroupID] FROM {databaseOwner}{objectQualifier}Forum_Forums WHERE ForumID = @ForumID
+		
+		-- Update the user's post count
+		EXEC {databaseOwner}{objectQualifier}Forum_AA_UserPostCountUpdate @UserID
+		EXEC {databaseOwner}{objectQualifier}Forum_AA_ForumPostCountUpdate @ForumID, @ThreadID, @PostID, @UserID, 'approve'
+		EXEC {databaseOwner}{objectQualifier}Forum_AA_UserThreadViewUpdate @UserID, @ThreadID, @ForumID, 0
+
+		INSERT INTO
+			{databaseOwner}{objectQualifier}Forum_ModerationAudit
+			(
+			[ModeratedOn],
+			[PostID],
+			[ModeratedBy],
+			[ModerationAction],
+			[Notes]
+			)
+		VALUES
+			(
+			GetDate(), 
+			@PostID, 
+			@ApprovedBy, 
+			'Approve', 
+			@Notes
+			)
+		
+		SELECT @GroupID
+	END
+		
+	GO
+
+--clean up any orphan data
+--before we create the constraint
+	UPDATE {databaseOwner}{objectQualifier}Forum_Threads
+	SET LastPostedPostID = 
+		(SELECT Max(FP.PostID) 
+		FROM {databaseOwner}{objectQualifier}Forum_Posts FP
+		WHERE FP.ThreadID = {databaseOwner}{objectQualifier}Forum_Threads.ThreadID
+		AND IsApproved = 1)
+	WHERE LastPostedPostID IN
+		(SELECT LastPostedPostID FROM {databaseOwner}{objectQualifier}Forum_Threads
+		WHERE LastPostedPostID NOT IN
+			(SELECT PostID FROM {databaseOwner}{objectQualifier}Forum_Posts))
+	
+	ALTER TABLE {databaseOwner}{objectQualifier}Forum_Threads ADD CONSTRAINT
+		FK_{objectQualifier}Forum_Threads_{objectQualifier}Forum_Posts FOREIGN KEY
+		(
+		LastPostedPostID
+		) REFERENCES {databaseOwner}{objectQualifier}Forum_Posts
+		(
+		PostID
+		)
+	GO
+	
+	
+
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Forum_ModeratePostDelete
+(	
+	@PostID int, 
+	@DeletedBy int, 
+	@Notes nvarchar(1024)
+)
+AS
+-- Get related threadid
+DECLARE @UserID int
+DECLARE @ThreadID int
+DECLARE @ForumID int
+-- Get threadid & forumid of this post, and update forum moderate post count of the forum
+	SELECT 
+		@ThreadID = [ThreadID],
+		@UserID = [UserID]
+	FROM 
+		{databaseOwner}{objectQualifier}Forum_Posts (nolock) 
+	WHERE 
+		PostID = @PostID
+	SELECT @ForumID = [ForumID] FROM {databaseOwner}{objectQualifier}Forum_Threads (nolock) WHERE ThreadID = @ThreadID	
+
+	-- Delete the post
+	EXEC {databaseOwner}{objectQualifier}Forum_PostDelete @PostID
+	
+	-- Decrease post to moderated count of the forum
+	EXEC {databaseOwner}{objectQualifier}Forum_AA_ForumPostCountUpdate @ForumID, @ThreadID, @PostID, @UserID, 'delete'
+
+	-- Increase moderator approved posts count
+	INSERT INTO
+		{databaseOwner}{objectQualifier}Forum_ModerationAudit
+		(
+		[ModeratedOn],
+		[PostID],
+		[ModeratedBy],
+		[ModerationAction],
+		[Notes]
+		)
+	VALUES
+		(
+		GetDate(), 
+		@PostID, 
+		@DeletedBy, 
+		'Delete', 
+		@Notes
+		)
+
+GO
+
+update {databaseOwner}{objectQualifier}Forum_Posts
+set UpdatedDate = CreatedDate
+where UpdatedDate is null
+GO
+
+drop procedure {databaseOwner}{objectQualifier}Forum_ThreadSearch
+GO
+
+-- Implement DNN 3.0 search feature
+CREATE PROCEDURE {databaseOwner}{objectQualifier}Forum_ThreadSearch
+(
+@ModuleID int,
+@StartDate datetime
+)
+AS
+SELECT
+	P.[ThreadID],
+	P.[PostID],
+	P.[Subject],
+	P.[Body],
+	P.[CreatedDate],	
+	P.[UserID] AS CreatedByUser,	
+	P.[UpdatedDate],	
+	P.[UpdatedByUser],	
+	T.[ForumID]
+FROM
+	{databaseOwner}{objectQualifier}Forum_Posts P (nolock) , {databaseOwner}{objectQualifier}Forum_Threads T (nolock) ,  {databaseOwner}{objectQualifier}Forum_Forums F (nolock) , {databaseOwner}{objectQualifier}Forum_Groups G (nolock)
+WHERE
+	P.ThreadID = T.ThreadID and
+	T.ForumID = F.ForumID and
+	F.GroupID = G.GroupID and
+	G.ModuleID = @ModuleID and
+        ( P.[UpdatedDate] >= @StartDate or @StartDate is null )
+
+GO

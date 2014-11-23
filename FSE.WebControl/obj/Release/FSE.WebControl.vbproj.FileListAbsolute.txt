@@ -1,0 +1,2 @@
+C:\inetpub\wwwroot\NTP_Nam\FSE.WebControl\bin\Release\FSE.WebControl.dll
+C:\inetpub\wwwroot\NTP_Nam\FSE.WebControl\obj\Release\FSE.WebControl.dll

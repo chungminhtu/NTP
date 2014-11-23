@@ -1,0 +1,178 @@
+
+&nbsp;&nbsp;<br />
+ <div id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_PnlPhieuXN">
+	
+<br />
+
+<fieldset class="ntp_fieldset" style="width: 810px">
+        &nbsp;
+    <input type="hidden" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$Maskededitextender2_ClientState" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_Maskededitextender2_ClientState" />
+    <input type="hidden" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$Maskededitextender1_ClientState" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_Maskededitextender1_ClientState" />
+    <table style="width: 804px">
+        <tr>
+            <td style="width: 82px">
+                <span id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_Label12" class="ntp_label" style="display:inline-block;width:66px;">Tỉnh</span></td>
+            <td colspan="2">
+                <select name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$cboTinh" onchange="javascript:setTimeout('__doPostBack(\'dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$cboTinh\',\'\')', 0)" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_cboTinh" tabindex="3" class="ntp_combobox" style="width:193px;">
+		<option selected="selected" value="52">Cần Thơ</option>
+
+	</select></td>
+            <td style="width: 59px">
+                <span id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_Label13" class="ntp_label" style="display:inline-block;width:66px;">Huyện</span></td>
+            <td colspan="2">
+                <select name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$CmbHuyen" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_CmbHuyen" tabindex="2" class="ntp_combobox" style="width:201px;">
+		<option value="5211">Ninh kiều</option>
+
+	</select></td>
+            <td colspan="3">
+                <table id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_OptDVDT" border="0" style="height:1px;width:244px;">
+		<tr>
+			<td><input id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_OptDVDT_0" type="radio" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$OptDVDT" value="1" checked="checked" tabindex="5" /><label for="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_OptDVDT_0">Tại ĐV điều trị</label></td><td><input id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_OptDVDT_1" type="radio" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$OptDVDT" value="0" onclick="javascript:setTimeout('__doPostBack(\'dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$OptDVDT$1\',\'\')', 0)" tabindex="5" /><label for="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_OptDVDT_1">ĐV điều trị khác</label></td>
+		</tr>
+	</table></td>
+        </tr>
+        <tr>
+            <td style="width: 82px">
+                <span id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_Label11" class="ntp_label" style="display:inline-block;width:86px;">Từ Ngày XN</span></td>
+            <td style="width: 54px">
+                <input name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$txtTuNgay" type="text" value="01/10/2013" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_txtTuNgay" tabindex="6" class="ntp_textbox" style="width:90px;" /></td>
+            <td style="width: 77px">
+                <span id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_Label7" class="ntp_label" style="display:inline-block;width:64px;">đến ngày</span></td>
+            <td style="width: 59px">
+                <input name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$TxtDenngay" type="text" value="01/11/2013" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_TxtDenngay" tabindex="6" class="ntp_textbox" style="width:90px;" /></td>
+            <td style="width: 70px">
+                <span id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_Label1" class="ntp_label" style="display:inline-block;width:79px;">Mã BNQL</span></td>
+            <td style="width: 100px">
+                <input name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$TxtMaBN" type="text" maxlength="50" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_TxtMaBN" tabindex="6" class="ntp_textbox" style="width:113px;" /></td>
+            <td colspan="3">
+                </td>
+        </tr>
+        <tr>
+            <td style="width: 82px">
+                <span id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_Label2" class="ntp_label" style="display:inline-block;width:85px;">Họ tên BN</span></td>
+            <td colspan="3">
+                <input name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$TxtHotenTK" type="text" maxlength="50" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_TxtHotenTK" tabindex="6" class="ntp_textbox" style="width:255px;" /></td>
+            <td style="width: 70px">
+                <span id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_Label8" class="ntp_label" style="display:inline-block;width:79px;">Số CMND</span></td>
+            <td style="width: 100px">
+                <input name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$TxtSoCMTTK" type="text" maxlength="50" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_TxtSoCMTTK" tabindex="6" class="ntp_textbox" style="width:113px;" /></td>
+            <td style="width: 102px">
+                </td>
+            <td colspan="2">
+                </td>
+        </tr>
+        <tr>
+            <td style="width: 82px; height: 17px">
+                <span id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_Label10" class="ntp_label" style="display:inline-block;width:85px;">Địa chỉ</span></td>
+            <td colspan="7" style="height: 17px">
+                <input name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$TxtDiachiTK" type="text" maxlength="50" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_TxtDiachiTK" tabindex="6" class="ntp_textbox" style="width:531px;" /></td>
+            <td style="width: 125px; height: 17px">
+                <input type="submit" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$cmdTim" value="Tìm" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_cmdTim" class="ntp_button" style="height:25px;width:99px;" /></td>
+        </tr>
+    </table>
+    <br />
+
+    <table cellspacing="0" rules="all" border="1" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan" style="width:102%;border-collapse:collapse;">
+		<tr class="ntp_grd_HeaderStyle">
+			<td style="width:5%;">&nbsp;</td><td style="width:10%;">STT</td><td style="width:25%;">Họ tên bệnh nhân</td><td style="width:15%;">Số CMTND</td><td style="width:10%;">Tuổi</td><td style="width:10%;">Giới tính</td><td style="width:10%;">Lý do XN</td><td>Kếtquả XN</td><td style="width:8%;">MaBNQL</td>
+		</tr><tr class="ntp_grd_RowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
+			<td>
+<input type="image" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl03$cmdEdit" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl03_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" /> 
+</td><td>557799</td><td>NGUYỄN THANH QUANG</td><td>&nbsp;</td><td>47</td><td>Nam</td><td>Phát hiện</td><td>Âm</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_AltRowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
+			<td>
+<input type="image" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl04$cmdEdit" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl04_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" /> 
+</td><td>557797</td><td>TRẦN TRUNG KIÊN</td><td>&nbsp;</td><td>47</td><td>Nam</td><td>Phát hiện</td><td>Âm</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_RowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
+			<td>
+<input type="image" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl05$cmdEdit" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl05_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" /> 
+</td><td>557794</td><td>MAI THỊ MỸ DUNG</td><td>&nbsp;</td><td>51</td><td>Nữ</td><td>Phát hiện</td><td>Âm</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_AltRowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
+			<td>
+<input type="image" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl06$cmdEdit" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl06_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" /> 
+</td><td>557792</td><td>PHAN THANH TOÀN</td><td>&nbsp;</td><td>40</td><td>Nam</td><td>Phát hiện</td><td>Âm</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_RowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
+			<td>
+<input type="image" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl07$cmdEdit" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl07_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" /> 
+</td><td>557789</td><td>NGUYỄN THANH SƠN</td><td>&nbsp;</td><td>37</td><td>Nam</td><td>Phát hiện</td><td>Âm</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_AltRowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
+			<td>
+<input type="image" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl08$cmdEdit" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl08_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" /> 
+</td><td>557787</td><td>TRẦN HẠ QUYÊN</td><td>&nbsp;</td><td>25</td><td>Nữ</td><td>Phát hiện</td><td>Âm</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_RowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
+			<td>
+<input type="image" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl09$cmdEdit" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl09_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" /> 
+</td><td>557784</td><td>BÙI THỊ ÚT LAN</td><td>&nbsp;</td><td>33</td><td>Nữ</td><td>Phát hiện</td><td>Âm</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_AltRowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
+			<td>
+<input type="image" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl10$cmdEdit" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl10_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" /> 
+</td><td>557783</td><td>BÙI THỊ HỒNG CÚC</td><td>&nbsp;</td><td>46</td><td>Nữ</td><td>Phát hiện</td><td>Âm</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_RowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
+			<td>
+<input type="image" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl11$cmdEdit" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl11_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" /> 
+</td><td>557780</td><td>PHẠM VĂN SÁU</td><td>&nbsp;</td><td>52</td><td>Nam</td><td>Phát hiện</td><td>Âm</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_AltRowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
+			<td>
+<input type="image" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl12$cmdEdit" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl12_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" /> 
+</td><td>557776</td><td>LÊ NGỌC PHƯƠNG MAI</td><td>&nbsp;</td><td>29</td><td>Nữ</td><td>Phát hiện</td><td>Âm</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_PagerStyle">
+			<td colspan="9"><span>1</span>&nbsp;<a href="javascript:__doPostBack('dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl01','')">2</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl02','')">3</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl03','')">4</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl04','')">5</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl05','')">6</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl06','')">7</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl07','')">8</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl08','')">9</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl09','')">10</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl10','')">...</a></td>
+		</tr>
+	</table>
+      &nbsp;<br />
+    <span id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_Label4" class="ntp_label" style="display:inline-block;width:492px;">Ghi chú: (*) Bệnh nhân từ nơi khác chuyển đến</span>
+              </fieldset>
+<fieldset class="ntp_fieldset" style="width: 828px; height: 541px;">
+         <table class="ntp_table_main">
+         <tr>
+            <td style="height: 24px; width: 14%;">
+                <span id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_Label3" class="ntp_label" style="display:inline-block;width:118px;">Họ tên bệnh nhân</span></td>
+            <td colspan="2" width="80%" style="width: 50%">
+                <input name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$txtTenBenhNhan" type="text" maxlength="50" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_txtTenBenhNhan" disabled="disabled" tabindex="4" class="ntp_textbox" style="width:100%;" />
+                </td>
+            <td colspan="2" valign="top">
+                <input name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$txtMaBenhNhan" type="text" maxlength="50" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_txtMaBenhNhan" disabled="disabled" tabindex="5" class="ntp_textbox" style="width:136px;" />
+                </td>
+            <td colspan="2" valign="top" style="width: 6px">
+                </td>
+        </tr>
+             <tr>
+                 <td style="width: 14%; height: 24px">
+                 </td>
+                 <td align="center" colspan="2" style="width: 50%" width="80%">
+                     <input type="submit" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$cmdAdd" value="Thêm" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_cmdAdd" tabindex="8" class="ntp_button" style="width:100px;" />
+<input type="submit" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$CmdIn" value="In  XNBN" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_CmdIn" tabindex="8" class="ntp_button" style="width:100px;" />
+    
+              <input type="submit" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$cmdDelete" value="Xoá" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_cmdDelete" tabindex="10" class="ntp_button" style="width:100px;" />
+                   
+                  
+                  </td>
+                 <td colspan="2" valign="top">
+                 </td>
+                 <td colspan="2" style="width: 6px" valign="top">
+                 </td>
+             </tr>
+          <tr>
+          <td style="width: 100%;" colspan="7">
+        <table class="ntp_grd_GridViewStyle" cellspacing="0" rules="all" border="1" id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_grdDSXetNghiem" style="width:100%;border-collapse:collapse;">
+		<tr class="ntp_grd_HeaderStyle">
+			<td style="width:2%;"><input id="dnn_ctr503_ViewNTP_BN_PHIEUXETNGHIEM_grdDSXetNghiem_ctl02_chkAll" type="checkbox" name="dnn$ctr503$ViewNTP_BN_PHIEUXETNGHIEM$grdDSXetNghiem$ctl02$chkAll" onclick="msgCheckAll(this);" /></td><td style="width:5%;">&nbsp;</td><td style="width:5%;">Số XN</td><td style="width:10%;">Ngày nhận mẫu</td><td style="width:20%;">Lý do xét nghiệm</td><td style="width:15%;">Phân loại y tế</td><td style="width:20%;">Kết quả XN</td><td style="width:20%;">Đơn vị XN</td><td style="width:10%;">Số ĐKĐT</td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_PagerStyle">
+			<td colspan="12"><span>1</span></td>
+		</tr>
+	</table>
+              &nbsp;&nbsp;
+              </td>
+              </tr>
+              </table>
+    <br />
+    <br />
+    <br />
+    &nbsp;<br />
+              </fieldset>
+              
+</div> 

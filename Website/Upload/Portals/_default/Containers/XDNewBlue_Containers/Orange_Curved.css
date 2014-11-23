@@ -1,0 +1,28 @@
+/* 
+================================
+ Container Styles for DotNetNuke - XDMediaMadness Themes - dnn3@xd.com.au
+ Updated March 2008 for DNN 4.5 and above 
+ Copyright Nina Meiers - Credits must remain in file.
+ http://www.xd.com.au
+================================
+*/  
+
+/* Border Colour around the Conatiner */
+.Orange_Curved_Master { width: 100%; background-color: transparent; border: #F1A459 1px solid; padding: 0px; }
+
+/* Container Title Formatting */
+.Orange_Curved_Title {font-family: Tahoma;font-size: 12px;color: #ffffff;  /* Change Title Color HERE */font-weight: bolder; }
+
+/* Manages the color and padding of text & padding in container contentpane
+   You cannot modify the font-family through this element */
+.Orange_Curved_Content {padding-left: 6px;padding-right: 6px;padding-top: 6px;padding-bottom: 6px;font-size: 15px;color: #404040; }
+
+.Orange_Curved01 {background: url(OrangePix/XDCurve_01.gif) repeat-x; height: 27px; }
+.Orange_Curved02 {background: url(OrangePix/XDCurve_02.gif) no-repeat; width: 80px; height: 27px; }
+.Orange_Curved03 {background: url(OrangePix/XDCurve_03.gif) repeat-x; height: 27px; }
+.Orange_Curved04 {background: url(OrangePix/XDCurve_04.gif) repeat-x; height: 27px; }
+.Orange_Curved05 {background: url(OrangePix/XDCurve_05.gif) no-repeat; width: 100px; height: 27px; }
+
+/* use for extra formatting - effect is page wide - so use with care */
+/* p {margin: 0px; }*/
+

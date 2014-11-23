@@ -1,0 +1,66 @@
+
+
+<table class="ntp_table_main">
+    <tr>
+        <td width="20%" style="height: 26px">
+        </td>
+        <td colspan="2" width="80%" style="height: 26px">
+            <input type="submit" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$cmdAdd" value="Thêm mới" id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_cmdAdd" class="ntp_button" style="width:100px;" />&nbsp;
+            <input type="submit" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$cmdDelete" value="Xóa" id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_cmdDelete" class="ntp_button" style="width:100px;" /></td>
+    </tr>
+    <tr>
+        <td colspan="3" width="20%">
+         <table class="ntp_grd_GridViewStyle" cellspacing="0" rules="all" border="1" id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS" style="width:100%;border-collapse:collapse;">
+	<tr class="ntp_grd_HeaderStyle">
+		<td style="width:2%;"><input id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl02_chkAll" type="checkbox" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl02$chkAll" onclick="msgCheckAll(this);" /></td><td style="width:2%;">&nbsp;</td><td style="width:50%;">Tên nguồn nhân lực</td><td style="width:40%;">Phân loại</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl03_chkItem" type="checkbox" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl03$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl03$cmdEdit" id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl03_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Bác sỹ</td><td>0</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl04_chkItem" type="checkbox" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl04$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl04$cmdEdit" id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl04_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Y sĩ</td><td>0</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl05_chkItem" type="checkbox" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl05$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl05$cmdEdit" id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl05_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Y tá/ Nữ hộ sinh</td><td>0</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl06_chkItem" type="checkbox" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl06$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl06$cmdEdit" id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl06_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Xét nghiệm viên</td><td>0</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl07_chkItem" type="checkbox" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl07$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl07$cmdEdit" id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl07_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Dược sĩ</td><td>0</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl08_chkItem" type="checkbox" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl08$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl08$cmdEdit" id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl08_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Dược trung</td><td>0</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl09_chkItem" type="checkbox" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl09$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl09$cmdEdit" id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl09_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Dược tá</td><td>0</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl10_chkItem" type="checkbox" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl10$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl10$cmdEdit" id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl10_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Tư vấn viên</td><td>0</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl11_chkItem" type="checkbox" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl11$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl11$cmdEdit" id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl11_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Cán bộ phụ trách lao/HIV</td><td>0</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl12_chkItem" type="checkbox" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl12$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+<input type="image" name="dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl12$cmdEdit" id="dnn_ctr502_ViewNTP_BN_DM_NGUONNHANLUC_grdDS_ctl12_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+</td><td>Khác (ghi rõ)</td><td>0</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr class="ntp_grd_PagerStyle">
+		<td colspan="4"><span>1</span>&nbsp;<a href="javascript:__doPostBack('dnn$ctr502$ViewNTP_BN_DM_NGUONNHANLUC$grdDS$ctl14$ctl01','')">2</a></td>
+	</tr>
+</table>
+            &nbsp;</td>
+    </tr>
+</table>
+
+

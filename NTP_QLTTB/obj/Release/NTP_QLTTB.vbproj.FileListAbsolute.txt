@@ -1,0 +1,15 @@
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\bin\Release\NTP_QLTTB.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\bin\Release\NTP_QLTTB.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\bin\Release\NTP_QLTTB.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\bin\Release\NTP_Common.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\bin\Release\NTP_DAL.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\bin\Release\NTP_Common.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\bin\Release\NTP_Common.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\bin\Release\NTP_DAL.pdb
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\bin\Release\NTP_DAL.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\obj\Release\NTP_QLTTB.vbprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\obj\Release\NTP_QLTTB.Resources.resources
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\obj\Release\NTP_QLTTB.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\obj\Release\NTP_QLTTB.dll
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\obj\Release\NTP_QLTTB.xml
+C:\inetpub\wwwroot\NTP_Nam\NTP_QLTTB\obj\Release\NTP_QLTTB.pdb

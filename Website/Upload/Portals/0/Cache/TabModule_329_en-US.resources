@@ -1,0 +1,73 @@
+
+<table cellspacing="2" cellpadding="2" summary="Edit HTML Design Table" border="0">
+    <tr valign="top">
+        <td colspan="2"><table id="dnn_ctr640_EditHTML_teContent_tblTextEditor" cellspacing="2" cellpadding="2" summary="Edit HTML Design Table" border="0" width="660px">
+	<tr valign="top">
+		<td align="center">
+		    <div id="dnn_ctr640_EditHTML_teContent_pnlOption">
+			
+				<table id="dnn_ctr640_EditHTML_teContent_optView" class="NormalTextBox" border="0">
+				<tr>
+					<td><input id="dnn_ctr640_EditHTML_teContent_optView_0" type="radio" name="dnn$ctr640$EditHTML$teContent$optView" value="BASIC" onclick="javascript:setTimeout('__doPostBack(\'dnn$ctr640$EditHTML$teContent$optView$0\',\'\')', 0)" /><label for="dnn_ctr640_EditHTML_teContent_optView_0">Basic Text Box</label></td><td><input id="dnn_ctr640_EditHTML_teContent_optView_1" type="radio" name="dnn$ctr640$EditHTML$teContent$optView" value="RICH" checked="checked" /><label for="dnn_ctr640_EditHTML_teContent_optView_1">Rich Text Editor</label></td>
+				</tr>
+			</table>
+			
+		</div>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td id="dnn_ctr640_EditHTML_teContent_celTextEditor" width="660px">
+		    <div id="dnn_ctr640_EditHTML_teContent_pnlRichTextBox">
+			
+				<div style="width:660px;"><input type="hidden" id="dnn_ctr640_EditHTML_teContent_teContent" name="dnn$ctr640$EditHTML$teContent$teContent" value="&lt;table border=&quot;0&quot;&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Hỗ trợ 1&lt;/td&gt;
+            &lt;td&gt;Hỗ trợ 2&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;a href=&quot;ymsgr:sendim?ctclqg1&quot;&gt;&lt;img border=&quot;0&quot; alt=&quot;&quot; style=&quot;width: 81px; height: 25px&quot; src=&quot;http://opi.yahoo.com/online?u=ctclqg1&amp;amp;m=g&amp;amp;t=2&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;&lt;a href=&quot;ymsgr:sendim?ctclqg&quot;&gt;&lt;img border=&quot;0&quot; alt=&quot;&quot; style=&quot;width: 78px; height: 25px&quot; src=&quot;http://opi.yahoo.com/online?u=ctclqg&amp;amp;m=g&amp;amp;t=2&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;sao em o in bao cao quy duoc&lt;/p&gt;
+&lt;p&gt;&amp;#160;&lt;/p&gt;" /><input type="hidden" id="dnn_ctr640_EditHTML_teContent_teContent___Config" value="FlashBrowserWindowWidth=700&amp;fckSource=false&amp;StylesXmlPath=/ntp/Providers/HtmlEditorProviders/Fck/FCKeditor/fckstyles.xml&amp;LinkBrowserWindowHeight=340&amp;ImageBrowserWindowWidth=700&amp;CustomConfigurationsPath=/ntp/Providers/HtmlEditorProviders/Fck/custom/FCKConfig.js&amp;FlashUploadURL=/ntp/Providers/HtmlEditorProviders/Fck/fckimagegallery.aspx?Type%3DFlash%26Command%3DFileUpload%26tabid%3D197%26RootFolder%3D/Portals/0/%26CurrentFolder%3D/&amp;ToolbarCanCollapse=true&amp;EditorAreaCSS=/ntp/Providers/HtmlEditorProviders/Fck/FCKeditor/editor/css/fck_editorarea.css&amp;SkinPath=/ntp/Providers/HtmlEditorProviders/Fck/FCKeditor/editor/skins/Office2003/&amp;ImageBrowserWindowHeight=600&amp;PreventSubmitHandler=true&amp;ImageBrowserURL=/ntp/Providers/HtmlEditorProviders/Fck/fckimagegallery.aspx?FCKTheme%3DDefault%26Type%3DImage%26tabid%3D197%26RootFolder%3D/Portals/0/%26CurrentFolder%3D/&amp;LinkBrowserURL=/ntp/Providers/HtmlEditorProviders/Fck/fcklinkgallery.aspx?FCKTheme%3DDefault%26tabid%3D197&amp;DefaultLanguage=en&amp;AutoDetectLanguage=false&amp;FullPage=false&amp;ImageUploadURL=/ntp/Providers/HtmlEditorProviders/Fck/fckimagegallery.aspx?Type%3DImage%26Command%3DFileUpload%26tabid%3D197%26RootFolder%3D/Portals/0/%26CurrentFolder%3D/&amp;FlashBrowserURL=/ntp/Providers/HtmlEditorProviders/Fck/fckimagegallery.aspx?FCKTheme%3DDefault%26Type%3DFlash%26tabid%3D197%26RootFolder%3D/Portals/0/%26CurrentFolder%3D/&amp;FlashBrowserWindowHeight=600&amp;LinkBrowserWindowWidth=400" /><iframe id="dnn_ctr640_EditHTML_teContent_teContent___Frame" src="/ntp/Providers/HtmlEditorProviders/Fck/FCKeditor/editor/fckeditor.html?InstanceName=dnn_ctr640_EditHTML_teContent_teContent&amp;Toolbar=DNNDefault" width="660px" height="400px" frameborder="no" scrolling="no"></iframe></div>
+			
+		</div>
+		</td>
+	</tr>
+</table>
+
+</td>
+    </tr>
+    <tr height="10"><td></td></tr>
+    <tr>
+        <td class="SubHead"><label id="dnn_ctr640_EditHTML_plDesktopSummary_label" for="dnn_ctr640_EditHTML_txtDesktopSummary">
+  <a onclick="if (__dnn_SectionMaxMin(this,  'dnn_ctr640_EditHTML_plDesktopSummary_pnlHelp')) return false;" id="dnn_ctr640_EditHTML_plDesktopSummary_cmdHelp" tabindex="-1" href="javascript:__doPostBack('dnn$ctr640$EditHTML$plDesktopSummary$cmdHelp','')"><img id="dnn_ctr640_EditHTML_plDesktopSummary_imgHelp" src="/ntp/images/help.gif" alt="You can provide a summary to help the Search Engine Index this page" style="border-width:0px;" /></a>
+  <span id="dnn_ctr640_EditHTML_plDesktopSummary_lblLabel">Search Summary (Optional):</span>
+</label>
+<br/>
+<div id="dnn_ctr640_EditHTML_plDesktopSummary_pnlHelp" class="Help" style="display:none;">
+	
+  <span id="dnn_ctr640_EditHTML_plDesktopSummary_lblHelp">You can provide a summary to help the Search Engine Index this page</span>
+
+</div>
+</td>
+    </tr>
+    <tr>
+        <td><textarea name="dnn$ctr640$EditHTML$txtDesktopSummary" rows="10" cols="75" id="dnn_ctr640_EditHTML_txtDesktopSummary" class="NormalTextBox" style="width:600px;"></textarea></td>
+    </tr>
+</table>
+<p>
+    <a id="dnn_ctr640_EditHTML_cmdUpdate" title="Update" class="CommandButton" href="javascript:__doPostBack('dnn$ctr640$EditHTML$cmdUpdate','')" style="display:inline-block;border-style:None;">Update</a>&nbsp;
+    <a id="dnn_ctr640_EditHTML_cmdCancel" title="Cancel" class="CommandButton" href="javascript:__doPostBack('dnn$ctr640$EditHTML$cmdCancel','')" style="display:inline-block;border-style:None;">Cancel</a>&nbsp;
+    <a id="dnn_ctr640_EditHTML_cmdPreview" title="Preview" class="CommandButton" href="javascript:__doPostBack('dnn$ctr640$EditHTML$cmdPreview','')" style="display:inline-block;border-style:None;">Preview</a>&nbsp;
+</p>
+<table cellspacing="0" cellpadding="0" width="600">
+    <tr valign="top">
+        <td><span id="dnn_ctr640_EditHTML_lblPreview" class="Normal"></span></td>
+    </tr>
+</table>
+
+

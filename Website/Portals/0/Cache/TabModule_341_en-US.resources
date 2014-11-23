@@ -1,0 +1,53 @@
+
+<table width="650" cellspacing="0" cellpadding="0" border="0" summary="Edit Table">
+	<tr valign="top">
+		<td class="SubHead" width="125"><label id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_lblContent_label" for="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_lblContent">
+  <a onclick="if (__dnn_SectionMaxMin(this,  'dnn_ctr648_EditNTP_BAOCAOTUYENTINH_lblContent_pnlHelp')) return false;" id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_lblContent_cmdHelp" tabindex="-1" href="javascript:__doPostBack('dnn$ctr648$EditNTP_BAOCAOTUYENTINH$lblContent$cmdHelp','')"><img id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_lblContent_imgHelp" src="/NTP/images/help.gif" alt="Enter the Content" style="border-width:0px;" /></a>
+  <span id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_lblContent_lblLabel">Content:</span>
+</label>
+<br/>
+<div id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_lblContent_pnlHelp" class="Help" style="display:none;">
+	
+  <span id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_lblContent_lblHelp">Enter the Content</span>
+
+</div>
+</td>
+		<td>
+			<table id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_txtContent_tblTextEditor" cellspacing="2" cellpadding="2" summary="Edit HTML Design Table" border="0" width="500px">
+	<tr valign="top">
+		<td align="center">
+		    <div id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_txtContent_pnlOption">
+			
+				<table id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_txtContent_optView" class="NormalTextBox" border="0">
+				<tr>
+					<td><input id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_txtContent_optView_0" type="radio" name="dnn$ctr648$EditNTP_BAOCAOTUYENTINH$txtContent$optView" value="BASIC" onclick="javascript:setTimeout('__doPostBack(\'dnn$ctr648$EditNTP_BAOCAOTUYENTINH$txtContent$optView$0\',\'\')', 0)" /><label for="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_txtContent_optView_0">Basic Text Box</label></td><td><input id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_txtContent_optView_1" type="radio" name="dnn$ctr648$EditNTP_BAOCAOTUYENTINH$txtContent$optView" value="RICH" checked="checked" /><label for="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_txtContent_optView_1">Rich Text Editor</label></td>
+				</tr>
+			</table>
+			
+		</div>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_txtContent_celTextEditor" width="500px">
+		    <div id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_txtContent_pnlRichTextBox">
+			
+				<div style="width:500px;"><input type="hidden" id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_txtContent_txtContent" name="dnn$ctr648$EditNTP_BAOCAOTUYENTINH$txtContent$txtContent" value="" /><input type="hidden" id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_txtContent_txtContent___Config" value="FlashBrowserWindowWidth=700&amp;fckSource=false&amp;StylesXmlPath=/NTP/Providers/HtmlEditorProviders/Fck/FCKeditor/fckstyles.xml&amp;LinkBrowserWindowHeight=340&amp;ImageBrowserWindowWidth=700&amp;CustomConfigurationsPath=/NTP/Providers/HtmlEditorProviders/Fck/custom/FCKConfig.js&amp;FlashUploadURL=/NTP/Providers/HtmlEditorProviders/Fck/fckimagegallery.aspx?Type%3DFlash%26Command%3DFileUpload%26tabid%3D138%26RootFolder%3D/Portals/0/%26CurrentFolder%3D/&amp;ToolbarCanCollapse=true&amp;EditorAreaCSS=/NTP/Providers/HtmlEditorProviders/Fck/FCKeditor/editor/css/fck_editorarea.css&amp;SkinPath=/NTP/Providers/HtmlEditorProviders/Fck/FCKeditor/editor/skins/Office2003/&amp;ImageBrowserWindowHeight=600&amp;PreventSubmitHandler=true&amp;ImageBrowserURL=/NTP/Providers/HtmlEditorProviders/Fck/fckimagegallery.aspx?FCKTheme%3DDefault%26Type%3DImage%26tabid%3D138%26RootFolder%3D/Portals/0/%26CurrentFolder%3D/&amp;LinkBrowserURL=/NTP/Providers/HtmlEditorProviders/Fck/fcklinkgallery.aspx?FCKTheme%3DDefault%26tabid%3D138&amp;DefaultLanguage=en&amp;AutoDetectLanguage=false&amp;FullPage=false&amp;ImageUploadURL=/NTP/Providers/HtmlEditorProviders/Fck/fckimagegallery.aspx?Type%3DImage%26Command%3DFileUpload%26tabid%3D138%26RootFolder%3D/Portals/0/%26CurrentFolder%3D/&amp;FlashBrowserURL=/NTP/Providers/HtmlEditorProviders/Fck/fckimagegallery.aspx?FCKTheme%3DDefault%26Type%3DFlash%26tabid%3D138%26RootFolder%3D/Portals/0/%26CurrentFolder%3D/&amp;FlashBrowserWindowHeight=600&amp;LinkBrowserWindowWidth=400" /><iframe id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_txtContent_txtContent___Frame" src="/NTP/Providers/HtmlEditorProviders/Fck/FCKeditor/editor/fckeditor.html?InstanceName=dnn_ctr648_EditNTP_BAOCAOTUYENTINH_txtContent_txtContent&amp;Toolbar=DNNDefault" width="500px" height="200px" frameborder="no" scrolling="no"></iframe></div>
+			
+		</div>
+		</td>
+	</tr>
+</table>
+
+
+			<span id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_valContent" class="NormalRed" style="color:Red;display:none;"><br>Content is required</span>
+		</td>
+	</tr>
+</table>
+<p>
+    <a id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_cmdUpdate" title="Update" class="CommandButton" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr648$EditNTP_BAOCAOTUYENTINH$cmdUpdate&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="display:inline-block;border-style:None;">Update</a>&nbsp;
+    <a id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_cmdCancel" title="Cancel" class="CommandButton" href="javascript:__doPostBack('dnn$ctr648$EditNTP_BAOCAOTUYENTINH$cmdCancel','')" style="display:inline-block;border-style:None;">Cancel</a>&nbsp;
+    <a id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_cmdDelete" title="Delete" class="CommandButton" href="javascript:__doPostBack('dnn$ctr648$EditNTP_BAOCAOTUYENTINH$cmdDelete','')" style="display:inline-block;border-style:None;">Delete</a>&nbsp;
+</p>
+<span id="dnn_ctr648_EditNTP_BAOCAOTUYENTINH_ctlAudit_lblCreatedBy" class="SubHead">Last Updated By  On </span>
+
+

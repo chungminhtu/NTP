@@ -1,0 +1,29 @@
+Third Party Acknowledgements
+==============================================================================
+
+
+Tam Tran Minh (http://www.tttcompany.com)
+- Original module author 
+
+Chris Paterra & Bryan Andrews (http://www.apptheory.com)
+- DotNetNuke Core Integration and functionality
+
+Joe Brinkman & Dan Caron
+- Module changes prior to Core integration.
+
+Inspired by Riverview Forums and ASP.NET Forums
+
+Nina Meiers (http://www.xd.com.au)
+- Simply Clean Theme (Seperate download)
+- DNNSilver Theme 
+
+
+Tracy Wittenkeller (http://www.t-worx.com)
+- Additional Theme Icons
+
+Project Team:
+Tam Tran Minh
+Chris Paterra
+Jay Mathis
+Huy
+Fayez

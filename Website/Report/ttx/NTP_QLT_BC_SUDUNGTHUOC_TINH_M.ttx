@@ -1,0 +1,32 @@
+ID_CHITIET	number
+ID_BAOCAO	number
+ID_KHO	number
+TYPE	number
+ID_THUOC	number
+ID_NGUONKINHPHI	number
+ID_MATINH
+TD_SOLUONG	number
+TD_HANDUNG	string	500
+TD_LOSX	string	500
+N_SOLUONG	number
+N_LOSX	string	500
+N_HANDUNG	string	500
+TRA_LAI	number
+THUA	number
+X_SUDUNG_TOANTINH	number
+X_TINH_THIEU	number
+X_TINH_HONG_VO	number
+X_HUYEN_HONGVO	number
+X_HUYEN_DIEUCHUYEN	number
+TC_SOLUONG	number
+TC_LOSX	string	500
+TC_HANDUNG	string	500
+GHI_CHU	string	500
+ten_donvi	string	500
+nam	number
+quy	number
+ten_tinh	string	500
+ten_thuoc	string	500
+ten_nuoc	string	500
+mo_ta	string	500
+ten_dvt	string	500

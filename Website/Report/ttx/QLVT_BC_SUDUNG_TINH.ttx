@@ -1,0 +1,18 @@
+TEN_BENHVIEN	string	500
+QUY	number
+NAM	number
+TEN_BENHVIEN	string 500
+TON_DAU	number
+NHAP	number
+TRA_LAI	number
+THUA	number
+XUAT	number
+THIEU	number
+HONG_TINH	number
+DIEU_CHUYEN	number
+ID_NGUONKINHPHI	number
+ID_VATTU	number
+TEN_VATTU	string	500
+TEN_NKP	string	500
+NUOC_SX	string	500
+TON_CUOI	number

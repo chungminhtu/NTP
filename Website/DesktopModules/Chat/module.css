@@ -1,0 +1,13 @@
+.bbif{ margin: 4px 3px 4px 0px;border-color:white;border-width:1px;border-style:Solid;} /*button bar image first*/
+.bbim{ margin: 4px 3px;border-color:white;border-width:1px;border-style:Solid;} /*button bar image middle*/
+.bbil{ margin: 4px 0px 4px 3px;border-color:white;border-width:1px;border-style:Solid;} /*button bar image last*/
+.ssd{ visibility:hidden;position:absolute;z-index:1000;} /*sub selector div*/
+.ct{ background:white; border-width:1px;border-color:Gray; border-style: solid ;margin: 25px 3px;} /*color table*/
+.cc{ width:15px;height:15px;cursor: pointer;} /*color table cell*/
+.st{ background:white; border-width:1px;border-color:Gray; border-style: solid ;margin: 25px 3px;} /*size table*/
+.sc{ cursor: pointer;} /*size table cell*/
+.scl{ cursor: pointer; text-align: left;} /*size table cell left*/
+.scr{ cursor: pointer; text-align: right;} /*size table cell right*/
+.et{ background:white; border-width:1px;border-color:Gray; border-style: solid ;margin: 25px 0px;} /*emoticon table*/
+.ec{ width:15;height:15;} /*emoticon table cell*/
+.eci{ border-color:white;border-width:1px;border-style:Solid;} /*emoticon table cell inner*/

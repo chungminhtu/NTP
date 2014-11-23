@@ -1,0 +1,21 @@
+E:\hunghm\Projects\NTP\SourceCode\FSE.WebControl\bin\Debug\FSE.WebControl.dll
+E:\hunghm\Projects\NTP\SourceCode\FSE.WebControl\bin\Debug\FSE.WebControl.pdb
+E:\hunghm\Projects\NTP\SourceCode\FSE.WebControl\obj\Debug\ResolveAssemblyReference.cache
+E:\hunghm\Projects\NTP\SourceCode\FSE.WebControl\obj\Debug\FSE.WebControl.dll
+E:\hunghm\Projects\NTP\SourceCode\FSE.WebControl\obj\Debug\FSE.WebControl.pdb
+E:\Working\2009\NTP\FSE.WebControl\bin\Debug\FSE.WebControl.dll
+E:\Working\2009\NTP\FSE.WebControl\bin\Debug\FSE.WebControl.pdb
+E:\Working\2009\NTP\FSE.WebControl\obj\Debug\ResolveAssemblyReference.cache
+E:\Working\2009\NTP\FSE.WebControl\obj\Debug\FSE.WebControl.dll
+E:\Working\2009\NTP\FSE.WebControl\obj\Debug\FSE.WebControl.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\FSE.WebControl\bin\Debug\FSE.WebControl.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\FSE.WebControl\bin\Debug\FSE.WebControl.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\FSE.WebControl\obj\Debug\ResolveAssemblyReference.cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\FSE.WebControl\obj\Debug\FSE.WebControl.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\FSE.WebControl\obj\Debug\FSE.WebControl.pdb
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\FSE.WebControl\bin\Release\FSE.WebControl.dll
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\FSE.WebControl\obj\Release\ResolveAssemblyReference.cache
+D:\Hoc Tap\BVLPTW\VITIMES\SourceCode\NTP\FSE.WebControl\obj\Release\FSE.WebControl.dll
+C:\inetpub\wwwroot\NTP_Nam\FSE.WebControl\bin\Release\FSE.WebControl.dll
+C:\inetpub\wwwroot\NTP_Nam\FSE.WebControl\obj\Release\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\NTP_Nam\FSE.WebControl\obj\Release\FSE.WebControl.dll

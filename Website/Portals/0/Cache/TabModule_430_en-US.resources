@@ -1,0 +1,61 @@
+<div id="dnn_ctr737_ViewNTP_BN_CTCHONGLAO_pnlNhapBaoCao" style="width:61%;">
+	
+
+<fieldset class="ntp_fieldset" style="width: 745px">
+        <legend class="ntp_legend">Danh sách báo cáo</legend>
+                
+    <table style="width: 772px">
+        <tr>
+            <td style="width: 82px; height: 27px">
+                <span id="dnn_ctr737_ViewNTP_BN_CTCHONGLAO_Label2" class="ntp_label" style="display:inline-block;width:80px;">Tỉnh</span></td>
+            <td style="width: 215px; height: 27px">
+                <select name="dnn$ctr737$ViewNTP_BN_CTCHONGLAO$CboDMTinh" id="dnn_ctr737_ViewNTP_BN_CTCHONGLAO_CboDMTinh" tabindex="1" class="ntp_combobox" style="width:215px;">
+		<option value="56">Ki&#234;n giang</option>
+
+	</select></td>
+            <td style="width: 24px; height: 27px">
+              <span id="dnn_ctr737_ViewNTP_BN_CTCHONGLAO_Label7" class="ntp_label" style="display:inline-block;width:38px;">năm </span></td>
+            <td style="width: 51px; height: 27px">
+               <input name="dnn$ctr737$ViewNTP_BN_CTCHONGLAO$txtNam" type="text" value="2014" maxlength="50" id="dnn_ctr737_ViewNTP_BN_CTCHONGLAO_txtNam" tabindex="6" class="ntp_textbox" style="width:88px;" /></td>
+            <td style="width: 47px; height: 27px">
+               </td>
+            <td style="width: 108px; height: 27px">
+                <span id="dnn_ctr737_ViewNTP_BN_CTCHONGLAO_RangeValidator2" style="color:Red;visibility:hidden;">Không đúng năm</span></td>
+            <td style="height: 27px">
+                <input type="submit" name="dnn$ctr737$ViewNTP_BN_CTCHONGLAO$cmdXem" value="Xem" id="dnn_ctr737_ViewNTP_BN_CTCHONGLAO_cmdXem" class="ntp_button" style="height:25px;width:99px;" /></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="height: 27px">
+                     </td>
+            <td colspan="4" style="height: 27px">
+                     </td>
+            <td style="height: 27px">
+            </td>
+        </tr>
+    </table>
+         <table class="ntp_table_main" style="width: 770px">
+          <tr>
+          <td style="width: 100%;" colspan="5">
+        
+                <table class="ntp_grd_GridViewStyle" cellspacing="0" rules="all" border="1" id="dnn_ctr737_ViewNTP_BN_CTCHONGLAO_grdDSBaoCao" style="width:100%;border-collapse:collapse;">
+		<tr class="ntp_grd_HeaderStyle">
+			<td style="width:2%;"><input id="dnn_ctr737_ViewNTP_BN_CTCHONGLAO_grdDSBaoCao_ctl02_chkAll" type="checkbox" name="dnn$ctr737$ViewNTP_BN_CTCHONGLAO$grdDSBaoCao$ctl02$chkAll" onclick="msgCheckAll(this);" /></td><td style="width:2%;">&nbsp;</td><td style="width:10%;">Năm báo cáo</td><td style="width:20%;">Ngày báo cáo</td><td style="width:20%;">Người báo cáo</td><td style="width:20%;">Cơ sở y tế</td><td style="width:20%;">Tỉnh</td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr class="ntp_grd_PagerStyle">
+			<td colspan="10"><span>1</span></td>
+		</tr>
+	</table>
+              &nbsp;&nbsp;
+              
+              </td>
+              </tr>
+              </table>
+    <br />
+    <input type="submit" name="dnn$ctr737$ViewNTP_BN_CTCHONGLAO$cmdAdd" value="Thêm" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr737$ViewNTP_BN_CTCHONGLAO$cmdAdd&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr737_ViewNTP_BN_CTCHONGLAO_cmdAdd" tabindex="8" class="ntp_button" style="width:100px;" />
+    <input type="submit" name="dnn$ctr737$ViewNTP_BN_CTCHONGLAO$cmdDelete" value="Xóa " onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr737$ViewNTP_BN_CTCHONGLAO$cmdDelete&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr737_ViewNTP_BN_CTCHONGLAO_cmdDelete" class="ntp_button" style="width:100px;" />&nbsp;
+            
+             
+            </fieldset>
+    
+</div> &nbsp; 

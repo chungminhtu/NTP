@@ -1,0 +1,36 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path />
+      <name>index.htm</name>
+    </file>
+    <file>
+      <path />
+      <name>arrow-down.gif</name>
+    </file>
+    <file>
+      <path />
+      <name>arrow-right.gif</name>
+    </file>
+    <file>
+      <path />
+      <name>bulletlist.gif</name>
+    </file>
+    <file>
+      <path />
+      <name>ddlevelsmenu.js</name>
+    </file>
+    <file>
+      <path />
+      <name>ddlevelsmenu-base.css</name>
+    </file>
+    <file>
+      <path />
+      <name>ddlevelsmenu-sidebar.css</name>
+    </file>
+    <file>
+      <path />
+      <name>ddlevelsmenu-topbar.css</name>
+    </file>
+  </files>
+</dotnetnuke>

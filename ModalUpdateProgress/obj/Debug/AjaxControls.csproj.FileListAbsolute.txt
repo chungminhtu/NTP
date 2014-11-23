@@ -1,0 +1,5 @@
+C:\inetpub\wwwroot\NTP_Nam\ModalUpdateProgress\bin\Debug\AjaxControls.dll
+C:\inetpub\wwwroot\NTP_Nam\ModalUpdateProgress\bin\Debug\AjaxControls.pdb
+C:\inetpub\wwwroot\NTP_Nam\ModalUpdateProgress\obj\Debug\AjaxControls.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\NTP_Nam\ModalUpdateProgress\obj\Debug\AjaxControls.dll
+C:\inetpub\wwwroot\NTP_Nam\ModalUpdateProgress\obj\Debug\AjaxControls.pdb

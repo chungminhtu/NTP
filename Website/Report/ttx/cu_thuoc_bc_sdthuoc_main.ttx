@@ -1,0 +1,10 @@
+ID_KHO	number
+TEN_KHO	string	500
+ID_NGUON_KINHPHI	number
+ID_THUOC	number
+TEN_NGUONKINHPHI	string	500
+TEN_THUOC	string	500
+TEN_DVT	string	500
+TEN_NUOC	string	500
+KY_BAOCAO	string	500
+

@@ -1,0 +1,222 @@
+
+
+
+    <fieldset class="ntp_fieldset" style="height: 868px">
+        <legend class="ntp_legend">
+        Phiếu xét nghiệm đờm soi trực tiếp </legend>
+                    <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label52" class="ntp_label" style="display:inline-block;color:#0000C0;font-weight:bold;width:348px;">Thông tin hành chính</span>
+                    
+                    
+        <input type="hidden" name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$Maskededitextender1_ClientState" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Maskededitextender1_ClientState" />
+        <br />
+        <table style="width: 767px">
+            <tr>
+                <td style="width: 121px; height: 20px">
+                <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label1" class="ntp_label" style="display:inline-block;width:111px;">ĐV gửi bệnh nhân </span></td>
+                <td colspan="2" style="height: 20px">
+                  <input name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$cboDonVi" type="text" value="Trạm Lao" maxlength="100" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_cboDonVi" tabindex="1" class="ntp_textbox" style="width:229px;" /></td>
+                <td style="height: 20px" colspan="2">
+                <table id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistLoaiYTe" border="0" style="width:223px;">
+	<tr>
+		<td><input id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistLoaiYTe_0" type="radio" name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$optlistLoaiYTe" value="2" checked="checked" tabindex="1" /><label for="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistLoaiYTe_0">Y tế công</label></td><td><input id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistLoaiYTe_1" type="radio" name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$optlistLoaiYTe" value="3" tabindex="1" /><label for="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistLoaiYTe_1">Y tế tư</label></td><td><input id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistLoaiYTe_2" type="radio" name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$optlistLoaiYTe" value="1" tabindex="1" /><label for="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistLoaiYTe_2">Tự đến</label></td>
+	</tr>
+</table></td>
+            </tr>
+            <tr>
+                <td style="width: 121px">
+                    <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label148" class="ntp_label" style="display:inline-block;width:96px;">Ngày tháng</span></td>
+                <td style="width: 79px">
+                    <input name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$txtNgayXN" type="text" value="25/09/2013" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_txtNgayXN" tabindex="2" class="ntp_textbox" style="width:126px;" /></td>
+                <td style="width: 98px">
+                    <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_RequiredFieldValidator3" style="display:inline-block;color:Red;width:117px;visibility:hidden;">Không được trống</span></td>
+                <td style="width: 85px">
+                <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label153" class="ntp_label" style="display:inline-block;width:75px;">Số CMND</span></td>
+                <td style="width: 238px">
+                    <input name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$txtSoCMT" type="text" maxlength="50" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_txtSoCMT" tabindex="2" class="ntp_textbox" style="width:134px;" />
+                    <input type="submit" name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$CmdLoadThongtinBN" value="..." onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$CmdLoadThongtinBN&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_CmdLoadThongtinBN" tabindex="3" class="ntp_button" style="font-weight:bold;width:32px;" />
+                    <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_RangeValidator8" style="display:inline-block;color:Red;width:61px;visibility:hidden;">Là số</span></td>
+            </tr>
+            <tr>
+                <td style="width: 121px">
+                    <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label150" class="ntp_label" style="display:inline-block;width:123px;">Họ tên bệnh nhân</span></td>
+                <td colspan="2">
+                    <input name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$txtTenBN" type="text" value="Bùi Đình Phước" maxlength="50" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_txtTenBN" tabindex="3" class="ntp_textbox" style="width:229px;" /></td>
+                <td style="width: 85px">
+                    <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label5" class="ntp_label" style="display:inline-block;width:81px;">Mã BNQL</span></td>
+                <td style="width: 238px">
+                    <input name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$TxtMaBNQL" type="text" value="114/2013/tp" maxlength="15" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_TxtMaBNQL" tabindex="4" class="ntp_textbox" style="width:72px;" /></td>
+            </tr>
+            <tr>
+                <td style="width: 121px">
+                    <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label66" class="ntp_label" style="display:inline-block;width:84px;">Giới tính</span></td>
+                <td colspan="2">
+                    <table id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistGioiTinh" border="0" style="height:1px;width:171px;">
+	<tr>
+		<td><input id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistGioiTinh_0" type="radio" name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$optlistGioiTinh" value="1" checked="checked" tabindex="5" /><label for="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistGioiTinh_0">Nam</label></td><td><input id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistGioiTinh_1" type="radio" name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$optlistGioiTinh" value="0" tabindex="5" /><label for="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistGioiTinh_1">Nu</label></td>
+	</tr>
+</table></td>
+                <td style="width: 85px">
+                    <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label152" class="ntp_label" style="display:inline-block;width:57px;">Tuổi</span></td>
+                <td style="width: 238px">
+                    <input name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$TxtTuoi" type="text" value="44" maxlength="3" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_TxtTuoi" tabindex="6" class="ntp_textbox" style="width:72px;" /></td>
+            </tr>
+            <tr>
+                <td style="width: 121px">
+                    <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label154" class="ntp_label" style="display:inline-block;width:97px;">Địa chỉ</span></td>
+                <td colspan="4">
+                    <input name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$TxtDiachi" type="text" value="Khu phố 4- P4" maxlength="150" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_TxtDiachi" tabindex="7" class="ntp_textbox" style="width:544px;" />
+                    </td>
+            </tr>
+            <tr>
+                <td style="width: 121px">
+                    <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label20" class="ntp_label" style="display:inline-block;width:107px;">Ghi chú</span></td>
+                <td colspan="4">
+                    <input name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$txtDienThoai" type="text" maxlength="150" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_txtDienThoai" tabindex="8" class="ntp_textbox" style="width:544px;" /></td>
+            </tr>
+        </table>
+        <table style="width: 768px">
+            <tr>
+                <td style="width: 135px; height: 68px">
+                <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label100" class="ntp_label" style="display:inline-block;width:107px;">Lý do xét nghiệm</span><br />
+                    <br />
+                </td>
+                <td colspan="2" style="height: 68px; width: 96px;">
+                <table id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistLyDo" border="0" style="height:44px;width:112px;">
+	<tr>
+		<td><input id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistLyDo_0" type="radio" name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$optlistLyDo" value="0" checked="checked" tabindex="9" /><label for="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistLyDo_0">Phát hiện </label></td>
+	</tr><tr>
+		<td><input id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistLyDo_1" type="radio" name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$optlistLyDo" value="1" onclick="javascript:setTimeout('__doPostBack(\'dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$optlistLyDo$1\',\'\')', 0)" tabindex="9" /><label for="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_optlistLyDo_1">theo dõi:</label></td>
+	</tr>
+</table></td>
+                <td style="width: 140px; height: 68px">
+                    <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label3" class="ntp_label" style="display:inline-block;width:146px;">Số mẫu đờm yêu cầu</span><br />
+                    <br />
+                    <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label4" class="ntp_label" style="display:inline-block;width:153px;">Số tháng điều trị</span><br />
+                </td>
+                <td style="width: 123px; height: 68px">
+                <input name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$txtSoMauDom" type="text" value="3" maxlength="50" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_txtSoMauDom" tabindex="10" class="ntp_textbox" style="height:24px;width:67px;" /><span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_RangeValidator3" style="display:inline-block;color:Red;width:35px;visibility:hidden;">Là số</span><br />
+                 <select name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$txtSoThangDT" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_txtSoThangDT" disabled="disabled" tabindex="11" class="ntp_combobox" style="width:106px;">
+	<option selected="selected" value=""></option>
+	<option value="2">2,(3) th&#225;ng</option>
+	<option value="3">4*,5 (th&#225;ng)</option>
+	<option value="4">6*,7,(8) th&#225;ng</option>
+
+</select><br />
+                </td>
+                <td style="height: 68px; width: 318px;" colspan="2">
+                    &nbsp;<span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label2" class="ntp_label">Htest(+)</span>
+                <span style="display:inline-block;width:96px;"><input id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_chkHtest" type="checkbox" name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$chkHtest" tabindex="12" /></span><br />
+                    &nbsp;<span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label149" class="ntp_label" style="display:inline-block;width:73px;">Số ĐKĐT</span><input name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$txtSoDKDT" type="text" value="114/2013/tp" maxlength="50" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_txtSoDKDT" tabindex="13" class="ntp_textbox" style="width:70px;" /></td>
+            </tr>
+            <tr>
+                <td style="width: 135px; height: 24px;">
+                    <span id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_Label7" class="ntp_label" style="display:inline-block;width:111px;">ĐVTiếp nhận</span></td>
+                <td colspan="5" style="height: 24px;"><select name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$CboTinh" onchange="javascript:setTimeout('__doPostBack(\'dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$CboTinh\',\'\')', 0)" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_CboTinh" tabindex="14" class="ntp_combobox" style="width:195px;">
+	<option value="">--- Chọn tỉnh ---</option>
+	<option value="01">H&#224; Nội</option>
+	<option value="02">Hải ph&#242;ng</option>
+	<option value="03">H&#224; Giang</option>
+	<option value="04">Cao bằng</option>
+	<option value="05">Điện Bi&#234;n</option>
+	<option value="06">L&#224;o cai</option>
+	<option value="07">Tuy&#234;n Quang</option>
+	<option value="08">Lạng Sơn</option>
+	<option value="09">Bắc cạn</option>
+	<option value="10">Th&#225;i nguy&#234;n</option>
+	<option value="11">Y&#234;n b&#225;i</option>
+	<option value="12">Sơn la</option>
+	<option value="13">Ph&#250; Thọ</option>
+	<option value="14">Vĩnh ph&#250;c</option>
+	<option value="15">Quảng Ninh</option>
+	<option value="16">Bắc Giang</option>
+	<option value="17">Bắc Ninh</option>
+	<option value="18">H&#224; nội II</option>
+	<option value="19">Hải dương</option>
+	<option value="20">Hưng y&#234;n</option>
+	<option value="21">Ho&#224; B&#236;nh</option>
+	<option value="22">H&#224; Nam</option>
+	<option value="23">Nam Định</option>
+	<option value="24">Th&#225;i B&#236;nh</option>
+	<option value="25">Ninh B&#236;nh</option>
+	<option value="26">Thanh Ho&#225;</option>
+	<option value="27">Nghệ An</option>
+	<option value="28">H&#224; Tĩnh</option>
+	<option value="29">TB Hospital</option>
+	<option value="30">Lai Ch&#226;u</option>
+	<option value="31">Đ&#224; Nẵng</option>
+	<option value="32">Quảng B&#236;nh</option>
+	<option value="33">Quảng Trị</option>
+	<option value="34">Thừa Thi&#234;n Huế</option>
+	<option value="35">Quảng Nam</option>
+	<option value="36">Quảng Ng&#227;i</option>
+	<option value="37">Kon tum</option>
+	<option value="38">B&#236;nh Định</option>
+	<option value="39">Gia lai</option>
+	<option selected="selected" value="40">Ph&#250; Y&#234;n</option>
+	<option value="41">Đak Lak</option>
+	<option value="42">Kh&#225;nh ho&#224;</option>
+	<option value="43">Đak n&#244;ng</option>
+	<option value="44">An Giang</option>
+	<option value="45">B&#224; rịa - Vũng t&#224;u</option>
+	<option value="46">Bạc li&#234;u</option>
+	<option value="47">Bến tre</option>
+	<option value="48">B&#236;nh Dương</option>
+	<option value="49">B&#236;nh Phước</option>
+	<option value="50">B&#236;nh Thuận</option>
+	<option value="51">C&#224; mau</option>
+	<option value="52">Cần Thơ</option>
+	<option value="53">Hậu giang</option>
+	<option value="54">Đồng Nai</option>
+	<option value="55">Đồng Th&#225;p</option>
+	<option value="56">Ki&#234;n giang</option>
+	<option value="57">L&#226;m đồng</option>
+	<option value="58">Long an</option>
+	<option value="59">Ninh Thuận</option>
+	<option value="60">S&#243;c Trăng</option>
+	<option value="61">T&#226;y Ninh</option>
+	<option value="62">Tiền Giang</option>
+	<option value="63">Tr&#224; Vinh</option>
+	<option value="64">Vĩnh long</option>
+	<option value="65">TP Hồ Ch&#237; Minh</option>
+	<option value="72">CTCL Quốc gia</option>
+
+</select><select name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$CboHuyen" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_CboHuyen" tabindex="15" class="ntp_combobox" style="width:196px;">
+	<option value="">--- Chọn cơ sở y tế ---</option>
+	<option value="4013">Bệnh viện tỉnh</option>
+	<option value="4011">CSGD Trại A1</option>
+	<option value="4012">Đ&#244;ng h&#242;a</option>
+	<option value="4002">Đồng Xu&#226;n</option>
+	<option value="4009">Ph&#250; Ho&#224;</option>
+	<option value="4005">Sơn H&#242;a</option>
+	<option value="4003">S&#244;ng Cầu</option>
+	<option value="4006">S&#244;ng Hinh</option>
+	<option value="4007">T&#226;y H&#242;a</option>
+	<option value="4008">TB Centre</option>
+	<option selected="selected" value="4001">Th&#224;nh phố Tuy H&#242;a</option>
+	<option value="T4010">Trại giam Xu&#226;n Phước (A20)</option>
+	<option value="4004">Tuy An</option>
+
+</select>&nbsp;</td>
+                <td style="width: 144px; height: 24px;">
+                </td>
+            </tr>
+        </table>
+          
+        <br />
+                    <table style="width: 766px">
+                        <tr>
+                            <td style="width: 158px; height: 16px">
+                            </td>
+                            <td colspan="2" style="height: 16px; width: 531px;">
+                    <input type="submit" name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$cmdAdd" value="Ghi " onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$cmdAdd&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_cmdAdd" tabindex="24" class="ntp_button" style="width:100px;" />
+                                <input type="submit" name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$cmdCreateNew" value="Tạo mới" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_cmdCreateNew" tabindex="25" class="ntp_button" style="width:100px;" />
+                    <input type="submit" name="dnn$ctr503$EditNTP_BN_PHIEUXETNGHIEM$cmdCancel" value="Thoát" id="dnn_ctr503_EditNTP_BN_PHIEUXETNGHIEM_cmdCancel" tabindex="26" class="ntp_button" style="width:100px;" /></td>
+                        </tr>
+                    </table>
+        <br />
+        <br />
+        <br />
+        &nbsp;<br />
+        <br />
+        &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+    </fieldset>

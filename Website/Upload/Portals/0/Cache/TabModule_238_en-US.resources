@@ -1,0 +1,103 @@
+
+
+<fieldset class="ntp_fieldset" style="width: 813px">
+        <legend class="ntp_legend">Danh sách phiếu lấy mẫu kiểm định tiêu bản </legend>
+         <table class="ntp_table_main" style="width: 820px">
+             <tr>
+                 <td style="width: 11%">
+                     <span id="dnn_ctr549_ViewNTP_KD_PLAYMAU_Label2" class="ntp_label" style="display:inline-block;width:80px;">Tỉnh</span></td>
+                 <td colspan="2">
+                     <select name="dnn$ctr549$ViewNTP_KD_PLAYMAU$CboDMTinh" id="dnn_ctr549_ViewNTP_KD_PLAYMAU_CboDMTinh" tabindex="1" class="ntp_combobox" style="width:190px;">
+	<option selected="selected" value="39">Gia lai</option>
+
+</select></td>
+                 <td style="width: 16%">
+                 </td>
+                 <td style="width: 20%">
+                 </td>
+                 <td style="width: 20%">
+                 </td>
+             </tr>
+          <tr>
+          <td style="width: 11%" >
+              <span id="dnn_ctr549_ViewNTP_KD_PLAYMAU_Label7" class="ntp_label" style="display:inline-block;width:133px;">Lọc theo tháng năm</span></td>
+              <td style="width: 7%">
+                  <select name="dnn$ctr549$ViewNTP_KD_PLAYMAU$cboQuy" id="dnn_ctr549_ViewNTP_KD_PLAYMAU_cboQuy" tabindex="2" class="ntp_combobox" style="width:57px;">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option selected="selected" value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+
+</select></td>
+          <td style="width: 10%">
+               <input name="dnn$ctr549$ViewNTP_KD_PLAYMAU$txtNam" type="text" value="2013" maxlength="50" id="dnn_ctr549_ViewNTP_KD_PLAYMAU_txtNam" tabindex="6" class="ntp_textbox" style="width:87px;" /></td>
+              <td style="width: 16%">
+                  &nbsp;<span id="dnn_ctr549_ViewNTP_KD_PLAYMAU_RangeValidator2" style="color:Red;visibility:hidden;">Không đúng năm</span></td>
+           <td style="width: 20%" >
+               &nbsp;</td>
+          <td style="width: 20%">
+                <input type="submit" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$cmdTim" value="Tìm" id="dnn_ctr549_ViewNTP_KD_PLAYMAU_cmdTim" class="ntp_button" style="height:25px;width:99px;" /></td>
+          </tr>
+          <tr>
+          <td style="width: 100%;" colspan="6">
+        
+                <table class="ntp_grd_GridViewStyle" cellspacing="0" rules="all" border="1" id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao" style="width:100%;border-collapse:collapse;">
+	<tr class="ntp_grd_HeaderStyle">
+		<td style="width:2%;"><input id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl02_chkAll" type="checkbox" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl02$chkAll" onclick="msgCheckAll(this);" /></td><td style="width:2%;">&nbsp;</td><td style="width:10px;">Tháng</td><td style="width:20%;">Năm báo cáo</td><td style="width:30%;">Cơ sở điều trị</td><td style="width:20%;">Tỉnh</td><td style="width:20%;">Người cung cấp</td><td style="width:15%;">Kết quả KĐ</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl03_chkItem" type="checkbox" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl03$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl03$cmdEdit" id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl03_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>6</td><td>2013</td><td>Chư Păh</td><td>Gia lai</td><td>ngô thị thiệt</td><td>&nbsp;</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl04_chkItem" type="checkbox" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl04$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl04$cmdEdit" id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl04_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>6</td><td>2013</td><td>Trại giam Gia Trung</td><td>Gia lai</td><td>nguyễn phước quý</td><td>&nbsp;</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl05_chkItem" type="checkbox" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl05$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl05$cmdEdit" id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl05_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>6</td><td>2013</td><td>Bệnh viện Đa khoa Tỉnh Gia Lai</td><td>Gia lai</td><td>nguyễn thị bé</td><td>&nbsp;</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl06_chkItem" type="checkbox" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl06$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl06$cmdEdit" id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl06_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>6</td><td>2013</td><td>Viện 211</td><td>Gia lai</td><td>BÙI THI ĐÍNH</td><td>&nbsp;</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl07_chkItem" type="checkbox" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl07$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl07$cmdEdit" id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl07_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>6</td><td>2013</td><td>Chư Prông</td><td>Gia lai</td><td>vũ thế nhương</td><td>&nbsp;</td>
+	</tr><tr class="ntp_grd_AltRowStyle">
+		<td><input id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl08_chkItem" type="checkbox" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl08$chkItem" onclick="msgHighlight(this,'ntp_grd_AltRowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl08$cmdEdit" id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl08_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>6</td><td>2013</td><td>Kbang</td><td>Gia lai</td><td>NGUYỄN THỊ HIỀN LƯƠNG</td><td>&nbsp;</td>
+	</tr><tr class="ntp_grd_RowStyle">
+		<td><input id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl09_chkItem" type="checkbox" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl09$chkItem" onclick="msgHighlight(this,'ntp_grd_RowStyle','ntp_grd_SelectedRowStyle');" /></td><td>
+    <input type="image" name="dnn$ctr549$ViewNTP_KD_PLAYMAU$grdDSBaoCao$ctl09$cmdEdit" id="dnn_ctr549_ViewNTP_KD_PLAYMAU_grdDSBaoCao_ctl09_cmdEdit" src="/NTP/images/edit.gif" style="border-width:0px;" />
+    
+</td><td>6</td><td>2013</td><td>Chư Sê</td><td>Gia lai</td><td>trương thị thơm</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr class="ntp_grd_PagerStyle">
+		<td colspan="8"><span>1</span></td>
+	</tr>
+</table>
+              &nbsp;
+              </td>
+              </tr>
+              </table>
+    </fieldset>
+
+
+

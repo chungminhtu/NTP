@@ -1,0 +1,44 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop FAQs Table **/
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_NTP_KD_KETQUAKIEMDINH] DROP CONSTRAINT [FK_{objectQualifier}NTP_KD_KETQUAKIEMDINH_{objectQualifier}Modules]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}YourCompany_NTP_KD_KETQUAKIEMDINH] DROP CONSTRAINT [PK_{objectQualifier}YourCompany_NTP_KD_KETQUAKIEMDINH]
+GO
+
+DROP INDEX {databaseOwner}[{objectQualifier}YourCompany_NTP_KD_KETQUAKIEMDINH].[IX_{objectQualifier}YourCompany_NTP_KD_KETQUAKIEMDINH]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}YourCompany_NTP_KD_KETQUAKIEMDINH]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_GetNTP_KD_KETQUAKIEMDINHs]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_GetNTP_KD_KETQUAKIEMDINH]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_AddNTP_KD_KETQUAKIEMDINH]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_UpdateNTP_KD_KETQUAKIEMDINH]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}YourCompany_DeleteNTP_KD_KETQUAKIEMDINH]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ConfirmedButtons">
+</Property><Property Name="Solution File" Value="E:\hunghm\Projects\NTP\ConfirmedButtons\ConfirmedButtons.sln">
+</Property><Property Name="Date" Value="Wednesday, March 25, 2009">
+</Property><Property Name="Time" Value="10:58:47">
+</Property></Properties><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ConfirmedButtons.csproj" Description="Project file successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\ConfirmedButtons.csproj">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ConfirmedButtons.csproj.user" Description="Project user file successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\ConfirmedButtons.csproj.user">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="AssemblyInfo.cs" Description="File successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ClientScriptUtil.cs" Description="File successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\ClientScriptUtil.cs">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ConfirmedButton.cs" Description="File successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\ConfirmedButton.cs">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ConfirmedButtonColumn.cs" Description="File successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\ConfirmedButtonColumn.cs">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ConfirmedEditCommandColumn.cs" Description="File successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\ConfirmedEditCommandColumn.cs">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ConfirmedImageButton.cs" Description="File successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\ConfirmedImageButton.cs">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ConfirmedLinkButton.cs" Description="File successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\ConfirmedLinkButton.cs">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="WebUIConfirmation.js" Description="File successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\WebUIConfirmation.js">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ConfirmedLinkButton.bmp" Description="File successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\ConfirmedLinkButton.bmp">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ClientScriptUtil.resx" Description="File successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\ClientScriptUtil.resx">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ConfirmedButton.bmp" Description="File successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\ConfirmedButton.bmp">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ConfirmedImageButton.bmp" Description="File successfully backed up as E:\hunghm\Projects\NTP\ConfirmedButtons\Backup\ConfirmedImageButton.bmp">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ConfirmedButtons.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ConfirmedButtons" Source="ConfirmedButtons.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ConfirmedButtons" Source="ConfirmedButtons.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

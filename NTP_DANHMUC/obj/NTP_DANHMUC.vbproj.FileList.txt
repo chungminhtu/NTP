@@ -1,0 +1,16 @@
+bin\Debug\NTP_DANHMUC.dll
+bin\Debug\NTP_DANHMUC.pdb
+bin\Debug\NTP_DANHMUC.xml
+bin\Debug\NTP_Common.dll
+bin\Debug\NTP_DAL.dll
+bin\Debug\NTP_DAL.pdb
+bin\Debug\NTP_DAL.xml
+bin\Debug\NTP_Common.pdb
+bin\Debug\NTP_Common.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\NTP_DANHMUC.Resources.resources
+obj\Debug\NTP_DANHMUC.vbproj.GenerateResource.Cache
+obj\Debug\NTP_DANHMUC.dll
+obj\Debug\NTP_DANHMUC.xml
+obj\Debug\NTP_DANHMUC.pdb
+bin\Debug\System.Web.Extensions.dll

@@ -1,0 +1,23 @@
+ID_KHO	number
+TEN_KHO	string	500
+ID_NGUON_KINHPHI	string	50
+ID_VATTU	number
+TEN_NGUONKINHPHI	string	500
+TEN_VATTU	string	500
+TEN_DVT	string	500
+TEN_NUOC	string	500
+TON_DAU	number
+NHAP	number
+TRA_LAI	number
+THUA	number
+XUAT_SUDUNG	number
+XUAT_DONVI	number
+THIEU	number
+HONG_VO	number
+DIEU_CHUYEN	number
+TON_CUOI	number
+LO_SX	string	500
+HAN_DUNG	date
+KY_BAOCAO	string	500
+trang_thai	number
+

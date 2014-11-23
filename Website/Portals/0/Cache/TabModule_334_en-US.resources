@@ -1,0 +1,77 @@
+
+<div id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_PnlHuyen" style="height:400px;width:786px;">
+	<TABLE style="WIDTH: 774px" class="ntp_table_main"><TBODY><TR><TD style="WIDTH: 6%; HEIGHT: 24px"></TD><TD style="HEIGHT: 24px" colSpan=4><span id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_Label2" class="ntp_label" style="display:inline-block;color:#0000C0;border-color:GhostWhite;font-weight:bold;width:328px;">BÁO CÁO  TUYẾN HUYỆN</span></TD></TR><TR><TD style="WIDTH: 6%; HEIGHT: 24px"></TD><TD style="WIDTH: 4%; HEIGHT: 24px"></TD><TD style="HEIGHT: 24px" colSpan=3>&nbsp;<table id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_OptBCTuyenHuyen" border="0" style="width:425px;">
+		<tr>
+			<td><input id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_OptBCTuyenHuyen_0" type="radio" name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$OptBCTuyenHuyen" value="Thunhan" checked="checked" tabindex="5" /><label for="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_OptBCTuyenHuyen_0">Tình hình thu nhận bệnh nhân Lao</label></td>
+		</tr><tr>
+			<td><input id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_OptBCTuyenHuyen_1" type="radio" name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$OptBCTuyenHuyen" value="Dieutri" onclick="javascript:setTimeout('__doPostBack(\'dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$OptBCTuyenHuyen$1\',\'\')', 0)" tabindex="5" /><label for="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_OptBCTuyenHuyen_1">Kết quả điều trị Lao</label></td>
+		</tr><tr>
+			<td><input id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_OptBCTuyenHuyen_2" type="radio" name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$OptBCTuyenHuyen" value="Amhoadom" onclick="javascript:setTimeout('__doPostBack(\'dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$OptBCTuyenHuyen$2\',\'\')', 0)" tabindex="5" /><label for="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_OptBCTuyenHuyen_2">Kết quả âm hoá đờm sau 2(3) tháng điều trị</label></td>
+		</tr><tr>
+			<td><input id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_OptBCTuyenHuyen_3" type="radio" name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$OptBCTuyenHuyen" value="HoatdongXN" onclick="javascript:setTimeout('__doPostBack(\'dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$OptBCTuyenHuyen$3\',\'\')', 0)" tabindex="5" /><label for="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_OptBCTuyenHuyen_3">Báo cáo hoạt động xét nghiệm</label></td>
+		</tr><tr>
+			<td><input id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_OptBCTuyenHuyen_4" type="radio" name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$OptBCTuyenHuyen" value="Xetnghiem_PHDuong" onclick="javascript:setTimeout('__doPostBack(\'dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$OptBCTuyenHuyen$4\',\'\')', 0)" tabindex="5" /><label for="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_OptBCTuyenHuyen_4">Danh sách BN xét nghiệm Phát hiện dương tính</label></td>
+		</tr><tr>
+			<td><input id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_OptBCTuyenHuyen_5" type="radio" name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$OptBCTuyenHuyen" value="Xetnghiem_AM" onclick="javascript:setTimeout('__doPostBack(\'dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$OptBCTuyenHuyen$5\',\'\')', 0)" tabindex="5" /><label for="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_OptBCTuyenHuyen_5">Danh sách BN xét nghiệm Phát hiện âm tính</label></td>
+		</tr>
+	</table> &nbsp;&nbsp;<span id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_RequiredFieldValidator1" style="color:Red;visibility:hidden;">Không được trống</span>
+    <span id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_RangeValidator2" style="color:Red;visibility:hidden;">Không đúng năm</span></TD></TR><TR><TD style="WIDTH: 6%"></TD><TD style="WIDTH: 4%"><span id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_Label3" class="ntp_label" style="display:inline-block;width:91px;">Cơ sở điều trị</span></TD><TD style="WIDTH: 10%"><select name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$CboDonviBC" id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_CboDonviBC" tabindex="6" class="ntp_combobox" style="width:208px;">
+		<option value="BV5110">BV Ca mau</option>
+		<option value="BV5111">BV C&#225;i nước</option>
+		<option value="5105">C&#225;i Nước</option>
+		<option value="5106">Đầm Dơi</option>
+		<option value="5112">Năm Căn</option>
+		<option value="5107">Ngọc Hiển</option>
+		<option value="5109">Ph&#242;ng kh&#225;m TTPCBXH</option>
+		<option value="5113">Ph&#250; t&#226;n</option>
+		<option value="5101">Th&#224;nh Phố C&#224; Mau</option>
+		<option value="5102">Thới B&#236;nh</option>
+		<option value="T5108">Trại giam C&#225;i T&#224;u</option>
+		<option value="5104">Trần Văn Thời</option>
+		<option value="5103">U Minh</option>
+
+	</select> </TD><TD style="WIDTH: 3%"><span id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_Label4" class="ntp_label" style="display:inline-block;width:66px;">Quý</span></TD><TD style="WIDTH: 20%"><select name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$CboQuyBC" onchange="javascript:setTimeout('__doPostBack(\'dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$CboQuyBC\',\'\')', 0)" id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_CboQuyBC" tabindex="7" class="ntp_combobox" style="width:89px;">
+		<option selected="selected" value="1">Qu&#253; I</option>
+		<option value="2">Qu&#253; II</option>
+		<option value="3">Qu&#253; III</option>
+		<option value="4">Qu&#253; IV</option>
+
+	</select> <span id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_Label7" class="ntp_label" style="display:inline-block;width:46px;">Năm</span><input name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$tctNamBC" type="text" value="2013" maxlength="50" id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_tctNamBC" tabindex="8" class="ntp_textbox" style="width:96px;" /> </TD></TR>
+    <tr>
+        <td style="width: 6%">
+        </td>
+        <td style="width: 4%">
+            <span id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_Label11" class="ntp_label" style="display:inline-block;width:91px;">Từ ngày</span></td>
+        <td style="width: 10%">
+            <input name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$txtTuNgay" type="text" value="31/10/2013" id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_txtTuNgay" tabindex="12" class="ntp_textbox" style="width:106px;" /></td>
+        <td style="width: 3%">
+            <span id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_Label12" class="ntp_label" style="display:inline-block;width:65px;">Đến ngày</span></td>
+        <td style="width: 20%">
+            <input name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$TxtDenngay" type="text" value="31/10/2013" id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_TxtDenngay" tabindex="12" class="ntp_textbox" style="width:106px;" /></td>
+    </tr>
+    <tr>
+        <td colspan="5">
+            <br />
+            <input type="hidden" name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$MaskedEditExtender1_ClientState" id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_MaskedEditExtender1_ClientState" />
+            <input type="hidden" name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$Maskededitextender2_ClientState" id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_Maskededitextender2_ClientState" />
+        </td>
+    </tr>
+    <TR><TD style="WIDTH: 6%"></TD><TD align="center" colspan="3">
+        &nbsp;<span id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_Label13" class="ntp_label" style="display:inline-block;color:#C00000;font-weight:bold;width:221px;">Lựa chọn số liệu báo cáo</span></TD><TD style="WIDTH: 20%">
+        &nbsp;</TD></TR>
+    <tr>
+        <td style="width: 6%">
+        </td>
+        <td colspan="3">
+            <table id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_optPLBaocao" border="0" style="color:Blue;height:18px;width:383px;">
+		<tr>
+			<td><input id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_optPLBaocao_0" type="radio" name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$optPLBaocao" value="0" checked="checked" tabindex="44" /><label for="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_optPLBaocao_0">Từ phiếu ĐK bệnh nhân</label></td><td><input id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_optPLBaocao_1" type="radio" name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$optPLBaocao" value="1" tabindex="44" /><label for="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_optPLBaocao_1">Từ số liệu BC Nhập</label></td>
+		</tr>
+	</table></td>
+        <td style="width: 20%">
+            </td>
+    </tr>
+</TBODY></TABLE><input type="submit" name="dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$CmdIN_Huyen" value="In báo cáo" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr645$ViewNTP_BAOCAOTUYENTINH$CmdIN_Huyen&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr645_ViewNTP_BAOCAOTUYENTINH_CmdIN_Huyen" tabindex="9" class="ntp_button" style="height:25px;width:127px;" />
+    
+</div>
+
