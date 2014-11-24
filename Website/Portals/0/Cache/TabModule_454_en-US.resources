@@ -14,14 +14,14 @@
                 <span id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_Label12" class="ntp_label" style="display:inline-block;width:66px;">Tỉnh</span></td>
             <td colspan="2">
                 <select name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$cboTinh" onchange="javascript:setTimeout('__doPostBack(\'dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$cboTinh\',\'\')', 0)" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_cboTinh" tabindex="3" class="ntp_combobox" style="width:193px;">
-		<option selected="selected" value="65">TP Hồ Ch&#237; Minh</option>
+		<option selected="selected" value="07">Tuy&#234;n Quang</option>
 
 	</select></td>
             <td style="width: 59px">
                 <span id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_Label13" class="ntp_label" style="display:inline-block;width:66px;">Huyện</span></td>
             <td colspan="2">
                 <select name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$CmbHuyen" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_CmbHuyen" tabindex="2" class="ntp_combobox" style="width:201px;">
-		<option value="6532">Quận Test 1</option>
+		<option value="0703">Chi&#234;m Ho&#225;</option>
 
 	</select></td>
             <td colspan="3">
@@ -78,47 +78,19 @@
 		</tr><tr class="ntp_grd_RowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
 			<td>
 <input type="image" name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl03$cmdEdit" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl03_cmdEdit" src="/images/edit.gif" style="border-width:0px;" /> 
-</td><td>1049833</td><td>Nguyễn Văn Luận</td><td>&nbsp;</td><td>65</td><td>Nam</td><td>Phát hiện</td><td>Âm</td><td>&nbsp;</td>
+</td><td>1052635</td><td>Chung Minh Tú</td><td>172687433</td><td>28</td><td>Nam</td><td>Phát hiện</td><td>-</td><td>&nbsp;</td>
 		</tr><tr class="ntp_grd_AltRowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
 			<td>
 <input type="image" name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl04$cmdEdit" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl04_cmdEdit" src="/images/edit.gif" style="border-width:0px;" /> 
-</td><td>1043782</td><td>Do Hoang Nam</td><td>&nbsp;</td><td>27</td><td>Nam</td><td>Phát hiện</td><td style="color:Red;font-weight:bold;">2+</td><td>&nbsp;</td>
+</td><td>1019774</td><td>Đỗ Hoàng Nam</td><td>&nbsp;</td><td>27</td><td>Nam</td><td>Phát hiện</td><td style="color:Red;font-weight:bold;">3+</td><td>&nbsp;</td>
 		</tr><tr class="ntp_grd_RowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
 			<td>
 <input type="image" name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl05$cmdEdit" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl05_cmdEdit" src="/images/edit.gif" style="border-width:0px;" /> 
-</td><td>1037883</td><td>buơ ihi cung</td><td>&nbsp;</td><td>24</td><td>Nữ</td><td>Phát hiện</td><td style="color:Red;font-weight:bold;">2+</td><td>&nbsp;</td>
-		</tr><tr class="ntp_grd_AltRowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
-			<td>
-<input type="image" name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl06$cmdEdit" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl06_cmdEdit" src="/images/edit.gif" style="border-width:0px;" /> 
-</td><td>1037795</td><td>Nguyễn Thị ĐỘt</td><td>331456789</td><td>51</td><td>Nữ</td><td>Phát hiện</td><td style="color:Red;font-weight:bold;">3AFB</td><td>&nbsp;</td>
-		</tr><tr class="ntp_grd_RowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
-			<td>
-<input type="image" name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl07$cmdEdit" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl07_cmdEdit" src="/images/edit.gif" style="border-width:0px;" /> 
-</td><td>1034103</td><td>Nguyen Thi Ken</td><td>3341758741</td><td>74</td><td>Nữ</td><td>Phát hiện</td><td style="color:Red;font-weight:bold;">2AFB</td><td>854</td>
-		</tr><tr class="ntp_grd_AltRowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
-			<td>
-<input type="image" name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl08$cmdEdit" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl08_cmdEdit" src="/images/edit.gif" style="border-width:0px;" /> 
-</td><td>1025738</td><td>Nguyễn Văn Hùng</td><td>&nbsp;</td><td>35</td><td>Nam</td><td>Phát hiện</td><td style="color:Red;font-weight:bold;">1+</td><td>&nbsp;</td>
-		</tr><tr class="ntp_grd_RowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
-			<td>
-<input type="image" name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl09$cmdEdit" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl09_cmdEdit" src="/images/edit.gif" style="border-width:0px;" /> 
-</td><td>1024068</td><td>a</td><td>&nbsp;</td><td>25</td><td>Nam</td><td>Phát hiện</td><td>-</td><td>1401123</td>
-		</tr><tr class="ntp_grd_AltRowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
-			<td>
-<input type="image" name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl10$cmdEdit" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl10_cmdEdit" src="/images/edit.gif" style="border-width:0px;" /> 
-</td><td>1023461</td><td>B</td><td>&nbsp;</td><td>27</td><td>Nam</td><td>Phát hiện</td><td>Âm</td><td>140224</td>
-		</tr><tr class="ntp_grd_RowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
-			<td>
-<input type="image" name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl11$cmdEdit" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl11_cmdEdit" src="/images/edit.gif" style="border-width:0px;" /> 
-</td><td>1023335</td><td>Trần Thị Hà</td><td>&nbsp;</td><td>34</td><td>Nữ</td><td>Phát hiện</td><td style="color:Red;font-weight:bold;">7AFB</td><td>&nbsp;</td>
-		</tr><tr class="ntp_grd_AltRowStyle" style="font-weight:normal;font-style:normal;text-decoration:none;">
-			<td>
-<input type="image" name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl12$cmdEdit" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_grdDSBenhNhan_ctl12_cmdEdit" src="/images/edit.gif" style="border-width:0px;" /> 
-</td><td>1020882</td><td>Ngyễn Văn Hồng</td><td>&nbsp;</td><td>27</td><td>Nam</td><td>Phát hiện</td><td>Âm</td><td>1401220</td>
+</td><td>1019186</td><td>Dư Hoàng Sơn</td><td>123456789</td><td>30</td><td>Nam</td><td>Phát hiện</td><td style="color:Red;font-weight:bold;">1+</td><td>&nbsp;</td>
 		</tr><tr>
 			<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
 		</tr><tr class="ntp_grd_PagerStyle">
-			<td colspan="9"><span>1</span>&nbsp;<a href="javascript:__doPostBack('dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl01','')">2</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl02','')">3</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl03','')">4</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$grdDSBenhNhan$ctl14$ctl04','')">5</a></td>
+			<td colspan="9"><span>1</span></td>
 		</tr>
 	</table>
       &nbsp;<br />

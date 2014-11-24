@@ -1,5 +1,5 @@
 <input type="submit" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$CmdDSBenhnhan" value="Danh sách bệnh nhân" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_CmdDSBenhnhan" tabindex="18" style="color:#0000C0;background-color:LightCyan;border-color:Gainsboro;border-style:None;font-weight:bold;text-decoration:underline;width:180px;" />
-     <input type="submit" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$CmdChuyenden" value="Danh sách bệnh nhân chuyển đến" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_CmdChuyenden" tabindex="11" style="color:Blue;background-color:WhiteSmoke;border-color:PowderBlue;border-style:None;font-weight:bold;text-decoration:none;width:256px;" /><br />
+     <input type="submit" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$CmdChuyenden" value="Danh sách bệnh nhân chuyển đến" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_CmdChuyenden" tabindex="11" style="color:Red;background-color:WhiteSmoke;border-color:PowderBlue;border-style:None;font-weight:bold;text-decoration:none;width:256px;" /><br />
  
  <div id="dnn_ctr759_ViewNTP_BN_DIEUTRI_pnlDieuTri" style="width:57%;">
 	<FIELDSET style="WIDTH: 805px" class="ntp_fieldset"><span id="dnn_ctr759_ViewNTP_BN_DIEUTRI_Label7" class="ntp_label" style="display:inline-block;color:#C00000;text-decoration:none;width:209px;">Điều kiện tìm kiếm:</span>&nbsp;
@@ -12,14 +12,14 @@
                  <span id="dnn_ctr759_ViewNTP_BN_DIEUTRI_Label9" class="ntp_label" style="display:inline-block;width:66px;">Tỉnh</span></td>
              <td colspan="2" style="height: 11px">
                  <select name="dnn$ctr759$ViewNTP_BN_DIEUTRI$cboTinh" onchange="javascript:setTimeout('__doPostBack(\'dnn$ctr759$ViewNTP_BN_DIEUTRI$cboTinh\',\'\')', 0)" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_cboTinh" disabled="disabled" tabindex="3" class="ntp_combobox" style="width:170px;">
-		<option selected="selected" value="45">B&#224; rịa - Vũng t&#224;u</option>
+		<option selected="selected" value="07">Tuy&#234;n Quang</option>
 
 	</select></td>
              <td style="width: 59px; height: 11px">
                  <span id="dnn_ctr759_ViewNTP_BN_DIEUTRI_Label13" class="ntp_label" style="display:inline-block;width:66px;">Huyện</span></td>
              <td colspan="2" style="height: 11px">
                  <select name="dnn$ctr759$ViewNTP_BN_DIEUTRI$CmbHuyen" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_CmbHuyen" tabindex="2" class="ntp_combobox" style="width:196px;">
-		<option value="4505">T&#226;n Th&#224;nh</option>
+		<option value="0703">Chi&#234;m Ho&#225;</option>
 
 	</select></td>
              <td colspan="3" style="height: 11px">
@@ -32,7 +32,7 @@
          <TR><TD style="WIDTH: 82px; height: 18px;"><span id="dnn_ctr759_ViewNTP_BN_DIEUTRI_Label11" class="ntp_label" style="display:inline-block;width:81px;">NgàyĐKĐT</span></TD><TD style="WIDTH: 51px; height: 18px;">
                    <input name="dnn$ctr759$ViewNTP_BN_DIEUTRI$txtTuNgay" type="text" value="01/01/2014" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_txtTuNgay" tabindex="6" class="ntp_textbox" style="width:87px;" /></TD><TD style="WIDTH: 76px; height: 18px;">
                    <span id="dnn_ctr759_ViewNTP_BN_DIEUTRI_Label4" class="ntp_label" style="display:inline-block;width:68px;">đến ngày</span></TD><TD style="WIDTH: 59px; height: 18px;">
-                   <input name="dnn$ctr759$ViewNTP_BN_DIEUTRI$TxtDenngay" type="text" value="24/10/2014" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_TxtDenngay" tabindex="6" class="ntp_textbox" style="width:83px;" /></TD><TD style="WIDTH: 70px; height: 18px;"><span id="dnn_ctr759_ViewNTP_BN_DIEUTRI_Label1" class="ntp_label" style="display:inline-block;width:79px;">Mã BNQL</span></TD><TD style="WIDTH: 94px; height: 18px;"><input name="dnn$ctr759$ViewNTP_BN_DIEUTRI$TxtMaBN" type="text" maxlength="50" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_TxtMaBN" tabindex="6" class="ntp_textbox" style="width:113px;" /></TD><TD colSpan=3 style="height: 18px"></TD></TR><TR><TD style="WIDTH: 82px"><span id="dnn_ctr759_ViewNTP_BN_DIEUTRI_Label2" class="ntp_label" style="display:inline-block;width:79px;">Họ tên BN</span></TD><TD colSpan=3><input name="dnn$ctr759$ViewNTP_BN_DIEUTRI$TxtHotenTK" type="text" maxlength="50" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_TxtHotenTK" tabindex="6" class="ntp_textbox" style="width:257px;" /></TD><TD style="WIDTH: 70px"><span id="dnn_ctr759_ViewNTP_BN_DIEUTRI_Label8" class="ntp_label" style="display:inline-block;width:79px;">Số CMND</span></TD><TD style="WIDTH: 94px"><input name="dnn$ctr759$ViewNTP_BN_DIEUTRI$TxtSoCMTTK" type="text" maxlength="50" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_TxtSoCMTTK" tabindex="6" class="ntp_textbox" style="width:113px;" /></TD><TD style="WIDTH: 86px"><span id="dnn_ctr759_ViewNTP_BN_DIEUTRI_Label12" class="ntp_label" style="display:inline-block;width:94px;">Phân loại bệnh</span></TD><TD colSpan=2 style="width: 125px"><select name="dnn$ctr759$ViewNTP_BN_DIEUTRI$cboPhanLoaiBenh" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_cboPhanLoaiBenh" tabindex="17" class="ntp_combobox" style="width:134px;">
+                   <input name="dnn$ctr759$ViewNTP_BN_DIEUTRI$TxtDenngay" type="text" value="23/11/2014" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_TxtDenngay" tabindex="6" class="ntp_textbox" style="width:83px;" /></TD><TD style="WIDTH: 70px; height: 18px;"><span id="dnn_ctr759_ViewNTP_BN_DIEUTRI_Label1" class="ntp_label" style="display:inline-block;width:79px;">Mã BNQL</span></TD><TD style="WIDTH: 94px; height: 18px;"><input name="dnn$ctr759$ViewNTP_BN_DIEUTRI$TxtMaBN" type="text" maxlength="50" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_TxtMaBN" tabindex="6" class="ntp_textbox" style="width:113px;" /></TD><TD colSpan=3 style="height: 18px"></TD></TR><TR><TD style="WIDTH: 82px"><span id="dnn_ctr759_ViewNTP_BN_DIEUTRI_Label2" class="ntp_label" style="display:inline-block;width:79px;">Họ tên BN</span></TD><TD colSpan=3><input name="dnn$ctr759$ViewNTP_BN_DIEUTRI$TxtHotenTK" type="text" maxlength="50" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_TxtHotenTK" tabindex="6" class="ntp_textbox" style="width:257px;" /></TD><TD style="WIDTH: 70px"><span id="dnn_ctr759_ViewNTP_BN_DIEUTRI_Label8" class="ntp_label" style="display:inline-block;width:79px;">Số CMND</span></TD><TD style="WIDTH: 94px"><input name="dnn$ctr759$ViewNTP_BN_DIEUTRI$TxtSoCMTTK" type="text" maxlength="50" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_TxtSoCMTTK" tabindex="6" class="ntp_textbox" style="width:113px;" /></TD><TD style="WIDTH: 86px"><span id="dnn_ctr759_ViewNTP_BN_DIEUTRI_Label12" class="ntp_label" style="display:inline-block;width:94px;">Phân loại bệnh</span></TD><TD colSpan=2 style="width: 125px"><select name="dnn$ctr759$ViewNTP_BN_DIEUTRI$cboPhanLoaiBenh" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_cboPhanLoaiBenh" tabindex="17" class="ntp_combobox" style="width:134px;">
 		<option selected="selected" value="">--- Chọn ph&#226;n loại bệnh ---</option>
 		<option value="1">Lao phổi AFB(+)</option>
 		<option value="2">Lao phổi AFB(-)</option>
@@ -55,68 +55,14 @@
 			<td style="width:2%;">&nbsp;</td><td style="width:7%;">STT</td><td style="width:15%;">Họ tên bệnh nhân</td><td style="width:8%;">Số CMT</td><td style="width:5%;">Tuổi</td><td style="width:5%;">Giới tính</td><td style="width:20%;">Địa chỉ</td><td style="width:8%;">MaBNQL</td><td style="width:15%;">Phân loại BN</td>
 		</tr><tr class="ntp_grd_RowStyle">
 			<td>
-    <input type="image" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl03$cmdEdit" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_grdDSBenhNhanDieuTri_ctl03_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
+    <input type="image" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl03$cmdEdit" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_grdDSBenhNhanDieuTri_ctl03_cmdEdit" src="/images/edit.gif" style="border-width:0px;" />
     
     
-</td><td>947684</td><td>Hà T Ngọc Bích</td><td>273405981</td><td>22</td><td>Nữ</td><td>T11, A5, Hắc Dịch</td><td>TT-2014-157</td><td>Lao phổi AFB(+)-Mới</td>
-		</tr><tr class="ntp_grd_AltRowStyle">
-			<td>
-    <input type="image" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl04$cmdEdit" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_grdDSBenhNhanDieuTri_ctl04_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
-    
-    
-</td><td>947649</td><td>Phan v Ân</td><td>270991490</td><td>62</td><td>Nam</td><td>T7, Phước Thạnh, Mỹ Xuân</td><td>TT-2014-155</td><td>Lao phổi AFB(+)-Tái phát</td>
-		</tr><tr class="ntp_grd_RowStyle">
-			<td>
-    <input type="image" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl05$cmdEdit" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_grdDSBenhNhanDieuTri_ctl05_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
-    
-    
-</td><td>947568</td><td>Huỳnh v Tuân</td><td>273347685</td><td>55</td><td>Nam</td><td>T10, Bến Đình, Mỹ Xuân</td><td>TT-2014-156</td><td>Lao phổi AFB(+)-Mới</td>
-		</tr><tr class="ntp_grd_AltRowStyle">
-			<td>
-    <input type="image" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl06$cmdEdit" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_grdDSBenhNhanDieuTri_ctl06_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
-    
-    
-</td><td>922098</td><td>Lê Ngọc Nhất</td><td>270984640</td><td>56</td><td>Nam</td><td>T3 Tân Lễ B, Châu Pha</td><td>TT-2014-153</td><td>Lao ngoài phổi-Mới</td>
-		</tr><tr class="ntp_grd_RowStyle">
-			<td>
-    <input type="image" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl07$cmdEdit" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_grdDSBenhNhanDieuTri_ctl07_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
-    
-    
-</td><td>918512</td><td>Phan V Hùng</td><td>273502214</td><td>21</td><td>Nam</td><td>T5, Láng Cát, tân Hải</td><td>TT-2014-152a</td><td>Lao phổi AFB(+)-Mới</td>
-		</tr><tr class="ntp_grd_AltRowStyle">
-			<td>
-    <input type="image" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl08$cmdEdit" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_grdDSBenhNhanDieuTri_ctl08_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
-    
-    
-</td><td>902312</td><td>Vũ T Thúy Vi</td><td>273585140</td><td>21</td><td>Nữ</td><td>T14, tân Ngọc, Phú Mỹ</td><td>TT-2014-151</td><td>Lao phổi AFB(+)-Mới</td>
-		</tr><tr class="ntp_grd_RowStyle">
-			<td>
-    <input type="image" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl09$cmdEdit" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_grdDSBenhNhanDieuTri_ctl09_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
-    
-    
-</td><td>902303</td><td>Nguyễn T Hậu</td><td>183269798</td><td>38</td><td>Nữ</td><td>T8, Phước Hưng, Mỹ Xuân</td><td>TT-2014-150</td><td>Lao phổi AFB(+)-Mới</td>
-		</tr><tr class="ntp_grd_AltRowStyle">
-			<td>
-    <input type="image" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl10$cmdEdit" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_grdDSBenhNhanDieuTri_ctl10_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
-    
-    
-</td><td>902287</td><td>Phan cận</td><td>273298143</td><td>54</td><td>Nam</td><td>T5, tân Phú, Phú Mỹ</td><td>TT-2014-148</td><td>Lao phổi AFB(+)-Mới</td>
-		</tr><tr class="ntp_grd_RowStyle">
-			<td>
-    <input type="image" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl11$cmdEdit" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_grdDSBenhNhanDieuTri_ctl11_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
-    
-    
-</td><td>902275</td><td>lê T Sen</td><td>186699633</td><td>26</td><td>Nữ</td><td>Thị Vải, Mỹ Xuân</td><td>TT-2014-147</td><td>Lao phổi AFB(-)-Mới</td>
-		</tr><tr class="ntp_grd_AltRowStyle">
-			<td>
-    <input type="image" name="dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl12$cmdEdit" id="dnn_ctr759_ViewNTP_BN_DIEUTRI_grdDSBenhNhanDieuTri_ctl12_cmdEdit" src="/ntp/images/edit.gif" style="border-width:0px;" />
-    
-    
-</td><td>902264</td><td>Nguyễn v Đạo</td><td>270937270</td><td>68</td><td>Nam</td><td>T17, Phú Thạnh, Mỹ Xuân</td><td>TT-2014-146</td><td>Lao phổi AFB(+)-Mới</td>
+</td><td>1052635</td><td>Chung Minh Tú</td><td>172687433</td><td>28</td><td>Nam</td><td>Minh Khai, Hà Nội</td><td>&nbsp;</td><td>Lao sơ nhiễm-Mới</td>
 		</tr><tr>
 			<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
 		</tr><tr class="ntp_grd_PagerStyle">
-			<td colspan="9"><span>1</span>&nbsp;<a href="javascript:__doPostBack('dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl14$ctl01','')">2</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl14$ctl02','')">3</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl14$ctl03','')">4</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl14$ctl04','')">5</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl14$ctl05','')">6</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl14$ctl06','')">7</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl14$ctl07','')">8</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl14$ctl08','')">9</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl14$ctl09','')">10</a>&nbsp;<a href="javascript:__doPostBack('dnn$ctr759$ViewNTP_BN_DIEUTRI$grdDSBenhNhanDieuTri$ctl14$ctl10','')">...</a></td>
+			<td colspan="9"><span>1</span></td>
 		</tr>
 	</table> &nbsp; </TD></TR></TBODY></TABLE><FIELDSET style="WIDTH: 805px" class="ntp_fieldset"><LEGEND class="ntp_legend">Thông tin bệnh nhân&nbsp;</LEGEND>
     <TABLE style="WIDTH: 789px"><TBODY>
