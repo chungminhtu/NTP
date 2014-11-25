@@ -39,7 +39,7 @@
             <td style="width: 77px">
                 <span id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_Label7" class="ntp_label" style="display:inline-block;width:64px;">đến ngày</span></td>
             <td style="width: 59px">
-                <input name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$TxtDenngay" type="text" value="23/11/2014" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_TxtDenngay" tabindex="6" class="ntp_textbox" style="width:90px;" /></td>
+                <input name="dnn$ctr761$ViewNTP_BN_PHIEUXETNGHIEM$TxtDenngay" type="text" value="24/11/2014" id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_TxtDenngay" tabindex="6" class="ntp_textbox" style="width:90px;" /></td>
             <td style="width: 70px">
                 <span id="dnn_ctr761_ViewNTP_BN_PHIEUXETNGHIEM_Label1" class="ntp_label" style="display:inline-block;width:79px;">Mã BNQL</span></td>
             <td style="width: 100px">
